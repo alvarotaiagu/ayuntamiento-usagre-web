@@ -30,7 +30,7 @@ Es la plantilla «Puerta abierta»: una puerta de medio punto encalada que da pa
 
 La receta del reskin está en [RESKIN.md](RESKIN.md) y la explicación de la plantilla, en su propio README.
 
-El código es el de la plantilla en su commit **a644f8b** (3 de octubre de 2026). Verificación: `node scripts/verificar.mjs --capturas` → **88 de 88 comprobaciones**, incluida la prueba de reskin a Segura de León sin restos de Usagre.
+El código es el de la plantilla en su commit **d297713** (3 de octubre de 2026). Verificación: `node scripts/verificar.mjs --capturas` → **88 de 88 comprobaciones**, incluida la prueba de reskin a Segura de León sin restos de Usagre.
 
 ## Qué hay en cada página
 
