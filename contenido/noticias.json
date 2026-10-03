@@ -1,0 +1,86 @@
+{
+  "_leeme": "Noticias. Campos: id (sale en la dirección: noticia-<id>.html), fecha, titulo, resumen, cuerpo (lista de párrafos), imagen (nombre en media/, sin .jpg) + imagen_alt, fuente {nombre, url}, fecha_aproximada. Todas salen de lo que publicó el Ayuntamiento en Facebook o de la prensa comarcal (fuentes en ayuntamiento-usagre-bocetos/DATOS.md).",
+  "noticias": [
+    {
+      "id": "escuelas-deportivas-2026",
+      "fecha": "2026-10-02",
+      "titulo": "Vuelven las escuelas deportivas municipales",
+      "resumen": "Desde el 13 de octubre, para niños desde los 3 años y para adultos. Inscripciones en el 665 32 85 73.",
+      "cuerpo": [
+        "La Concejalía de Deportes abre las inscripciones de las escuelas deportivas del curso.",
+        "Para los más pequeños: psicomotricidad (de 3 a 5 años) los martes a las 17:00, multideporte (de 6 a 8 años) los martes a las 18:00 y PowerKids (de 9 a 12 años) los miércoles a las 17:00, desde el 13 y el 14 de octubre.",
+        "Para adultos: gimnasia de mantenimiento (desde 18 años) los lunes y miércoles a las 18:00, y voleibol y pádel (desde 8 años) a las 19:00 y a las 20:00.",
+        "Información e inscripciones en el 665 32 85 73."
+      ],
+      "fuente": { "nombre": "Facebook del Ayuntamiento", "url": "https://www.facebook.com/ayuntamientousagre/posts/pfbid0BbiY7zqueSLrnoLvLk3XpFFotKKdJFAz4U9cqpQrC6bngC9qskjiVeR6TSutKDjvl" }
+    },
+    {
+      "id": "agenda-otono-2026",
+      "fecha": "2026-10-01",
+      "titulo": "Octubre, con La Copla, la Fiesta del Mayor y el festival de San Lucas",
+      "resumen": "La Agenda de Otoño 2026, «Tradición, Cultura y Futuro», llena el mes de propuestas.",
+      "cuerpo": [
+        "El Ayuntamiento ha presentado la Agenda de Otoño 2026, con el lema «Tradición, Cultura y Futuro».",
+        "Incluye la actuación de La Copla el 10 de octubre, la VI Fiesta del Mayor el 16, el II Festival Folklórico Infantil y Juvenil «San Lucas» el 17, el autobús itinerante de la II Estrategia de Desarrollo Sostenible el 28 y la Chaquetía el 30 de octubre y el 1 de noviembre.",
+        "Colaboran la Universidad Popular y la Diputación de Badajoz."
+      ],
+      "fuente": { "nombre": "Facebook del Ayuntamiento", "url": "https://www.facebook.com/ayuntamientousagre/posts/pfbid0rX6C8NrYtExzDPyyz3fGYubTqPLbPECNMiJVsZMjsfXifv3cXVtLrgP1iKWxt42hl" }
+    },
+    {
+      "id": "furgoneta-movem-2026",
+      "fecha": "2026-09-30",
+      "titulo": "Una furgoneta nueva para los servicios municipales",
+      "resumen": "La Diputación la concede con el Plan MOVEM II. Está valorada en 38.800 euros.",
+      "cuerpo": [
+        "La Diputación de Badajoz ha concedido al Ayuntamiento una furgoneta, valorada en 38.800 euros, dentro del Plan MOVEM II."
+      ],
+      "fuente": { "nombre": "Facebook del Ayuntamiento", "url": "https://www.facebook.com/ayuntamientousagre/posts/pfbid0EH1kUC5RngB2DQ1JLvqJo12TgwZm4qm2nGGQ9kSGAKXQgKxvvoPDMUyEcEe611FTl" }
+    },
+    {
+      "id": "procesion-cristo-directo-2026",
+      "fecha": "2026-09-14",
+      "titulo": "La procesión del Cristo de la Piedad, en directo para los que están fuera",
+      "resumen": "Se pudo seguir por YouTube y Facebook. La grabación sigue en Usagre TV.",
+      "cuerpo": [
+        "La procesión del Santísimo Cristo de la Piedad del 14 de septiembre se retransmitió en directo por YouTube y Facebook desde las 12:45, para que los usagreños que viven fuera pudieran seguirla.",
+        "La grabación se puede ver en el canal Usagre TV."
+      ],
+      "imagen": "ermita-cristo",
+      "imagen_alt": "La ermita del Cristo de la Piedad al atardecer",
+      "fuente": { "nombre": "Usagre TV (YouTube)", "url": "https://www.youtube.com/watch?v=qsLftYHcbjo" }
+    },
+    {
+      "id": "gala-el-cau-2026",
+      "fecha": "2026-08-31",
+      "titulo": "La XIII Gala El Cau reúne a 1.215 personas",
+      "resumen": "La asociación juvenil volvió a llenar las pistas deportivas.",
+      "cuerpo": [
+        "La XIII Gala de la Asociación Juvenil El Cau reunió a 1.215 personas, según la crónica de Campitur."
+      ],
+      "fuente": { "nombre": "Campitur", "url": "https://www.campitur.com/noticias/la-xiii-gala-el-cau-reune-a-1215-personas-en-usagre-y-reivindica-la-capacidad-de-la-juven.html" }
+    },
+    {
+      "id": "festival-medieval-2026",
+      "fecha": "2026-07-20",
+      "titulo": "El V Festival Medieval celebra los 50 años de Acetre",
+      "resumen": "Dos noches, el 25 y el 26 de julio, con el concierto del grupo extremeño el domingo a las 22:30.",
+      "cuerpo": [
+        "Usagre celebró el 25 y el 26 de julio su V Festival Medieval.",
+        "El domingo 26, a las 22:30, el grupo Acetre dio el concierto de sus 50 años."
+      ],
+      "imagen": "puente",
+      "imagen_alt": "El puente romano de Usagre",
+      "fuente": { "nombre": "Campitur", "url": "https://www.campitur.com/noticias/usagre-viajara-al-medievo-durante-dos-noches.html" }
+    },
+    {
+      "id": "estudio-vivienda-protegida-2026",
+      "fecha": "2026-05-25",
+      "titulo": "El Ayuntamiento quiere medir la necesidad real de vivienda protegida",
+      "resumen": "Un estudio de demanda para saber cuántas familias la necesitan.",
+      "cuerpo": [
+        "El Ayuntamiento impulsa un estudio de demanda de vivienda protegida para conocer la necesidad real en el pueblo."
+      ],
+      "fuente": { "nombre": "Campitur", "url": "https://www.campitur.com/noticias/usagre-quiere-medir-su-necesidad-real-de-vivienda-protegida.html" }
+    }
+  ]
+}

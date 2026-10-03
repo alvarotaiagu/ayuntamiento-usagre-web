@@ -1,0 +1,10 @@
+[
+  { "origen": "../../ayuntamiento-usagre-bocetos/fotos-commons/puente-antiguo-02.jpg", "salida": "puente-portada" },
+  { "origen": "../../ayuntamiento-usagre-bocetos/fotos-commons/puente-antiguo-01.jpg", "salida": "puente" },
+  { "origen": "../../ayuntamiento-usagre-bocetos/fuente/web/fotos/turismo_2025-09-PILAR-DEL-PUENTE-1.jpg", "salida": "pilar" },
+  { "origen": "../../ayuntamiento-usagre-bocetos/fuente/web/fotos/turismo_2025-09-FUENTE-PLAZA.jpg", "salida": "fuente-plaza" },
+  { "origen": "../../ayuntamiento-usagre-bocetos/fuente/web/fotos/turismo_2025-09-IGLESIA-8.jpg", "salida": "iglesia" },
+  { "origen": "../../ayuntamiento-usagre-bocetos/fuente/web/fotos/turismo_2025-09-ERMITA-CRISTO-3.jpg", "salida": "ermita-cristo" },
+  { "origen": "../../ayuntamiento-usagre-bocetos/fuente/web/fotos/turismo_2025-09-PRESA-HONDA1.jpg", "salida": "presa-honda" },
+  { "origen": "../../ayuntamiento-usagre-bocetos/fuente/web/fotos/turismo_2025-09-LA-LUNA.jpg", "salida": "la-luna" }
+]

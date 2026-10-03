@@ -1,0 +1,11 @@
+{
+  "_leeme": "Crédito de cada foto de media/ (por nombre, sin .jpg). Las de la web de turismo del Ayuntamiento solo valen para la maqueta que se le enseña al Ayuntamiento: hace falta su autorización para publicarlas.",
+  "puente-portada": { "titulo": "El puente romano (portada)", "autor": "Gonzalo 11789", "licencia": "CC BY 4.0", "url": "https://commons.wikimedia.org/wiki/File:Puente_antiguo_de_Usagre_02.jpg" },
+  "puente": { "titulo": "El puente romano", "autor": "Gonzalo 11789", "licencia": "CC BY 4.0", "url": "https://commons.wikimedia.org/wiki/File:Puente_antiguo_de_Usagre_01.jpg" },
+  "pilar": { "titulo": "El Pilar del Carmen", "autor": "web de turismo del Ayuntamiento (2025)", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" },
+  "fuente-plaza": { "titulo": "La fuente de la plaza", "autor": "web de turismo del Ayuntamiento (2025)", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" },
+  "iglesia": { "titulo": "Portada mudéjar de Nuestra Señora de Gracia", "autor": "web de turismo del Ayuntamiento (2025)", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" },
+  "ermita-cristo": { "titulo": "Ermita del Cristo de la Piedad", "autor": "web de turismo del Ayuntamiento (2025)", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" },
+  "presa-honda": { "titulo": "Presa Honda", "autor": "web de turismo del Ayuntamiento (2025)", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" },
+  "la-luna": { "titulo": "La Luná", "autor": "web de turismo del Ayuntamiento (2025)", "nota": "Solo para la propuesta: hace falta su autorización para publicarla" }
+}

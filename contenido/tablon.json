@@ -1,0 +1,78 @@
+{
+  "_leeme": "GENERADO por scripts/tablon.mjs. Se puede editar a mano titulo_claro (título en lenguaje claro), tema (+ \"tema_manual\": true) y oculto. Lo demás se pisa al refrescar.",
+  "fuente": "https://usagre.sedelectronica.es/board (copia del 03/10/2026)",
+  "actualizado": "2026-10-03T11:22:32.493Z",
+  "excluidas": 5,
+  "motivos_exclusion": [
+    "lista de preseleccionados",
+    "relación nominal de personas",
+    "lista de admitidos y excluidos"
+  ],
+  "entradas": [
+    {
+      "titulo": "bases dinamizador sociocultural y deportivo (2)",
+      "descripcion": "BASES REGULADORAS DE LA CONVOCATORIA DE UNA PLAZA DE DINAMIZADOR SOCIOCULTURAL Y DEPORTIVO (25 H/SEMANALES)",
+      "expediente": "421/2026",
+      "procedimiento": "Concesión de Subvenciones",
+      "categoria": "Empleo Público",
+      "fecha": "2026-10-02",
+      "url": "https://usagre.sedelectronica.es/preview-document/9c73ab07-911f-44c9-a6db-3d50c33fa9d9",
+      "tema": "Empleo",
+      "tema_manual": true,
+      "titulo_claro": "Bases para una plaza de dinamizador sociocultural y deportivo (25 horas a la semana)",
+      "oculto": false
+    },
+    {
+      "titulo": "Bases PCEMO",
+      "descripcion": "Bases proceso selectivo de un puesto de Orientador y Prospector para Desarrollo Local",
+      "expediente": "614/2026",
+      "procedimiento": "Concesión de Subvenciones",
+      "categoria": "Anuncios",
+      "fecha": "2026-09-29",
+      "url": "https://usagre.sedelectronica.es/preview-document/d3c73e67-b34b-42d6-adab-876cc2702f44",
+      "tema": "Empleo",
+      "tema_manual": true,
+      "titulo_claro": "Bases para un puesto de orientador y prospector de desarrollo local",
+      "oculto": false
+    },
+    {
+      "titulo": "B.O.P. nº.184 - viernes, 25 de septiembre de 2026",
+      "descripcion": "ANUNCIO EXHUMACION DE RESTOS Y EXTINCIÓN DERECHOS FUNERARIOS BLOQUE 100 (ENTRADA DERECHA) Y 1º ENTRADA IZQUIERDA",
+      "expediente": "677/2025",
+      "procedimiento": "Regularizaciones de Cementerio",
+      "categoria": "Anuncios",
+      "fecha": "2026-09-25",
+      "url": "https://usagre.sedelectronica.es/preview-document/66054359-42b2-44cc-bb38-23e33a3d66a3",
+      "tema": "Cementerio",
+      "tema_manual": true,
+      "titulo_claro": "Exhumación de restos en el bloque 100 y el pabellón 1.º del cementerio: 20 días para alegar",
+      "oculto": false
+    },
+    {
+      "titulo": "com traslado restos bando",
+      "descripcion": "BANDO EXHUMACIÓN DE RESTOS",
+      "expediente": "677/2025",
+      "procedimiento": "Regularizaciones de Cementerio",
+      "categoria": "Bandos",
+      "fecha": "2026-09-23",
+      "url": "https://usagre.sedelectronica.es/preview-document/6aa44337-4f9c-4764-8c23-aa42509f40d1",
+      "tema": "Cementerio",
+      "tema_manual": true,
+      "titulo_claro": "Bando sobre la exhumación de restos en el cementerio",
+      "oculto": false
+    },
+    {
+      "titulo": "Anuncio cobranza IAE",
+      "descripcion": "ANUNCIO COBRANZA IAE",
+      "expediente": "546/2026",
+      "procedimiento": "Certificados o Informes",
+      "categoria": "Anuncios",
+      "fecha": "2026-07-02",
+      "url": "https://usagre.sedelectronica.es/preview-document/2acd17bb-0a3b-4ee9-9eb8-5a2dabd45a50",
+      "tema": "Impuestos",
+      "tema_manual": true,
+      "titulo_claro": "Periodo de pago del impuesto de actividades económicas (IAE) de 2026",
+      "oculto": false
+    }
+  ]
+}

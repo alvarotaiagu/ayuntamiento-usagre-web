@@ -1,0 +1,1626 @@
+{
+  "_leeme": "Datos del municipio. Lo lee scripts/aplicar.mjs. Fuentes de cada dato en ayuntamiento-usagre-bocetos/DATOS.md (consultas del 03/10/2026). Lo escribe ayuntamiento-usagre-bocetos/_scripts/municipio.mjs.",
+  "slug": "usagre",
+  "nombre": "Usagre",
+  "nombre_corto": "Usagre",
+  "provincia": "Badajoz",
+  "comarca": "Campiña Sur",
+  "gentilicio": "usagreños",
+  "habitantes": {
+    "valor": 1698,
+    "fuente": "INE, padrón a 1-1-2025"
+  },
+  "altitud_m": 566,
+  "lema": "Suena bien",
+  "propuesta": true,
+  "indexar": false,
+  "url": "https://alvarotaiagu.github.io/ayuntamiento-usagre-web/",
+  "fecha_datos": "2026-10-03",
+  "web_actual": "https://ayuntamientodeusagre.com",
+  "contacto": {
+    "direccion": "Plaza de España, 1",
+    "cp": "06290",
+    "telefono": "924 585 011",
+    "fax": "924 585 322",
+    "correo": "ayuntamiento@usagre.es",
+    "mapa_consulta": "Ayuntamiento de Usagre, Plaza de España 1, 06290 Usagre, Badajoz"
+  },
+  "horario": {
+    "texto": "Lunes a viernes, de 8:00 a 15:00",
+    "tramos": [
+      {
+        "dias": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "de": "08:00",
+        "a": "15:00"
+      }
+    ],
+    "ejemplo": true
+  },
+  "redes": [
+    {
+      "nombre": "Facebook",
+      "url": "https://www.facebook.com/ayuntamientousagre/"
+    },
+    {
+      "nombre": "YouTube (Usagre TV)",
+      "url": "https://www.youtube.com/channel/UCM1tbZRbqpMb1PlPLGzNjnA"
+    }
+  ],
+  "canal_avisos": {
+    "nombre": "Bandomóvil «Usagre Informa»",
+    "url": "https://www.bandomovil.com/usagre",
+    "texto": "El Ayuntamiento publica allí bandos y avisos: cortes de calles y de agua, empleo y recogida de enseres."
+  },
+  "plenos_video": null,
+  "sede": {
+    "tipo": "gestiona",
+    "base": "https://usagre.sedelectronica.es",
+    "perfil_contratante": "https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&idBp=v65tnBBVzteiEJrVRqloyA%3D%3D",
+    "instancia_general": "5161fa8d-970e-4b48-a506-b2ac34ceafe5",
+    "quejas": "ae05799c-df61-43d1-be43-31943561cea9"
+  },
+  "tablon_autorizado": false,
+  "hoja": {
+    "id": "",
+    "pestanas": {
+      "avisos": "Avisos",
+      "agenda": "Agenda",
+      "noticias": "Noticias"
+    }
+  },
+  "legal": {
+    "titular": "Ayuntamiento de Usagre",
+    "nif": "P0613600F",
+    "dir3": "L01061361",
+    "direccion_registro": "Plaza de España, 1"
+  },
+  "escudo_nota": "Escudo de Wikimedia Commons (Erlenmeyer, CC BY-SA 4.0). El DOE 121/2009 publica su aprobación inicial; la definitiva no se ha localizado.",
+  "escudo_credito": {
+    "autor": "Erlenmeyer",
+    "licencia": "CC BY-SA 4.0",
+    "url": "https://commons.wikimedia.org/wiki/File:Escudo_de_Usagre_(Badajoz).svg"
+  },
+  "corporacion": {
+    "legislatura": "2023-2027",
+    "nota": "Gobierna el PSOE con mayoría absoluta (6 de 9 concejales). Organización vigente según la resolución de Alcaldía 369/2025, de 11 de diciembre (BOP de Badajoz del 16/12/2025).",
+    "grupos": [
+      {
+        "sigla": "PSOE",
+        "nombre": "Partido Socialista",
+        "color": "#C8402A",
+        "trama": "liso",
+        "gobierno": true
+      },
+      {
+        "sigla": "PP",
+        "nombre": "Partido Popular",
+        "color": "#1F5FA8",
+        "trama": "rayas",
+        "gobierno": false
+      }
+    ],
+    "miembros": [
+      {
+        "nombre": "Nuria Candalija Valle",
+        "grupo": "PSOE",
+        "cargo": "Alcaldesa-Presidenta",
+        "alcalde": true
+      },
+      {
+        "nombre": "Francisco Javier Lázaro González",
+        "grupo": "PSOE",
+        "cargo": "Primer teniente de alcalde",
+        "delegacion": "Urbanismo; Asociaciones y Participación Ciudadana; Tráfico y Seguridad Ciudadana"
+      },
+      {
+        "nombre": "Jenifer Calvete Iglesias",
+        "grupo": "PSOE",
+        "cargo": "Segunda teniente de alcalde",
+        "delegacion": "Festejos; Mayores; Edificios públicos y cementerio"
+      },
+      {
+        "nombre": "Rafael Sierra Martínez",
+        "grupo": "PSOE",
+        "cargo": "Tercer teniente de alcalde",
+        "delegacion": "Deporte; Obras públicas y AEPSA; Energía, alumbrado público y suministros"
+      },
+      {
+        "nombre": "Pilar Jessica Ortiz Nisa",
+        "grupo": "PSOE",
+        "cargo": "Concejala",
+        "delegacion": "Cultura; Igualdad y Bienestar Social; Educación; Economía y Hacienda"
+      },
+      {
+        "nombre": "Manuel Elías Miranda",
+        "grupo": "PSOE",
+        "cargo": "Concejal",
+        "delegacion": "Comercio e Industria; Medio Ambiente, Guardería Rural, Parques y Jardines; Agricultura"
+      },
+      {
+        "nombre": "Antonio Luna González",
+        "grupo": "PP",
+        "cargo": "Concejal"
+      },
+      {
+        "nombre": "María Jesús Arjona Fernández",
+        "grupo": "PP",
+        "cargo": "Concejala"
+      },
+      {
+        "nombre": "Alfonsa García Adamez Sosa",
+        "grupo": "PP",
+        "cargo": "Concejala"
+      }
+    ]
+  },
+  "alcaldia": {
+    "saluda": "Esta web es la puerta del Ayuntamiento abierta todo el día. Aquí puede hacer sus trámites sin desplazarse, enterarse de lo que pasa en el pueblo y saber a quién dirigirse en cada caso.",
+    "saluda_ejemplo": true
+  },
+  "quien": [
+    {
+      "tema": "Obras, alumbrado y deporte",
+      "nombre": "Rafael Sierra Martínez",
+      "cargo": "Concejal de Deporte, Obras públicas y Alumbrado",
+      "portada": true
+    },
+    {
+      "tema": "Fiestas, mayores y cementerio",
+      "nombre": "Jenifer Calvete Iglesias",
+      "cargo": "Concejala de Festejos, Mayores y Edificios públicos",
+      "portada": true
+    },
+    {
+      "tema": "Cultura, colegio y servicios sociales",
+      "nombre": "Pilar Jessica Ortiz Nisa",
+      "cargo": "Concejala de Cultura, Educación e Igualdad y Bienestar Social",
+      "portada": true
+    },
+    {
+      "tema": "Urbanismo, tráfico y asociaciones",
+      "nombre": "Francisco Javier Lázaro González",
+      "cargo": "Concejal de Urbanismo, Tráfico y Participación Ciudadana",
+      "portada": true
+    },
+    {
+      "tema": "Parques, medio ambiente y campo",
+      "nombre": "Manuel Elías Miranda",
+      "cargo": "Concejal de Medio Ambiente, Parques y Jardines y Agricultura"
+    },
+    {
+      "tema": "Comercio y mercado",
+      "nombre": "Manuel Elías Miranda",
+      "cargo": "Concejal de Comercio e Industria"
+    },
+    {
+      "tema": "Impuestos y cuentas",
+      "nombre": "Pilar Jessica Ortiz Nisa",
+      "cargo": "Concejala de Economía y Hacienda"
+    }
+  ],
+  "servicios": [
+    {
+      "nombre": "Ayuntamiento",
+      "nota": "Registro, padrón y Punto de Información Catastral",
+      "direccion": "Plaza de España, 1",
+      "telefono": "924 585 011",
+      "grupo": "Ayuntamiento"
+    },
+    {
+      "nombre": "Juzgado de Paz",
+      "direccion": "En el Ayuntamiento",
+      "telefono": "924 585 011",
+      "grupo": "Ayuntamiento"
+    },
+    {
+      "nombre": "Deportes: inscripciones",
+      "nota": "Escuelas deportivas y actividades de la Concejalía de Deportes",
+      "telefono": "665 328 573",
+      "grupo": "Ayuntamiento"
+    },
+    {
+      "nombre": "Guardia Civil (puesto de Usagre)",
+      "direccion": "C/ Guardia Civil, 34",
+      "telefono": "924 585 213",
+      "grupo": "Urgencias y seguridad"
+    },
+    {
+      "nombre": "Guardia Civil (número general)",
+      "telefono": "062",
+      "grupo": "Urgencias y seguridad"
+    },
+    {
+      "nombre": "Violencia de género",
+      "nota": "Gratuito, no deja rastro en la factura",
+      "telefono": "016",
+      "grupo": "Urgencias y seguridad"
+    },
+    {
+      "nombre": "Consultorio médico: cita",
+      "direccion": "C/ Pepe Larrey, 26",
+      "horario": "Lunes a viernes, de 8:00 a 15:00",
+      "tramos": [
+        {
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "de": "08:00",
+          "a": "15:00"
+        }
+      ],
+      "telefono": "924 585 309",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Consultorio médico: urgencias",
+      "telefono": "924 101 243",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Centro de Salud de Llerena: urgencias",
+      "nota": "Centro de salud de referencia",
+      "direccion": "C/ Convento de los Dominicos, s/n, Llerena",
+      "telefono": "924 870 269",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "Hospital de Llerena",
+      "telefono": "924 877 000",
+      "grupo": "Salud"
+    },
+    {
+      "nombre": "CEIP «Antonio Chavero»",
+      "direccion": "Avda. de la Estación, s/n",
+      "telefono": "924 023 608",
+      "grupo": "Educación y cultura"
+    },
+    {
+      "nombre": "Biblioteca Pública Municipal",
+      "direccion": "Casa de la Cultura, C/ Hernán Cortés, s/n",
+      "horario": "Lunes a viernes, de 10:00 a 14:00 y de 17:00 a 20:00 (del 21 de junio al 17 de septiembre, de 8:00 a 15:00)",
+      "tramos": [
+        {
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "de": "10:00",
+          "a": "14:00"
+        },
+        {
+          "dias": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "de": "17:00",
+          "a": "20:00"
+        }
+      ],
+      "telefono": "924 585 299",
+      "grupo": "Educación y cultura"
+    },
+    {
+      "nombre": "Casa de la Cultura «Pepi Pérez Lázaro»",
+      "direccion": "C/ Hernán Cortés, s/n",
+      "telefono": "924 585 299",
+      "grupo": "Educación y cultura"
+    },
+    {
+      "nombre": "Universidad Popular y Centro de Formación",
+      "telefono": "646 966 398",
+      "grupo": "Educación y cultura"
+    },
+    {
+      "nombre": "Gestión Cultural (Concejalía de Cultura)",
+      "telefono": "697 904 696",
+      "grupo": "Educación y cultura"
+    },
+    {
+      "nombre": "Parroquia de Nuestra Señora de Gracia",
+      "direccion": "C/ Cruz, 4",
+      "telefono": "924 585 027",
+      "grupo": "Otros"
+    },
+    {
+      "nombre": "Centro de Empleo de Llerena (SEXPE)",
+      "telefono": "924 026 568",
+      "grupo": "Otros"
+    },
+    {
+      "nombre": "Mancomunidad de Llerena",
+      "direccion": "C/ Santiago, 59, Llerena",
+      "telefono": "924 872 592",
+      "grupo": "Otros"
+    }
+  ],
+  "urgencias": [
+    {
+      "nombre": "Emergencias",
+      "telefono": "112"
+    }
+  ],
+  "listin_corto": [
+    "Emergencias",
+    "Guardia Civil (puesto de Usagre)",
+    "Consultorio médico: cita",
+    "Biblioteca Pública Municipal"
+  ],
+  "instalaciones": [
+    {
+      "grupo": "Deporte",
+      "items": [
+        {
+          "nombre": "Escuelas deportivas 2026-2027",
+          "texto": "Psicomotricidad (3 a 5 años) los martes a las 17:00; multideporte (6 a 8 años) los martes a las 18:00; PowerKids (9 a 12 años) los miércoles a las 17:00. Para mayores: gimnasia de mantenimiento (desde 18 años) lunes y miércoles a las 18:00, voleibol a las 19:00 y pádel a las 20:00 (desde 8 años).",
+          "nota": "Empiezan el 13 de octubre de 2026.",
+          "telefono": "665 328 573"
+        },
+        {
+          "nombre": "Gimnasio municipal",
+          "direccion": "Plaza del Puente, 4",
+          "precio": "Mes: 15 € empadronados y 17 € el resto; 13 € (15 € sin empadronar) de 16 a 18 años, mayores de 65 y personas con discapacidad. Día: 2 € y 3 €; 1 € y 1,50 € con descuento.",
+          "nota": "Desde los 16 años (de 16 a 18, con autorización). Sesiones de hora y media. Se solicita y se paga en el Ayuntamiento. Precios de la ordenanza publicada en el BOP del 29/11/2018."
+        },
+        {
+          "nombre": "Piscina municipal",
+          "direccion": "Plaza de España, 2A",
+          "texto": "Abre en verano. Natación y aquagym con monitor de la Mancomunidad de Llerena, por las mañanas.",
+          "nota": "La temporada de 2026 terminó el 5 de septiembre."
+        },
+        {
+          "nombre": "Pabellón polideportivo «Pedro Arias Gutiérrez»",
+          "direccion": "C/ Hernán Cortés, s/n"
+        },
+        {
+          "nombre": "Pistas deportivas «Domingo Berzal Domínguez»",
+          "direccion": "C/ Ana María de Llera, 9"
+        },
+        {
+          "nombre": "Estadio municipal «Cerro de la Pina»",
+          "texto": "Campo de fútbol."
+        },
+        {
+          "nombre": "Pista de pádel"
+        }
+      ]
+    },
+    {
+      "grupo": "Parques y aire libre",
+      "items": [
+        {
+          "nombre": "Presa Honda «Enrique Prior González»",
+          "direccion": "C/ Cauce, s/n",
+          "texto": "Zona de baño en la rivera, con merendero, bar, aparcamiento, parque y aparatos de gimnasia. Es zona de baño autorizada por el Servicio Extremeño de Salud.",
+          "nota": "El parque infantil está cerrado por obras de mejora desde el 17 de julio de 2026."
+        },
+        {
+          "nombre": "Parque infantil «El Fuero»",
+          "direccion": "Avda. de la Estación"
+        },
+        {
+          "nombre": "Parque del Parral",
+          "direccion": "Plaza del Parral"
+        },
+        {
+          "nombre": "Parque infantil Virgen de la Cruz",
+          "direccion": "C/ Nueva"
+        },
+        {
+          "nombre": "Parque Cerro Pina Alto",
+          "direccion": "C/ Cerro Pina Alto"
+        }
+      ]
+    },
+    {
+      "grupo": "Otros servicios municipales",
+      "items": [
+        {
+          "nombre": "Mercado de Abastos",
+          "direccion": "Plaza de Extremadura, 4",
+          "horario": "Lunes a sábado, de 8:00 a 14:00"
+        },
+        {
+          "nombre": "Recogida de enseres",
+          "texto": "El primer viernes de cada mes. Los muebles y trastos se sacan a la calle el jueves de antes, no otro día."
+        },
+        {
+          "nombre": "Báscula de las Cámaras Agrarias",
+          "texto": "Funciona con monedero."
+        },
+        {
+          "nombre": "Hogar del Pensionista",
+          "direccion": "C/ Hernán Cortés, 14"
+        },
+        {
+          "nombre": "Parada de autobuses",
+          "direccion": "Callejón del Molino"
+        }
+      ]
+    },
+    {
+      "grupo": "Alojamiento municipal",
+      "items": [
+        {
+          "nombre": "Apartamentos Rurales de Usagre",
+          "texto": "Tres apartamentos independientes, cada uno con baño, cocina y salón, ropa de cama y wifi: dos de 4 plazas y uno de 5. Registro de turismo TR-BA-00270.",
+          "precio": "Por noche: 30 € de noviembre a marzo y 40 € de abril a octubre (el de 5 plazas, 40 € y 50 €). También por fin de semana, semana o mes.",
+          "nota": "Al confirmar la reserva llega por correo el código para entrar.",
+          "url": "https://ayuntamientodeusagre.com/casa-rural/",
+          "url_texto": "Reservar en su sistema actual"
+        }
+      ]
+    }
+  ],
+  "tramites": {
+    "atajos": [
+      {
+        "nombre": "Empadronarme",
+        "nota": "Alta o renovación en el padrón",
+        "id": "d120f65c-c936-4a95-bd50-e7ae970ca149"
+      },
+      {
+        "nombre": "Volante de empadronamiento",
+        "nota": "Certificado o volante",
+        "id": "1c74bc66-8b69-4f3c-8183-d3591f0504ed"
+      },
+      {
+        "nombre": "Licencia de obra",
+        "nota": "Licencia o autorización urbanística",
+        "id": "15fabacb-83b1-47d1-b435-508245672051"
+      },
+      {
+        "nombre": "Avisar de una incidencia",
+        "nota": "Una farola, un bache, un contenedor",
+        "id": "d643e8cf-0824-4617-a997-c523799b4a93"
+      }
+    ],
+    "temas": [
+      {
+        "nombre": "Vivir aquí",
+        "nota": "Padrón, certificados, boda civil",
+        "icono": "casa",
+        "tramites": [
+          {
+            "nombre": "Empadronarme o renovar",
+            "id": "d120f65c-c936-4a95-bd50-e7ae970ca149"
+          },
+          {
+            "nombre": "Cambiar mis datos del padrón",
+            "id": "d74e17fb-69a1-4ef6-931a-d0381be7ffdc"
+          },
+          {
+            "nombre": "Volante de empadronamiento",
+            "id": "1c74bc66-8b69-4f3c-8183-d3591f0504ed"
+          },
+          {
+            "nombre": "Volante de convivencia",
+            "id": "e268d9e6-d835-4922-be8f-a18c9738a331"
+          },
+          {
+            "nombre": "Casarme en el Ayuntamiento",
+            "id": "fe871c4e-f81e-4357-a5b8-94ef42a9da42"
+          }
+        ]
+      },
+      {
+        "nombre": "Casa, obras y campo",
+        "nota": "Licencias, agua, quemas",
+        "icono": "obra",
+        "tramites": [
+          {
+            "nombre": "Obra pequeña: declaración responsable",
+            "id": "5d383e20-32a5-4fcf-8725-e51c51e83e6a"
+          },
+          {
+            "nombre": "Obra mayor: licencia urbanística",
+            "id": "15fabacb-83b1-47d1-b435-508245672051"
+          },
+          {
+            "nombre": "Licencia de ocupación",
+            "id": "b834b3fa-3690-4626-9c92-d82669d6f26f"
+          },
+          {
+            "nombre": "Dar de alta el agua",
+            "id": "5697411e-7a60-4df6-9867-07258add24de"
+          },
+          {
+            "nombre": "Cambiar el titular del agua",
+            "id": "a4806ac2-0236-4222-9c47-52bdaaa42c9e"
+          },
+          {
+            "nombre": "Permiso para quemar rastrojos",
+            "id": "e8f22e0c-b09a-4c0e-8cb1-555f661bb086"
+          }
+        ]
+      },
+      {
+        "nombre": "Pagos e impuestos",
+        "nota": "Recibos, aplazamientos, bonificaciones",
+        "icono": "recibo",
+        "tramites": [
+          {
+            "nombre": "Domiciliar recibos",
+            "id": "a93cd417-195c-40c5-acf2-9a92b36c8809"
+          },
+          {
+            "nombre": "Pagar una autoliquidación",
+            "id": "65228bd7-0692-484e-afd5-4f18d4faa7f5"
+          },
+          {
+            "nombre": "Aplazar o fraccionar un pago",
+            "id": "1fb37055-447d-48b6-8ea6-a670f5a9629b"
+          },
+          {
+            "nombre": "Pedir una bonificación o exención",
+            "id": "4f89832a-e472-4c39-bbd4-d519e35946dd"
+          }
+        ]
+      },
+      {
+        "nombre": "Familia, mayores y ocio",
+        "nota": "Ayuda a domicilio, servicios sociales, cursos",
+        "icono": "familia",
+        "tramites": [
+          {
+            "nombre": "Teleasistencia o ayuda a domicilio",
+            "id": "70b01f0b-8951-4ebe-aadc-75d6de315b7e"
+          },
+          {
+            "nombre": "Darme de alta en servicios sociales",
+            "id": "1eadf89e-c7e0-4c8e-bdf4-4c2bb9a7ea09"
+          },
+          {
+            "nombre": "Apuntarme a cursos y actividades",
+            "id": "1086e3fa-b560-4deb-9c55-66bed39d82f4"
+          }
+        ]
+      },
+      {
+        "nombre": "Opinar y avisar",
+        "nota": "Quejas, incidencias, información pública",
+        "icono": "mensaje",
+        "tramites": [
+          {
+            "nombre": "Avisar de una incidencia en la calle",
+            "id": "d643e8cf-0824-4617-a997-c523799b4a93"
+          },
+          {
+            "nombre": "Quejas y sugerencias",
+            "id": "ae05799c-df61-43d1-be43-31943561cea9"
+          },
+          {
+            "nombre": "Pedir información pública",
+            "id": "cb08f2a7-e5f7-42eb-bbfa-13a2b485e606"
+          },
+          {
+            "nombre": "Cualquier otra solicitud",
+            "id": "5161fa8d-970e-4b48-a506-b2ac34ceafe5"
+          }
+        ]
+      }
+    ],
+    "momentos": [
+      {
+        "nombre": "Me vengo a vivir aquí",
+        "nota": "Lo que conviene hacer las primeras semanas.",
+        "pasos": [
+          {
+            "texto": "Empadronarme",
+            "id": "d120f65c-c936-4a95-bd50-e7ae970ca149"
+          },
+          {
+            "texto": "Poner el agua a mi nombre",
+            "id": "a4806ac2-0236-4222-9c47-52bdaaa42c9e"
+          },
+          {
+            "texto": "Domiciliar los recibos",
+            "id": "a93cd417-195c-40c5-acf2-9a92b36c8809"
+          },
+          {
+            "texto": "Apuntarme a cursos y actividades",
+            "id": "1086e3fa-b560-4deb-9c55-66bed39d82f4"
+          }
+        ]
+      },
+      {
+        "nombre": "Voy a hacer obra",
+        "nota": "Según el tamaño de la obra, un papel u otro.",
+        "pasos": [
+          {
+            "texto": "Obra pequeña: declaración responsable",
+            "id": "5d383e20-32a5-4fcf-8725-e51c51e83e6a"
+          },
+          {
+            "texto": "Obra mayor: licencia urbanística",
+            "id": "15fabacb-83b1-47d1-b435-508245672051"
+          },
+          {
+            "texto": "Al terminar una vivienda: licencia de ocupación",
+            "id": "b834b3fa-3690-4626-9c92-d82669d6f26f"
+          }
+        ]
+      },
+      {
+        "nombre": "Tengo que pagar algo",
+        "nota": "Recibos, plazos y descuentos.",
+        "pasos": [
+          {
+            "texto": "Pagar una autoliquidación",
+            "id": "65228bd7-0692-484e-afd5-4f18d4faa7f5"
+          },
+          {
+            "texto": "Domiciliar para no olvidarme",
+            "id": "a93cd417-195c-40c5-acf2-9a92b36c8809"
+          },
+          {
+            "texto": "Aplazar o fraccionar",
+            "id": "1fb37055-447d-48b6-8ea6-a670f5a9629b"
+          },
+          {
+            "texto": "Pedir una bonificación",
+            "id": "4f89832a-e472-4c39-bbd4-d519e35946dd"
+          }
+        ]
+      },
+      {
+        "nombre": "Ha pasado algo en mi calle",
+        "nota": "Un bache, una farola, un contenedor.",
+        "pasos": [
+          {
+            "texto": "Avisar de la incidencia",
+            "id": "d643e8cf-0824-4617-a997-c523799b4a93"
+          },
+          {
+            "texto": "Si es urgente, llame al Ayuntamiento: 924 585 011"
+          },
+          {
+            "texto": "Dejar una queja o sugerencia",
+            "id": "ae05799c-df61-43d1-be43-31943561cea9"
+          }
+        ]
+      }
+    ],
+    "sinonimos": {
+      "empadronarme": [
+        "padrón",
+        "empadronamiento"
+      ],
+      "empadronar": [
+        "padrón"
+      ],
+      "censo": [
+        "padrón"
+      ],
+      "obra": [
+        "urbanística",
+        "obras",
+        "licencia de ocupación"
+      ],
+      "obras": [
+        "urbanística"
+      ],
+      "reforma": [
+        "urbanística"
+      ],
+      "placas": [
+        "fotovoltaica"
+      ],
+      "solar": [
+        "fotovoltaica"
+      ],
+      "agua": [
+        "abastecimiento",
+        "aguas",
+        "contadores"
+      ],
+      "contador": [
+        "contadores"
+      ],
+      "recibo": [
+        "tributos",
+        "domiciliación",
+        "autoliquidación"
+      ],
+      "recibos": [
+        "tributos",
+        "domiciliación"
+      ],
+      "pagar": [
+        "autoliquidación",
+        "tributo",
+        "aplazamiento"
+      ],
+      "impuesto": [
+        "tributo",
+        "tributos",
+        "padrón fiscal"
+      ],
+      "ibi": [
+        "tributo",
+        "catastral"
+      ],
+      "descuento": [
+        "bonificación"
+      ],
+      "boda": [
+        "matrimonio"
+      ],
+      "casarme": [
+        "matrimonio"
+      ],
+      "casarse": [
+        "matrimonio"
+      ],
+      "queja": [
+        "quejas",
+        "sugerencias",
+        "reclamación"
+      ],
+      "reclamar": [
+        "reclamación",
+        "recurso"
+      ],
+      "bache": [
+        "incidencia",
+        "vía pública"
+      ],
+      "farola": [
+        "incidencia",
+        "vía pública"
+      ],
+      "contenedor": [
+        "incidencia"
+      ],
+      "calle": [
+        "vía pública"
+      ],
+      "certificado": [
+        "volante",
+        "certificado"
+      ],
+      "volante": [
+        "volante"
+      ],
+      "perro": [
+        "animales"
+      ],
+      "mascota": [
+        "animales"
+      ],
+      "quemar": [
+        "quema",
+        "rastrojos"
+      ],
+      "rastrojos": [
+        "quema"
+      ],
+      "mayores": [
+        "teleasistencia",
+        "ayuda a domicilio",
+        "servicios sociales"
+      ],
+      "dependencia": [
+        "ayuda a domicilio",
+        "servicios sociales"
+      ],
+      "curso": [
+        "cursos",
+        "actividades"
+      ],
+      "deporte": [
+        "actividades"
+      ],
+      "nicho": [
+        "funerario",
+        "nichos"
+      ],
+      "cementerio": [
+        "funerario",
+        "nichos",
+        "exhumación"
+      ],
+      "aparcamiento": [
+        "tarjeta de aparcamiento"
+      ],
+      "discapacidad": [
+        "tarjeta de aparcamiento",
+        "accesible"
+      ],
+      "papel": [
+        "instancia general",
+        "aportación de documentos"
+      ],
+      "solicitud": [
+        "instancia general"
+      ],
+      "mercadillo": [
+        "venta ambulante"
+      ],
+      "taxi": [
+        "auto-taxi",
+        "auto -taxi"
+      ],
+      "fiesta": [
+        "eventos",
+        "espectáculos",
+        "pirotécnicos"
+      ],
+      "ayuda": [
+        "subvención",
+        "servicios sociales"
+      ],
+      "subvencion": [
+        "subvención"
+      ]
+    },
+    "todos": [
+      {
+        "nombre": "Abastecimiento de Aguas (Baja)",
+        "id": "27666b59-7238-4f55-9968-d45406f433f9"
+      },
+      {
+        "nombre": "Abastecimiento de Aguas (Cambio de Titularidad)",
+        "id": "a4806ac2-0236-4222-9c47-52bdaaa42c9e"
+      },
+      {
+        "nombre": "Acceso al Servicio de Teleasistencia o de Ayuda a Domicilio",
+        "id": "70b01f0b-8951-4ebe-aadc-75d6de315b7e"
+      },
+      {
+        "nombre": "Alta de Abastecimiento y Suministro de Agua Potable",
+        "id": "5697411e-7a60-4df6-9867-07258add24de"
+      },
+      {
+        "nombre": "Alta, Baja o Modificación de Datos en el Registro de Animales",
+        "id": "30e885b0-2005-4c8e-aa16-79e63140e436"
+      },
+      {
+        "nombre": "Aportación de Documentos",
+        "id": "3a04a0b4-b6ff-4fb0-97f3-9f1fdd2c97ab"
+      },
+      {
+        "nombre": "Autoliquidación",
+        "id": "65228bd7-0692-484e-afd5-4f18d4faa7f5"
+      },
+      {
+        "nombre": "Aviso de Incidencia en la Vía Pública",
+        "id": "d643e8cf-0824-4617-a997-c523799b4a93"
+      },
+      {
+        "nombre": "Baja Voluntaria de la Autorización para el Ejercicio de la Venta Ambulante",
+        "id": "a98dc0b1-de78-4419-b0d2-618ce6a58f45"
+      },
+      {
+        "nombre": "Compensación de Deudas Tributarias",
+        "id": "f7a523be-6085-41da-a981-48452bab781e"
+      },
+      {
+        "nombre": "Comunicación",
+        "id": "6d1f216d-c95d-4ad7-a2fa-16ca0b0d1cd4"
+      },
+      {
+        "nombre": "Comunicación del Cambio de Datos que figuran en el Padrón Fiscal",
+        "id": "e3cc8077-25a4-4297-8e44-fd54adc50c88"
+      },
+      {
+        "nombre": "Comunicación o Declaración Responsable de Actividades y Espectáculos Públicos",
+        "id": "36fa4d83-67b8-4671-808c-09185dae1c62"
+      },
+      {
+        "nombre": "Comunicaciones sobre Requisitos de Accesibilidad",
+        "id": "34801c79-0732-49f0-830d-b52652a01e80"
+      },
+      {
+        "nombre": "Consignación en la Oficina de Objetos Perdidos",
+        "id": "7fdc3c6c-7397-4e29-a101-3a68824a55c9"
+      },
+      {
+        "nombre": "Constitución de Garantía",
+        "id": "8e285144-5df7-411a-8649-de1cca8e4fbd"
+      },
+      {
+        "nombre": "Corte de la Vía Pública",
+        "id": "e1589c6a-9246-45f5-9132-fa5dd98ba76a"
+      },
+      {
+        "nombre": "Declaración de Alteración Catastral de un Bien Inmueble",
+        "id": "f4d91759-67a9-454a-ada9-41498dc1fb7b"
+      },
+      {
+        "nombre": "Declaración Responsable",
+        "id": "2c557ac9-fd3a-4a47-bda3-f42a082861db"
+      },
+      {
+        "nombre": "Declaración Responsable o Comunicación en Materia de Actividades",
+        "id": "df2d1685-af1d-454c-90dd-f0d077868573"
+      },
+      {
+        "nombre": "Declaración Responsable o Comunicación en Materia Urbanística",
+        "id": "5d383e20-32a5-4fcf-8725-e51c51e83e6a"
+      },
+      {
+        "nombre": "Denuncia",
+        "id": "197fd308-4f33-4a7c-b77d-17d68993b8e8"
+      },
+      {
+        "nombre": "Domiciliación de Tributos Periódicos (alta, baja y modificación)",
+        "id": "a93cd417-195c-40c5-acf2-9a92b36c8809"
+      },
+      {
+        "nombre": "Ejercicio de Derechos ante el Registro de Asociaciones",
+        "id": "d66b3878-d39e-4e7e-bc85-bc37e27852ec"
+      },
+      {
+        "nombre": "Ejercicio de Derechos en Relación con el Registro de Uniones o Parejas de Hecho",
+        "id": "a8bdd0e8-3a1a-49b2-a8a6-ce0401f2006b"
+      },
+      {
+        "nombre": "Ejercicio de los Derechos de Rectificación, Supresión, Limitación, Portabilidad u Oposición en relación con Datos de Carácter Personal",
+        "id": "daae6a9b-bb8d-485a-816a-940bc433eb66"
+      },
+      {
+        "nombre": "Ejercicio del Derecho de Acceso (Datos de Carácter Personal)",
+        "id": "fa0b2865-b1ad-4cd2-b998-c63113f1689c"
+      },
+      {
+        "nombre": "Exhumación en Nichos, Panteones, Columbarios...",
+        "id": "429370fc-157c-44d1-a8cf-0ae460b810db"
+      },
+      {
+        "nombre": "Formulario de Contacto con el Delegado de Protección de Datos",
+        "id": "2b75a7ef-9aeb-4f6e-bd02-936334b22679"
+      },
+      {
+        "nombre": "Ingreso en Centro de Asistencia Social",
+        "id": "af93fe26-e314-4fd8-8a8d-a526ea39cf68"
+      },
+      {
+        "nombre": "Inscripción en Actividades y Cursos",
+        "id": "1086e3fa-b560-4deb-9c55-66bed39d82f4"
+      },
+      {
+        "nombre": "Instancia General",
+        "id": "5161fa8d-970e-4b48-a506-b2ac34ceafe5"
+      },
+      {
+        "nombre": "Interposición de Recurso Administrativo",
+        "id": "b001292e-cdf4-4e48-89db-6eae243fd878"
+      },
+      {
+        "nombre": "Interposición de Recurso de Reposición o de Apelación ante el Juez de Paz",
+        "id": "ffe7e592-8358-4889-9df5-cd79f1927866"
+      },
+      {
+        "nombre": "Interposición de Recurso Especial en Materia de Contratación",
+        "id": "252ba3d7-fb9a-4d7c-a33f-6e3b58fb06f7"
+      },
+      {
+        "nombre": "Interposición de un Recurso de Reposición de Actos de Naturaleza Tributaria",
+        "id": "a0ef28ba-fb41-4289-921e-61b4a31b7de2"
+      },
+      {
+        "nombre": "Justificación de Subvención Concedida",
+        "id": "6f0f91f4-6c6c-4a6f-b1c9-6aea9b293f58"
+      },
+      {
+        "nombre": "Licencia de Actividad (Modificación o Renuncia)",
+        "id": "6a5af5af-b462-4ca9-8062-5ba4c95a4241"
+      },
+      {
+        "nombre": "Licencia de Actividades y Espectáculos Públicos",
+        "id": "87679048-b42c-47a7-8c33-3d54d162f988"
+      },
+      {
+        "nombre": "Licencia de Aprovechamiento",
+        "id": "b4931ddf-2d87-471a-8433-a2721751b129"
+      },
+      {
+        "nombre": "Licencia de Auto -Taxi (Transmisión)",
+        "id": "8190625d-2f7b-44c1-9624-47dd39c5103d"
+      },
+      {
+        "nombre": "Licencia de Vehículos Especiales",
+        "id": "ad4b6040-7ed9-4aa7-b19a-55d92aab30cb"
+      },
+      {
+        "nombre": "Liquidación (a Instancia de Parte)",
+        "id": "f1dc66f0-fed7-46bb-997b-73c609457f2b"
+      },
+      {
+        "nombre": "Modificación del Planeamiento de Desarrollo",
+        "id": "6e8237a3-0b83-469d-b0ad-70159b9a9c26"
+      },
+      {
+        "nombre": "Modificación, Revocación o Renuncia de la Licencia de Ocupación",
+        "id": "a7e311fe-df7a-4b5d-863b-3f1c4b8ca71f"
+      },
+      {
+        "nombre": "Otorgar Poderes de Representación",
+        "id": "a9807f3d-0ce2-4e16-ac6a-786f4a8aa3d0"
+      },
+      {
+        "nombre": "Participación en la Elaboración de Normativa",
+        "id": "eec1d111-c724-4967-b122-077375011648"
+      },
+      {
+        "nombre": "Petición de Consulta Popular",
+        "id": "d8c4b9b6-1cdd-4944-b7be-f76fbb3720e5"
+      },
+      {
+        "nombre": "Planeamiento General (Modificación)",
+        "id": "96514574-aca1-40e1-a800-e06485e6d016"
+      },
+      {
+        "nombre": "Quejas y Sugerencias",
+        "id": "ae05799c-df61-43d1-be43-31943561cea9"
+      },
+      {
+        "nombre": "Reclamación contra la Solicitud de Información Accesible y Queja",
+        "id": "daf77f45-60d1-47f8-9fcb-ca9ea7c88b32"
+      },
+      {
+        "nombre": "Reclamaciones de Consumo",
+        "id": "9f707e83-9fc0-4425-b66b-2b28c0498894"
+      },
+      {
+        "nombre": "Resolución de Contrataciones Patrimoniales",
+        "id": "04c7cc72-89c1-4a8b-9188-6b11c48cf81b"
+      },
+      {
+        "nombre": "Servicios Públicos (Alta, Baja o Modificación)",
+        "id": "5c2a56b7-1cc7-4f53-ad58-766047e3a07a"
+      },
+      {
+        "nombre": "Solicitud de Acceso a la Información Pública por los Ciudadanos",
+        "id": "cb08f2a7-e5f7-42eb-bbfa-13a2b485e606"
+      },
+      {
+        "nombre": "Solicitud de Acceso a una Notificación Rechazada",
+        "id": "11df4bb2-d63f-455e-997a-e0982d8af50f"
+      },
+      {
+        "nombre": "Solicitud de Actuación Urbanística",
+        "id": "f91e4a50-d23d-45c1-a19b-b148da37c59f"
+      },
+      {
+        "nombre": "Solicitud de Adhesión al Sistema de Arbitraje",
+        "id": "ab96fd31-5837-4ed8-ba56-77145f24bbda"
+      },
+      {
+        "nombre": "Solicitud de Alta en los Servicios Sociales",
+        "id": "1eadf89e-c7e0-4c8e-bdf4-4c2bb9a7ea09"
+      },
+      {
+        "nombre": "Solicitud de Alta o Renovación de la Inscripción en el Padrón Municipal de Habitantes",
+        "id": "d120f65c-c936-4a95-bd50-e7ae970ca149"
+      },
+      {
+        "nombre": "Solicitud de Aplazamiento o Fraccionamiento de Obligaciones Tributarias",
+        "id": "1fb37055-447d-48b6-8ea6-a670f5a9629b"
+      },
+      {
+        "nombre": "Solicitud de Aprobación de Planeamiento de Desarrollo",
+        "id": "23c80d53-bdad-47a5-b731-f786c411e08d"
+      },
+      {
+        "nombre": "Solicitud de Aprobación de un Proyecto de Compensación",
+        "id": "774714c1-ade3-4dd9-a093-3ca045647fa3"
+      },
+      {
+        "nombre": "Solicitud de Autorización",
+        "id": "28adaa8c-63bc-49bc-b468-9ac9900a7006"
+      },
+      {
+        "nombre": "Solicitud de Autorización Ambiental",
+        "id": "abfb134a-80d0-495d-a52a-457340f5f78f"
+      },
+      {
+        "nombre": "Solicitud de Autorización de Usos Funerarios: Nichos, Panteones, Columbarios...",
+        "id": "aa1413d7-4616-49e7-a405-726f7b3e5689"
+      },
+      {
+        "nombre": "Solicitud de Autorización Especial para la Celebración de Eventos Especiales (Uso de Artificios Pirotécnicos)",
+        "id": "c6b06508-6603-4b75-9e5e-cce272e4a0f9"
+      },
+      {
+        "nombre": "Solicitud de Autorización para el Ejercicio de Venta Ambulante",
+        "id": "66b59a72-7c44-4c95-9b50-7133fd31cb56"
+      },
+      {
+        "nombre": "Solicitud de Baja en el Padrón Municipal de Habitantes por Cambio de Residencia de Extranjeros que se trasladan al Extranjero",
+        "id": "f60c66ec-6337-443d-aa6e-983050992392"
+      },
+      {
+        "nombre": "Solicitud de Bonificación o Exención de un Tributo",
+        "id": "4f89832a-e472-4c39-bbd4-d519e35946dd"
+      },
+      {
+        "nombre": "Solicitud de Cambio de Puesto de Trabajo: Permutas, Comisiones de Servicios,...",
+        "id": "902bdb06-4d77-4f2a-9c02-5d7b5e780bd9"
+      },
+      {
+        "nombre": "Solicitud de Cambio de Titularidad de Derecho Funerario: Nichos, Panteones, Columbarios,...",
+        "id": "967cce52-b589-482d-8d55-0f017b55348b"
+      },
+      {
+        "nombre": "Solicitud de Certificado de Deuda a mi Favor",
+        "id": "f6d7d008-0ad3-4bfa-be5b-0f3302d888dc"
+      },
+      {
+        "nombre": "Solicitud de Certificado de una Subvención Concedida",
+        "id": "2fb6a1c3-4040-4c1b-84bc-c6b127fac3cb"
+      },
+      {
+        "nombre": "Solicitud de Certificado o Informe",
+        "id": "f422cab6-2a5e-4a75-b9c7-2531bfa239c7"
+      },
+      {
+        "nombre": "Solicitud de Certificado o Informe Tributario",
+        "id": "8e9712d9-a992-4d8e-a5a2-76e5f11acf12"
+      },
+      {
+        "nombre": "Solicitud de Certificado o Informe Urbanístico",
+        "id": "e247f7c3-b1ff-42ef-8b7d-5195c14e9bbf"
+      },
+      {
+        "nombre": "Solicitud de Certificado o Volante de Convivencia",
+        "id": "e268d9e6-d835-4922-be8f-a18c9738a331"
+      },
+      {
+        "nombre": "Solicitud de Certificado o Volante de Empadronamiento",
+        "id": "1c74bc66-8b69-4f3c-8183-d3591f0504ed"
+      },
+      {
+        "nombre": "Solicitud de Consulta de Fondos del Archivo",
+        "id": "2e66d84c-8d27-411f-a711-9a345c14be70"
+      },
+      {
+        "nombre": "Solicitud de Declaración de Nulidad de Pleno Derecho de Actos Administrativos de Naturaleza Tributaria",
+        "id": "c0314398-fd54-4586-91e6-570fbbf6fb1e"
+      },
+      {
+        "nombre": "Solicitud de Declaración de Ruina",
+        "id": "e64a8029-2e12-49aa-a002-120e27ca1386"
+      },
+      {
+        "nombre": "Solicitud de Devolución de Garantía",
+        "id": "8f8a80e9-6a03-4b2b-a21d-4191ab1bf51e"
+      },
+      {
+        "nombre": "Solicitud de Devolución de Ingresos Indebidos",
+        "id": "28338128-8e01-4325-bd5e-a698b12b441e"
+      },
+      {
+        "nombre": "Solicitud de la Devolución de Ingresos Derivada de la Normativa del Tributo (Art. 31 LGT)",
+        "id": "0b5b5d9d-7549-4e4c-949c-16b152ba1b47"
+      },
+      {
+        "nombre": "Solicitud de la Tarjeta de Aparcamiento para Residentes en zonas de Estacionamiento Limitado",
+        "id": "abf6fdef-9e43-4ede-aa2b-e95db9d07f13"
+      },
+      {
+        "nombre": "Solicitud de Licencia de Actividad",
+        "id": "bf5e9be9-4ba9-4bbd-86cd-2f915f8b3c78"
+      },
+      {
+        "nombre": "Solicitud de Licencia de Conexión a las Redes de Abastecimiento o Saneamiento de Aguas",
+        "id": "c66a05a4-4510-434c-9e82-851788cf42e6"
+      },
+      {
+        "nombre": "Solicitud de Licencia de Ocupación",
+        "id": "b834b3fa-3690-4626-9c92-d82669d6f26f"
+      },
+      {
+        "nombre": "Solicitud de Licencia o Autorización Urbanística",
+        "id": "15fabacb-83b1-47d1-b435-508245672051"
+      },
+      {
+        "nombre": "Solicitud de Licencia para la Tenencia de Animales Potencialmente Peligrosos",
+        "id": "42fc1e2b-c6be-4972-841f-904b4cce2ccd"
+      },
+      {
+        "nombre": "Solicitud de Mediación",
+        "id": "6dfd75f7-af86-4d45-b4eb-aaf30a25c983"
+      },
+      {
+        "nombre": "Solicitud de Modificación de los Datos del Padrón Municipal de Habitantes",
+        "id": "d74e17fb-69a1-4ef6-931a-d0381be7ffdc"
+      },
+      {
+        "nombre": "Solicitud de Modificación o Renuncia de una Licencia Urbanística",
+        "id": "a3c783fb-bb19-4ea3-b40f-0072d69aebae"
+      },
+      {
+        "nombre": "Solicitud de Modificaciones en las Condiciones del Contrato: Cesiones, Prórroga, Revisión de Precios...",
+        "id": "d747c1e5-fb79-46f1-85e6-dd32acbecf24"
+      },
+      {
+        "nombre": "Solicitud de Prestación de Servicios Sociales",
+        "id": "37b15924-7921-4bc5-83de-3cec20016ebe"
+      },
+      {
+        "nombre": "Solicitud de Recepción de Obras de Urbanización",
+        "id": "e8594295-30ea-4a16-8f17-60c061a8a147"
+      },
+      {
+        "nombre": "Solicitud de Resolución de Contrato",
+        "id": "788eacc5-12d8-4016-ac6f-273eef2c5b1e"
+      },
+      {
+        "nombre": "Solicitud de Responsabilidad Patrimonial",
+        "id": "9ef28355-2f43-4c8a-bee7-93c6f39f2a8b"
+      },
+      {
+        "nombre": "Solicitud de Reuniones y Entrevistas con el Personal de esta Entidad",
+        "id": "25ddfc96-745e-42d5-80c8-8e82964a68f0"
+      },
+      {
+        "nombre": "Solicitud de Tarjeta de Armas",
+        "id": "8ab9325a-e61c-41b5-8a49-b353f382579a"
+      },
+      {
+        "nombre": "Solicitud de Uso Puntual de un Bien",
+        "id": "84e1c073-a87d-4428-b32c-8b9a24b20ad5"
+      },
+      {
+        "nombre": "Solicitud para la Celebración de Matrimonio Civil",
+        "id": "fe871c4e-f81e-4357-a5b8-94ef42a9da42"
+      },
+      {
+        "nombre": "Solicitud para la Constitución de un Consorcio",
+        "id": "397c5c61-2867-4754-9c54-ddc00d5ef844"
+      },
+      {
+        "nombre": "Solicitud para la gestión de la Tarjeta de Aparcamiento para Personas en Situación de Discapacidad",
+        "id": "b439034b-8550-4b62-9f31-172f5792bae9"
+      },
+      {
+        "nombre": "Solicitud para la Quema de Rastrojos",
+        "id": "e8f22e0c-b09a-4c0e-8cb1-555f661bb086"
+      },
+      {
+        "nombre": "Solicitud para la Renumeración o Denominación de una Vía Pública",
+        "id": "990ec0df-7d47-4fbf-8d41-51e269920b76"
+      },
+      {
+        "nombre": "Solicitudes de Información Accesible y Quejas",
+        "id": "bfdcf208-2d99-46f6-b78f-116f61936045"
+      },
+      {
+        "nombre": "Subvenciones Directas o Nominativas",
+        "id": "a96835f4-5214-4258-8d8b-47439196226b"
+      },
+      {
+        "nombre": "Sustitución de un Vehículo Sujeto a una Licencia de Auto-Taxi",
+        "id": "da566145-fd06-47cf-bed1-d146edbd688a"
+      },
+      {
+        "nombre": "Verificación, Lectura o Cambio de Ubicación de Contadores de Aguas",
+        "id": "8c02079a-91f2-4c82-87a4-963a73ebd40d"
+      }
+    ]
+  },
+  "pueblo": {
+    "entradilla": "Una villa de la Campiña Sur, entre Zafra y Llerena, partida por su rivera y unida por un puente de dos arcos. Fue encomienda de la Orden de Santiago y tuvo fuero propio desde el siglo XIII.",
+    "historia": [
+      "Según los cronistas antiguos, aquí hubo un asentamiento túrdulo del siglo VI a. C. llamado Ursaria, «por los muchos osos que había». La tradición atribuye a la villa romana el nombre de Urbs Sacra, el que lleva hoy su escudo, aunque nunca se ha confirmado. En el término se han hallado restos prehistóricos, romanos, visigodos y árabes, como la necrópolis visigoda de El Carballar (siglos VI y VII).",
+      "En 1241 la ganó para los cristianos el maestre santiaguista Rodrigo Íñiguez. Su sucesor, Pelay Pérez Correa, le dio a mediados del siglo XIII el Fuero de Usagre, que se conserva en el Archivo Histórico Nacional. La villa fue encomienda de la Orden de Santiago, y en 1434 una sentencia de Álvaro de Luna fijó su término.",
+      "A finales del siglo XVI vivió su mejor época: tenía 625 vecinos pecheros, unos 2.600 habitantes, tres ermitas y un convento de concepcionistas que en el siglo XVIII se trasladó a Bienvenida. Más de cincuenta usagreños pasaron a América en la conquista.",
+      "El 25 de mayo de 1811, junto al puente, la caballería aliada de españoles, británicos y portugueses derrotó a los dragones franceses en el combate de Usagre. En los siglos XVIII y XIX el pueblo fue centro de lavado de lanas finas y de minas de azogue, y en 1880 llegó el ferrocarril, con la estación de Usagre-Bienvenida."
+    ],
+    "placa": {
+      "titulo": "Urbs Sacra",
+      "lineas": [
+        "VRBS",
+        "SACRA"
+      ],
+      "pie": "Leyenda de la bordura del escudo de la villa",
+      "texto": "La tradición da a la Usagre romana el nombre de Urbs Sacra, «ciudad sagrada»: la Diputación lo llama «la nunca confirmada denominación». La leyenda rodea el escudo, con la cruz de Santiago sobre el puente de dos arcos y las ondas de la rivera."
+    },
+    "lugares": [
+      {
+        "nombre": "El puente romano",
+        "texto": "Dos arcos de medio punto de sillares de granito, con espolón central, rehecho en la Edad Media. «Quien no ha visto el puente no ha visitado Usagre».",
+        "foto": "puente",
+        "alt": "El puente de dos arcos sobre el cauce de la rivera, con casas encaladas detrás"
+      },
+      {
+        "nombre": "El Pilar del Carmen",
+        "texto": "Junto al puente, de 1823. Aquí se lavaba la ropa en los batijeros y bebían los burros.",
+        "foto": "pilar",
+        "alt": "Abrevadero largo de piedra con agua, un banco y casas blancas"
+      },
+      {
+        "nombre": "La fuente de la plaza",
+        "texto": "De 1575, rehecha en 1798: pileta circular rebajada bajo el suelo, con su pilar bulboso y su reja.",
+        "foto": "fuente-plaza",
+        "alt": "Pileta circular de piedra con el pilar central y la reja de hierro"
+      },
+      {
+        "nombre": "Nuestra Señora de Gracia",
+        "texto": "Iglesia gótico-mudéjar del siglo XV, rehecha en 1819, con una portada de ladrillo mudéjar en el lado del Evangelio.",
+        "foto": "iglesia",
+        "alt": "Portada mudéjar de ladrillo de la iglesia entre árboles, en una plaza empedrada"
+      },
+      {
+        "nombre": "Ermita del Cristo de la Piedad",
+        "texto": "En el antiguo convento de concepcionistas. Su cabecera, con bóveda de crucería estrellada, es lo más antiguo. De aquí sale la procesión del 14 de septiembre.",
+        "foto": "ermita-cristo",
+        "alt": "Fachada encalada de la ermita con su espadaña y arcos apuntados, al atardecer"
+      },
+      {
+        "nombre": "Presa Honda",
+        "texto": "La piscina natural de la rivera, con merendero, alameda y zona de baño autorizada por el Servicio Extremeño de Salud.",
+        "foto": "presa-honda",
+        "alt": "Lámina de agua entre chopos y césped, con una mesa de merendero en primer plano"
+      },
+      {
+        "nombre": "La Luná",
+        "texto": "El paraje que abasteció de agua al pueblo, junto a la rivera. Aquí vive la leyenda de la Cantamora, la sirena de la piedra.",
+        "foto": "la-luna",
+        "alt": "Arroyo entre piedras y un puentecillo, con campo verde y flores amarillas"
+      }
+    ],
+    "patrimonio": [
+      {
+        "nombre": "Puente romano",
+        "detalle": "Romano, rehecho en la Edad Media; sus pretiles reutilizan nervios de bóvedas de la parroquia"
+      },
+      {
+        "nombre": "Pilar del Carmen",
+        "detalle": "1823, con abrevadero, junto al puente"
+      },
+      {
+        "nombre": "Iglesia parroquial de Nuestra Señora de Gracia",
+        "detalle": "Gótico-mudéjar, siglo XV, reconstruida en 1819. En la hornacina de la fachada, una Virgen con el Niño de piedra, probablemente visigoda o mozárabe"
+      },
+      {
+        "nombre": "Ermita del Santísimo Cristo de la Piedad",
+        "detalle": "En el antiguo convento concepcionista, fundado en el siglo XVI"
+      },
+      {
+        "nombre": "Ermita de la Virgen de la Cruz",
+        "detalle": "A las afueras, donde estuvo el antiguo cementerio; antes se llamó de la Madre de Dios"
+      },
+      {
+        "nombre": "Fuente de la plaza",
+        "detalle": "1575, reconstruida en 1798"
+      },
+      {
+        "nombre": "Casa de la Encomienda de Santiago",
+        "detalle": "Documentada en el siglo XIV; quedan parte de sus arcos, en la plaza"
+      },
+      {
+        "nombre": "Casa de la Inquisición",
+        "detalle": "C/ Convento"
+      },
+      {
+        "nombre": "Ventana mudéjar",
+        "detalle": "C/ Mesones, 10"
+      },
+      {
+        "nombre": "Estación de Usagre-Bienvenida",
+        "detalle": "Línea Mérida-Los Rosales; el tren llegó en 1880"
+      }
+    ],
+    "fiestas": [
+      {
+        "mes": 1,
+        "nombre": "Cabalgata de Reyes",
+        "cuando": "5 de enero",
+        "fecha_fija": "01-05"
+      },
+      {
+        "mes": 2,
+        "nombre": "San Blas, el día de la piedra",
+        "cuando": "3 de febrero",
+        "fecha_fija": "02-03"
+      },
+      {
+        "mes": 2,
+        "nombre": "Carnaval y Domingo de Piñata",
+        "cuando": "Fecha variable",
+        "meses": [
+          2,
+          3
+        ]
+      },
+      {
+        "mes": 3,
+        "nombre": "Semana Santa",
+        "cuando": "Fecha variable; la hermandad mayor es la del Cristo de la Piedad",
+        "meses": [
+          3,
+          4
+        ]
+      },
+      {
+        "mes": 4,
+        "nombre": "Festival de Circo",
+        "cuando": "En primavera"
+      },
+      {
+        "mes": 5,
+        "nombre": "Cruces de Mayo",
+        "cuando": "En mayo"
+      },
+      {
+        "mes": 5,
+        "nombre": "Romería de San Isidro",
+        "cuando": "15 de mayo",
+        "fecha_fija": "05-15"
+      },
+      {
+        "mes": 6,
+        "nombre": "San Pedro, con el concurso de sopará",
+        "cuando": "Finales de junio"
+      },
+      {
+        "mes": 7,
+        "nombre": "Verano Cultural: teatro popular, Día del Moral, Festival Medieval",
+        "cuando": "Julio y agosto",
+        "meses": [
+          7,
+          8
+        ]
+      },
+      {
+        "mes": 8,
+        "nombre": "Festival Folklórico Internacional",
+        "cuando": "Agosto, en la Plaza de España"
+      },
+      {
+        "mes": 9,
+        "nombre": "Fiestas del Santísimo Cristo de la Piedad",
+        "cuando": "Del 13 al 16 de septiembre; la procesión, el 14",
+        "fecha_fija": "09-14",
+        "mayor": true
+      },
+      {
+        "mes": 10,
+        "nombre": "San Lucas, patrón",
+        "cuando": "18 de octubre",
+        "fecha_fija": "10-18"
+      },
+      {
+        "mes": 10,
+        "nombre": "Fiesta del Mayor",
+        "cuando": "En octubre"
+      },
+      {
+        "mes": 11,
+        "nombre": "Chaquetía",
+        "cuando": "Todos los Santos"
+      },
+      {
+        "mes": 12,
+        "nombre": "Usagreño del año y entrega del Escudo de la Villa",
+        "cuando": "6 de diciembre",
+        "fecha_fija": "12-06"
+      },
+      {
+        "mes": 12,
+        "nombre": "Las Candelillas",
+        "cuando": "Noche del 7 de diciembre",
+        "fecha_fija": "12-07"
+      }
+    ],
+    "gastronomia": {
+      "platos": [
+        "Sopará (parecida a un gazpacho, machacada)",
+        "Gazpacho pastoril",
+        "Setas en caldereta",
+        "Caldereta",
+        "Migas",
+        "Chacina y embutidos"
+      ],
+      "dulces": [
+        "Repostería casera"
+      ],
+      "bebidas": []
+    },
+    "personajes": [
+      {
+        "nombre": "Bartolomé de Usagre",
+        "fechas": "Siglo XVI",
+        "texto": "Artillero de Hernán Cortés en la conquista de México."
+      },
+      {
+        "nombre": "Diego de Usagre",
+        "fechas": "Siglo XVI",
+        "texto": "Hermano de Bartolomé; uno de los 73 fundadores de San Salvador, en El Salvador."
+      }
+    ],
+    "establecimientos": [
+      {
+        "grupo": "Bares y cafeterías",
+        "items": [
+          {
+            "nombre": "Café-Bar Arias",
+            "direccion": "Avda. de la Estación, 11"
+          },
+          {
+            "nombre": "Cafetería Viondi",
+            "direccion": "Plaza de España",
+            "telefono": "692 529 563"
+          },
+          {
+            "nombre": "La Campanera (Bar Hermanos Lázaro)",
+            "direccion": "Plaza de España, 2",
+            "telefono": "924 585 115"
+          },
+          {
+            "nombre": "Bar La Cantamora",
+            "direccion": "Plaza de España, 8",
+            "telefono": "607 467 290"
+          },
+          {
+            "nombre": "Bar del Mercado de Abastos",
+            "direccion": "Plaza de Extremadura, 3"
+          },
+          {
+            "nombre": "Bar del Hogar del Pensionista",
+            "direccion": "C/ Hernán Cortés, 14"
+          },
+          {
+            "nombre": "Bar Rubio",
+            "direccion": "C/ Mesones"
+          }
+        ]
+      },
+      {
+        "grupo": "Dónde dormir",
+        "nota": "Los apartamentos municipales están en Teléfonos y servicios.",
+        "items": [
+          {
+            "nombre": "Casa Rural Huerta del Moreno",
+            "nota": "De 4 a 7 personas, en una huerta junto a la rivera, a 10 minutos del pueblo"
+          },
+          {
+            "nombre": "Hotel-Balneario El Raposo",
+            "direccion": "El Raposo",
+            "telefono": "924 570 410"
+          }
+        ]
+      }
+    ],
+    "establecimientos_fuente": "Datos de la web de turismo del Ayuntamiento, de 2022 (el balneario, de su web de 2018).",
+    "rutas": [
+      {
+        "nombre": "Ruta de los Molinos",
+        "resumen": "Circular desde la Plaza del Puente, a lo largo de la rivera: Molino El Pintado (km 4,6), Moralejo (km 5,2) y Portales (km 5,5)."
+      },
+      {
+        "nombre": "Ruta de los Hortelanos",
+        "resumen": "Circular desde la Plaza de España, de 14 o de 22 km, por huertos y norias de la rivera; baja de 550 a 447 m. Se organiza entre marzo y abril."
+      },
+      {
+        "nombre": "Camino de Santiago de la Frontera",
+        "resumen": "Atraviesa el pueblo de sur a norte, señalizado por la Diputación, con paneles en lectura fácil."
+      }
+    ]
+  },
+  "fotos": {
+    "hero": {
+      "archivo": "puente-portada",
+      "alt": "El puente romano de dos arcos sobre la rivera, con las casas encaladas detrás",
+      "posicion": "55% 60%"
+    }
+  }
+}

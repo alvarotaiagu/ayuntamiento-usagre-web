@@ -1,0 +1,64 @@
+{
+  "_leeme": "Agenda. Campos: id, fecha (AAAA-MM-DD), hora (opcional), titulo, lugar, nota, ejemplo. Las fiestas de fecha fija de municipio.json (pueblo.fiestas[].fecha_fija) se añaden solas: no hace falta repetirlas aquí. Fuentes: Facebook del Ayuntamiento (Agenda de Otoño 2026 y publicaciones del 28/09 al 02/10/2026).",
+  "eventos": [
+    {
+      "id": "trofeo-cristo-2026",
+      "fecha": "2026-09-12",
+      "hora": "20:00",
+      "titulo": "Trofeo del Cristo",
+      "lugar": "Estadio Cerro de la Pina"
+    },
+    {
+      "id": "festejo-escuela-taurina-2026",
+      "fecha": "2026-09-16",
+      "hora": "19:00",
+      "titulo": "Clase práctica de la Escuela Taurina de la Diputación",
+      "lugar": "Plaza de toros",
+      "nota": "Entrada gratuita hasta completar el aforo."
+    },
+    {
+      "id": "la-copla-2026",
+      "fecha": "2026-10-10",
+      "titulo": "Actuación de La Copla",
+      "nota": "Agenda de Otoño 2026."
+    },
+    {
+      "id": "escuelas-deportivas-infantiles-2026",
+      "fecha": "2026-10-13",
+      "hora": "17:00",
+      "titulo": "Empiezan las escuelas deportivas infantiles",
+      "nota": "Psicomotricidad (3 a 5 años) a las 17:00 y multideporte (6 a 8 años) a las 18:00. Inscripciones: 665 32 85 73."
+    },
+    {
+      "id": "powerkids-2026",
+      "fecha": "2026-10-14",
+      "hora": "17:00",
+      "titulo": "Empieza PowerKids, de 9 a 12 años",
+      "nota": "Inscripciones: 665 32 85 73."
+    },
+    {
+      "id": "fiesta-del-mayor-2026",
+      "fecha": "2026-10-16",
+      "hora": "14:45",
+      "titulo": "VI Fiesta del Mayor",
+      "lugar": "Salón de la Piscina Municipal",
+      "nota": "Inscripción en el Ayuntamiento hasta el 8 de octubre a las 14:00."
+    },
+    {
+      "id": "festival-folklorico-san-lucas-2026",
+      "fecha": "2026-10-17",
+      "titulo": "II Festival Folklórico Infantil y Juvenil «San Lucas»"
+    },
+    {
+      "id": "autobus-desarrollo-sostenible-2026",
+      "fecha": "2026-10-28",
+      "titulo": "Autobús itinerante de la II Estrategia de Desarrollo Sostenible"
+    },
+    {
+      "id": "chaqueta-2026",
+      "fecha": "2026-10-30",
+      "titulo": "Chaquetía",
+      "nota": "También el 1 de noviembre."
+    }
+  ]
+}
