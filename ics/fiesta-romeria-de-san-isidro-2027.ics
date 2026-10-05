@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Usagre//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiesta-romeria-de-san-isidro-2027@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Romería de San Isidro
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-romeria-de-san-isidro-2027
+END:VEVENT
+END:VCALENDAR

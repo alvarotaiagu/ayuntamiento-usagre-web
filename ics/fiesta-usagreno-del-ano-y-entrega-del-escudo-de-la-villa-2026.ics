@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Usagre//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2026@usagre.ag
+ enda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Usagreño del año y entrega del Escudo de la Villa
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2026
+END:VEVENT
+END:VCALENDAR

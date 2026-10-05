@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<!-- GENERADO por scripts/aplicar.mjs desde fuente/ y los datos. No editar a mano. -->
+<html lang="en" class="sin-js densidad-puerta">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The town · Usagre</title>
+<meta name="description" content="History, heritage, festivals and food of Usagre (Badajoz, Spain).">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_GB">
+<link rel="alternate" hreflang="es" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/pueblo.html">
+<link rel="alternate" hreflang="en" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/pueblo-en.html">
+<link rel="alternate" hreflang="pt" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/pueblo-pt.html">
+<link rel="alternate" hreflang="x-default" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/pueblo.html">
+
+<meta property="og:title" content="Propuesta de web · Usagre">
+<meta property="og:description" content="Propuesta de diseño para la web del Ayuntamiento de Usagre. No es la web oficial.">
+<meta property="og:image" content="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/assets/og.jpg">
+<meta name="theme-color" content="#FAF9F5">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png" sizes="64x64">
+<link rel="manifest" href="manifest.json">
+<link rel="preload" href="fonts/besley-700-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/libre-franklin-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fuentes.css?v=03f84dac">
+<link rel="stylesheet" href="css/marca.css?v=5abdee72">
+<link rel="stylesheet" href="css/base.css?v=9bcd9cef">
+<link rel="stylesheet" href="css/movimiento.css?v=f4ef5a0d">
+<link rel="stylesheet" href="css/imprimir.css?v=ebacf0af" media="print">
+<link rel="alternate" type="application/atom+xml" title="Avisos y noticias · Ayuntamiento de Usagre" href="feed.xml">
+<link rel="alternate" type="text/calendar" title="Agenda de Usagre" href="agenda.ics">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://alvarotaiagu.github.io/ayuntamiento-usagre-web/index.html"},{"@type":"ListItem","position":2,"name":"The town","item":"https://alvarotaiagu.github.io/ayuntamiento-usagre-web/pueblo-en.html"}]}]}</script>
+<script>/* el listín sin cobertura (sw.js, v3b): se registra al terminar de cargar; si no hay service worker o falla, todo sigue igual */
+if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });</script>
+<script>
+/* Bloqueante a propósito: lo que cambia el aspecto se decide antes del primer
+   pintado, o la página arranca de una forma y salta a otra. */
+(function () {
+  var h = document.documentElement;
+  h.className = h.className.replace('sin-js', 'con-js');
+
+
+  /* [MANDO DE MAQUETA] inicio */
+  /* Solo con ?revision: lo guardado no cuenta fuera de la reunión, o un móvil
+     donde se probó la versión sobria la seguiría viendo sin mando para volver. */
+  if (!/[?&]revision\b/.test(location.search)) return;
+  h.classList.add('en-revision');
+  try {
+    var d = localStorage.getItem('usagre-densidad');
+    if (d === 'sobria' || d === 'puerta') { h.classList.remove('densidad-puerta', 'densidad-sobria'); h.classList.add('densidad-' + d); }
+    var p = localStorage.getItem('usagre-paleta');
+    if (p === 'a' || p === 'b' || p === 'c') h.setAttribute('data-paleta', p);
+  } catch (e) {}
+  /* [MANDO DE MAQUETA] fin */
+})();
+</script>
+
+</head>
+<body class="pagina-pueblo">
+<svg class="sprite" aria-hidden="true" focusable="false" width="0" height="0">
+  <symbol id="i-reloj" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  <symbol id="i-calendario" viewBox="0 0 24 24"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></symbol>
+  <symbol id="i-aviso" viewBox="0 0 24 24"><path d="M12 3.5 2.8 19.5h18.4L12 3.5Z"/><path d="M12 10v4.5M12 17.2v.1"/></symbol>
+  <symbol id="i-sede" viewBox="0 0 24 24"><path d="M3 9.5 12 4l9 5.5M5 10v8M9.5 10v8M14.5 10v8M19 10v8M3 20.5h18"/></symbol>
+  <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h13M13 6.5l5.5 5.5-5.5 5.5"/></symbol>
+  <symbol id="i-salida" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+  <symbol id="i-lupa" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-cerrar" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></symbol>
+  <symbol id="i-telefono" viewBox="0 0 24 24"><path d="M6.5 3.5h3l1.5 4-2 1.5a11 11 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2A16 16 0 0 1 4.5 5.5a2 2 0 0 1 2-2Z"/></symbol>
+  <symbol id="i-casa" viewBox="0 0 24 24"><path d="M3.5 11 12 4l8.5 7M6 9.5V20h12V9.5M10 20v-5.5h4V20"/></symbol>
+  <symbol id="i-obra" viewBox="0 0 24 24"><path d="M3 20h18M5 20V10l4-3 4 3v10M13 13h6v7M8 13h2"/><path d="M15 4h5v4"/></symbol>
+  <symbol id="i-recibo" viewBox="0 0 24 24"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2V3Z"/><path d="M9 8h6M9 12h6M9 16h3"/></symbol>
+  <symbol id="i-familia" viewBox="0 0 24 24"><circle cx="8" cy="7" r="2.5"/><circle cx="16.5" cy="8.5" r="2"/><path d="M3.5 20v-3.5a4.5 4.5 0 0 1 9 0V20M13 20v-2.5a3.5 3.5 0 0 1 7 0V20"/></symbol>
+  <symbol id="i-mensaje" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 9.5h8M8 12.5h5"/></symbol>
+  <symbol id="i-tablon" viewBox="0 0 24 24"><rect x="3.5" y="4" width="17" height="13" rx="1.5"/><path d="M7 21l2-4M17 21l-2-4M7.5 8h9M7.5 11.5h6"/></symbol>
+  <symbol id="i-ojo" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="3"/></symbol>
+  <symbol id="i-contrato" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4M9 12h6M9 15.5h6M9 19h3"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11Z"/><circle cx="12" cy="10" r="2.3"/></symbol>
+  <symbol id="i-correo" viewBox="0 0 24 24"><rect x="3" y="5.5" width="18" height="13" rx="1.5"/><path d="m3.5 6.5 8.5 7 8.5-7"/></symbol>
+  <symbol id="i-documento" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4"/></symbol>
+  <symbol id="i-abajo" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-farmacia" viewBox="0 0 24 24"><path d="M9 3.5h6v5.5h5.5v6H15v5.5H9V15H3.5V9H9V3.5Z"/></symbol>
+  <symbol id="i-mas" viewBox="0 0 24 24"><path d="M4 6.5h16M4 12h16M4 17.5h10"/><path d="M18 15v5M15.5 17.5h5"/></symbol>
+  <symbol id="i-movil" viewBox="0 0 24 24"><rect x="6.5" y="2.5" width="11" height="19" rx="2"/><path d="M10.5 18.5h3"/><path d="M12 7v3.5M12 12.8v.1"/></symbol>
+  <symbol id="i-padron" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="1.5"/><circle cx="8.5" cy="11" r="2"/><path d="M5.5 16.5a3 3 0 0 1 6 0M14 10h4M14 13.5h4"/></symbol>
+  <symbol id="i-carrito" viewBox="0 0 24 24"><path d="M3 5h2.5l1.2 3M11 4v6H6.7M6.7 8h11.8a3.5 3.5 0 0 1-3.5 4.5H9a2.5 2.5 0 0 1-2.3-1.6"/><circle cx="8" cy="18" r="2"/><circle cx="16" cy="18" r="2"/><path d="M9.5 12.5 8.3 16M14.5 12.5l1 3.5"/></symbol>
+  <symbol id="i-volante" viewBox="0 0 24 24"><path d="M6 3h8l4 4v14H6V3Z"/><path d="M14 3v4h4"/><circle cx="12" cy="13.5" r="2.5"/><path d="m10.6 15.6-1 3.4 2.4-1.2 2.4 1.2-1-3.4"/></symbol>
+  <symbol id="i-incidencia" viewBox="0 0 24 24"><path d="M5 21h6M8 21V7.5A4.5 4.5 0 0 1 12.5 3H15"/><path d="M13 7.5h6L17.5 4h-3L13 7.5Z"/><path d="M16 10.5v1.5M19.5 9.5l1 1M12.5 9.5l-1 1"/></symbol>
+  <!-- v3c · transparencia: el maletín del empleo (chip y ficha de «Hoy») -->
+  <symbol id="i-empleo" viewBox="0 0 24 24"><rect x="3" y="7.5" width="18" height="12" rx="1.5"/><path d="M9 7.5V5.5a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v2M3 12.5h18M10.5 12.5v1.5h3v-1.5"/></symbol>
+</svg>
+
+<a class="saltar" lang="es" href="#contenido">Saltar al contenido</a>
+<header class="cabecera" lang="es">
+  <!-- arriba, un solo bloque: la banda de propuesta (en todas las páginas) y la franja del aviso
+       destacado, que en escritorio comparten fila y en móvil se apilan sin recortar el texto -->
+  <div class="bandas con-propuesta">
+    <div class="propuesta" data-propuesta>
+      <p class="propuesta__texto"><b>Propuesta de diseño</b><span class="propuesta__largo"> para el Ayuntamiento de Usagre</span> · no es la web oficial</p>
+    </div>
+    <div class="franja-urgente" data-vivo="franja"><div class="franja-urgente__fondo es-urgente"><a class="franja-urgente__enlace" href="avisos.html#aviso-corte-agua-ejemplo" data-dato-ejemplo="aviso:corte-agua-ejemplo"><span class="contenedor franja-urgente__dentro"><svg class="icono" aria-hidden="true"><use href="#i-aviso"/></svg><span class="franja-urgente__texto"><b>Urgente:</b> Corte de agua programado en varias calles, de 9:00 a 13:00 <span class="ejemplo">Ejemplo</span></span> <span class="franja-urgente__ver"><span class="franja-urgente__ver-texto">Ver aviso</span><svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></span></span></a></div></div>
+  </div>
+  <div class="cabecera__barra">
+    <div class="contenedor cabecera__dentro">
+      <a class="cabecera__marca" href="index.html">
+        <img class="cabecera__escudo" src="marca/escudo-160.png" width="92" height="160" alt="">
+        <span class="cabecera__nombre"><span class="cabecera__ante">Ayuntamiento de</span> Usagre</span>
+      </a>
+      <nav class="menu" id="menu" aria-label="Principal">
+        <div class="menu__cabeza">
+          <p class="menu__titulo">Menú</p>
+          <button class="boton-icono menu__cerrar" type="button" data-cerrar-menu><svg class="icono" aria-hidden="true"><use href="#i-cerrar"/></svg><span class="sr">Cerrar el menú</span></button>
+        </div>
+        <ul class="menu__lista">
+          <li><a class="menu__enlace" href="ayuntamiento.html">El Ayuntamiento</a></li>
+          <li><a class="menu__enlace" href="tramites.html">Trámites</a></li>
+          <li><a class="menu__enlace" href="avisos.html">Avisos</a></li>
+          <li><a class="menu__enlace" href="noticias.html">Noticias</a></li>
+          <li><a class="menu__enlace" href="agenda.html">Agenda</a></li>
+          <li><a class="menu__enlace" href="pueblo.html" aria-current="page">El pueblo</a></li>
+          <li><a class="menu__enlace" href="telefonos.html">Teléfonos</a></li>
+          <li><a class="menu__enlace" href="contacto.html">Contacto</a></li>
+          
+        </ul>
+        <a class="boton boton--marca menu__sede" href="https://usagre.sedelectronica.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg>Sede electrónica</a>
+      </nav>
+      <div class="cabecera__acciones">
+        <a class="boton boton--marca cabecera__sede" href="https://usagre.sedelectronica.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg>Sede electrónica</a>
+        <a class="boton-icono" href="tramites.html#buscar" data-abrir-buscador><svg class="icono" aria-hidden="true"><use href="#i-lupa"/></svg><span class="sr">Buscar un trámite</span></a>
+        <button class="boton-menu" type="button" aria-expanded="false" aria-controls="menu" data-boton-menu hidden><svg class="icono" aria-hidden="true"><use href="#i-menu"/></svg>Menú</button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<dialog class="buscador" lang="es" id="buscador" aria-labelledby="buscador-titulo">
+  <div class="buscador__cabeza">
+    <h2 class="buscador__titulo" id="buscador-titulo">Buscar en la web</h2>
+    <form method="dialog"><button class="boton-icono" type="submit"><svg class="icono" aria-hidden="true"><use href="#i-cerrar"/></svg><span class="sr">Cerrar el buscador</span></button></form>
+  </div>
+  <div class="campo" role="search">
+    <label class="campo__etiqueta" for="buscador-campo">¿Qué necesita hacer?</label>
+    <input class="campo__entrada" id="buscador-campo" type="search" autocomplete="off" spellcheck="false" placeholder="Padrón, recibos, obras…" aria-describedby="buscador-ayuda" data-buscador-campo>
+  </div>
+  <p class="campo__ayuda" id="buscador-ayuda">Escríbalo con sus palabras: trámites (en la sede electrónica), avisos, noticias, teléfonos y lugares del pueblo.</p>
+  <p class="buscador__cuenta" role="status" data-buscador-cuenta></p>
+  <div class="resultados" data-buscador-resultados data-buscador-nivel="3"></div>
+  <p class="buscador__pie"><a href="tramites.html#todos">Ver la lista de todos los trámites</a></p>
+</dialog>
+
+<main id="contenido" tabindex="-1">
+<div class="cabeza-pagina cabeza-pagina--foto cabeza-pagina--grande">
+  <div class="contenedor cabeza-pagina__rejilla">
+    <nav class="migas" aria-label="You are here">
+      <ol>
+        <li><a href="index.html" hreflang="es">Home (in Spanish)</a></li>
+        
+        <li><span aria-current="page">The town</span></li>
+      </ol>
+    </nav>
+    <h1 class="cabeza-pagina__titulo" id="titulo-pagina">The town</h1>
+    <p class="entradilla">A town in the Campiña Sur, between Zafra and Llerena, split by its rivera (seasonal stream) and joined by a bridge of two arches. It was a commandery of the Order of Santiago and has had its own charter (fuero) since the 13th century.</p>
+    <figure class="cabeza-pagina__puerta">
+      <div class="cabeza-pagina__arco arco-opcional"><img src="media/puente.jpg" srcset="media/puente-800.jpg 800w, media/puente.jpg 1600w" sizes="(min-width: 64em) 34rem, (min-width: 48em) 16rem, 92vw" width="1600" height="1200" alt="The bridge of two arches over the bed of the rivera, with whitewashed houses behind" style="object-position: 60% 55%" fetchpriority="high" decoding="async"></div>
+      <span class="cabeza-pagina__umbral" aria-hidden="true"></span>
+      <figcaption class="credito">Photo: Gonzalo 11789 · CC BY 4.0</figcaption>
+    </figure>
+    
+  </div>
+</div>
+<div class="contenedor con-indice">
+  <nav class="indice indice--movil" aria-label="On this page">
+    <details class="indice__plegable" open><summary class="indice__resumen">On this page</summary>
+      <ol class="indice__lista"><li><a href="#t-lugares">What to see</a></li><li><a href="#t-termino">The municipality on a map</a></li><li><a href="#t-placa">Urbs Sacra</a></li><li><a href="#t-historia">History</a></li><li><a href="#t-patrimonio">Heritage</a></li><li><a href="#t-anio">Festivals</a></li><li><a href="#t-gastronomia">Food and drink</a></li><li><a href="#t-personajes">Notable people</a></li><li><a href="#t-rutas">Walking routes</a></li><li><a href="#t-creditos">Photo credits</a></li></ol>
+    </details>
+    <script>/* plegado en el móvil antes de pintarse (sin JavaScript, abierto: se ve la lista) */ (function (d) { if (window.matchMedia && matchMedia('(max-width: 63.99em)').matches) d.open = false; })(document.currentScript.previousElementSibling);</script>
+  </nav>
+  <nav class="indice indice--lateral" aria-labelledby="indice-titulo">
+    <p class="indice__titulo" id="indice-titulo">On this page</p>
+    <ol class="indice__lista"><li><a href="#t-lugares">What to see</a></li><li><a href="#t-termino">The municipality on a map</a></li><li><a href="#t-placa">Urbs Sacra</a></li><li><a href="#t-historia">History</a></li><li><a href="#t-patrimonio">Heritage</a></li><li><a href="#t-anio">Festivals</a></li><li><a href="#t-gastronomia">Food and drink</a></li><li><a href="#t-personajes">Notable people</a></li><li><a href="#t-rutas">Walking routes</a></li><li><a href="#t-creditos">Photo credits</a></li></ol>
+  </nav>
+  <div class="con-indice__cuerpo">
+
+
+
+<nav class="contenedor idiomas" aria-label="Languages of this page">
+  <ul class="idiomas__lista">
+    <li><a class="idiomas__enlace" href="pueblo.html" hreflang="es" lang="es">Español</a></li><li><a class="idiomas__enlace" href="pueblo-en.html" hreflang="en" lang="en" aria-current="page">English</a></li><li><a class="idiomas__enlace" href="pueblo-pt.html" hreflang="pt" lang="pt">Português</a></li>
+  </ul>
+  <p class="idiomas__aviso">The rest of the site is in Spanish.</p>
+</nav>
+<section class="seccion seccion--primera con-paralaje" aria-labelledby="t-lugares">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-lugares">What to see</h2>
+    <div class="carril" data-desborda role="group" aria-labelledby="t-lugares">
+      <ul class="carril__lista">
+        <li class="lugar" id="lugar-el-pilar-del-carmen">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/pilar-800.jpg" width="1600" height="1071" alt="A long stone trough with water, a bench and white houses" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">The Pilar del Carmen (drinking trough)</h3>
+          <p class="lugar__texto">Next to the bridge, from 1823. Clothes were washed here in the batijeros (washing places) and donkeys drank.</p>
+          <p class="credito">Photo: Town Council tourism website (2025)</p>
+        </li>
+        <li class="lugar" id="lugar-la-fuente-de-la-plaza">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/fuente-plaza-800.jpg" width="1600" height="1071" alt="A circular stone basin with the central pillar and the iron railing" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">The fountain in the square</h3>
+          <p class="lugar__texto">From 1575, rebuilt in 1798: a circular basin sunk below ground level, with its bulb-shaped pillar and its iron railing.</p>
+          <p class="credito">Photo: Town Council tourism website (2025)</p>
+        </li>
+        <li class="lugar" id="lugar-nuestra-senora-de-gracia">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/iglesia-800.jpg" width="1600" height="1071" alt="The Mudéjar brick doorway of the church among trees, in a cobbled square" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Our Lady of Grace (Nuestra Señora de Gracia)</h3>
+          <p class="lugar__texto">A Gothic-Mudéjar church of the 15th century, rebuilt in 1819, with a Mudéjar brick doorway on the Gospel side.</p>
+          <p class="credito">Photo: Town Council tourism website (2025)</p>
+        </li>
+        <li class="lugar" id="lugar-ermita-del-cristo-de-la-piedad">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/ermita-cristo-800.jpg" width="1600" height="1071" alt="The whitewashed façade of the chapel with its bell gable and pointed arches, at dusk" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Chapel of the Cristo de la Piedad</h3>
+          <p class="lugar__texto">In the former Conceptionist convent. Its chancel, with a star-shaped rib vault, is the oldest part. The procession of 14 September starts from here.</p>
+          <p class="credito">Photo: Town Council tourism website (2025)</p>
+        </li>
+        <li class="lugar" id="lugar-presa-honda">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/presa-honda-800.jpg" width="1600" height="1071" alt="A sheet of water among poplars and grass, with a picnic table in the foreground" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">Presa Honda</h3>
+          <p class="lugar__texto">The natural swimming pool of the rivera, with a picnic area, a tree-lined walk and a bathing area authorised by the Servicio Extremeño de Salud (Extremadura Health Service).</p>
+          <p class="credito">Photo: Town Council tourism website (2025)</p>
+        </li>
+        <li class="lugar" id="lugar-la-luna">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/la-luna-800.jpg" width="1600" height="1071" alt="A stream among rocks and a small bridge, with green fields and yellow flowers" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">La Luná</h3>
+          <p class="lugar__texto">The spot that supplied the town with water, next to the rivera. The legend of the Cantamora, the siren of the stone, lives here.</p>
+          <p class="credito">Photo: Town Council tourism website (2025)</p>
+        </li>
+        <li class="lugar" id="lugar-el-puente-romano">
+          <figure class="lugar__foto arco-opcional paralaje"><img src="media/puente-800.jpg" width="1600" height="1200" alt="The bridge of two arches over the bed of the rivera, with whitewashed houses behind" loading="lazy" decoding="async"></figure>
+          
+          <h3 class="lugar__nombre">The Roman bridge</h3>
+          <p class="lugar__texto">Two semicircular arches of granite ashlar, with a central cutwater, rebuilt in the Middle Ages. «Whoever has not seen the bridge has not visited Usagre».</p>
+          <p class="credito">Photo: Gonzalo 11789 · CC BY 4.0</p>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-termino">
+  <div class="contenedor termino">
+    <h2 class="seccion__titulo" id="t-termino">The municipality on a map</h2>
+    <figure class="termino__figura">
+      <svg class="termino__mapa" viewBox="0 0 600 494" aria-hidden="true" focusable="false"><rect class="termino-fondo" width="600" height="494"/><path class="termino-area" d="M376.9 34.7L382.6 34.6L397.9 44.1L402 43.1L408.5 43.8L416.7 42.5L417.9 39.7L420.7 38.8L423.7 36.5L434.3 35.4L437.1 33.7L441 29.8L441.5 25.7L443.2 24.5L441.3 21.1L441.3 18.7L445.4 19L447.8 18L451.9 19.7L456.2 20.1L463.3 18.7L466.7 18.8L472.2 20L476.3 23.4L479.6 23.4L481.6 25.4L480.9 33.9L481.3 36.3L483.4 40.4L483 45.5L485.8 49L489.6 50.8L490.2 55.1L489.6 57.3L485.7 61.5L482.8 72.7L483.2 80L484.2 82.7L481.8 84.6L472.9 85.4L469.8 89.7L469.2 92L472.9 94.1L477.6 94.5L480.8 96.3L482 100L479.9 104.9L480.4 109.2L484.7 115.5L486.9 117.2L497.9 121.9L504.7 126.3L508.6 125.7L509.7 126.2L510.9 127.8L512.8 133.9L518.1 131.6L520.7 133L521.8 138.7L523.4 140.7L525.9 149.9L530.6 150.9L537.1 148.7L540.5 150.4L541.9 151.8L542.4 153.8L542.2 160.6L543 161.9L544.6 161.3L548.7 156.7L556.8 153.3L570.9 151L573.2 151.6L575.5 153.7L571.2 154.8L568.5 156.7L573.3 160.6L571.6 162.1L568.6 163L567.5 165L567.6 167.1L570 172L567.2 173.1L567.4 175.7L571 176.5L571.6 177.7L568.2 180.8L564.9 180.7L565.1 185.1L566.5 186.1L566.1 188.1L564.9 188.8L559.9 188.2L553.5 185.3L551.1 186.8L552 188.7L553.6 189.1L555.8 193.8L557.7 194.6L559.6 194.1L560 194.8L559.8 199L561.8 204.5L560.5 206.9L556.9 209.7L557.4 211.8L560.3 215.6L565.5 216.2L566.5 219.5L565 223.7L561.5 226L560.9 228.6L561.6 229.8L557.8 235.3L558.5 238.6L565.2 246.4L570.7 250.9L570.3 255.8L573.6 262.2L580.8 281.1L582 303.4L567.3 330.7L562.9 349.4L534.4 366.1L488.6 401L446.9 440.6L443.7 450.2L407.5 428.3L381.1 424L357.4 410.3L356.1 410.5L355.5 414.9L354.1 416.8L315.6 390.2L301 381.4L293.1 377.9L261.3 360.1L216.3 333L145.9 278.2L143.1 280.2L141.8 283.8L137.9 289.4L137.8 293.4L132.3 299.5L125.8 308.9L115 296.4L106.3 294.8L107.7 289.2L104.4 285L94.2 288.6L90.7 296.6L90.9 299.3L78.3 321.1L57.5 338.2L50.4 327.5L36.4 311.1L30.3 265.8L27.9 254.8L23.1 247L23.9 245.6L23.8 241.5L21.3 231.8L21.7 226.1L20.4 197.2L18.9 190.8L18.1 176.7L19 156.3L23 153.8L39.5 131.2L53.2 118.3L66.8 110.2L94.7 81.6L104 81L127.1 73.3L148.4 68L186.8 49.6L200 55L205.4 56.4L208.1 54.3L209.7 54.1L215.7 53.4L220.9 53.9L224 49.3L225.8 49.3L224.2 53.1L224.2 56.6L225.6 59L231.2 64.5L231 71.7L231.3 73.7L233.2 76.7L233.1 82.4L241.9 91.4L246.6 100.3L255.8 112.4L295.6 103.2L303.3 102.7L314 98.2L317 93.6L319.6 85.8L327.9 82.7L336.8 75.9L349.8 38L358.5 31.7L376.9 34.7Z"/><path class="termino-casco" d="M346.7 329.7L347.4 329.8L346.7 331.3L347.2 335.6L346.6 337.8L349.3 339.2L349.8 337.9L348.7 337.3L349.1 336.1L351.2 335.9L351.6 337.6L353.9 338.6L353.7 340.6L357.3 340.8L357.4 339.7L361.8 339.5L361.6 341.6L363.1 341.7L363.2 340.5L365.8 341L365.9 339.4L366.8 338.9L368.8 338.3L371.2 338.9L372.6 338.6L379.8 335L374.1 330.1L373 331.3L370.6 327.1L367.5 325.6L366.6 324.1L370.3 325.8L372.9 321.1L372 320.6L372.9 318.5L372.1 318L363.2 318.1L363.3 314.5L362.5 313.2L361.6 313.1L359.4 315.3L358.3 313.8L355.6 315.8L355.5 316.8L357.6 317.3L358.5 319.2L356 322.7L354 324.2L351.5 323.8L350.7 324.4L348.8 327.5L349.3 328.4L345.3 328.7L345.9 329.9L346.7 329.7Z"/><path class="termino-ruta" d="M8.6 124.7L5.8 123.1L0 116.9M8.6 124.7L13.9 130.1L21.1 135.2L27.4 141.2L31.2 142.4L40.4 141.6L44.3 142.8L48.9 147.5L54.8 150.7L67.9 153.2L70.8 154.9L83.4 156.9L91.1 156.7L103.9 157.9L110.7 156.1L118.9 160L125.4 160.5L130.3 159.9L130.8 163.7L130.4 172.5L128.2 175.8L127.6 182.9L136.1 187.8L143 193L151.5 192.6L172.4 197.1L187.3 201.1L211.4 200L216.5 201.4L218.5 207.9L222.4 214.8L222.5 221.7L229.9 232.8L232.2 239.3L232.5 248.9L237.3 262.6L255.9 277.2L269.9 283.5L285.9 298L293 301.2L298.4 305.6L305 307.6L311.4 313.3L321.3 316.1L326.9 316.7L329.6 317.9L333.5 323.8L338.2 327.1M339.1 328.6L338.2 327.1M339.4 328.9L339.1 328.6M345.1 329.9L343.3 330.7L339.4 328.9M349.6 329.1L345.1 329.9M349.6 329.1L352.4 328.3M352.7 328.2L352.4 328.3M360.2 322.7L352.7 328.2M360.2 322.7L360.5 323.4M360.5 323.4L363.8 325M363.9 325.4L363.8 325M366.2 325.7L363.9 325.4M369.7 327.9L366.2 325.7M372.4 331.5L369.7 327.9M372.6 331.8L372.4 331.5M372.6 331.8L378.5 335.1M522.8 465.2L519.9 459.6L504 440.2L495 432.6L491.3 427.9L484.1 421.6L475.9 405.2L470.1 398.9L465.1 390.6L455.3 380.1L446.5 369L441.2 368.2L431.9 361.4L428.2 360.3L424.6 357.2L421 352.3L398.2 338L393.1 337.3L390.1 337.7L378.5 335.1M523 465.6L522.8 465.2M528 473.3L523 465.6M528.2 473.5L528 473.3M537.4 485.5L528.2 473.5M547.1 494L537.4 485.5"/><path class="termino-carretera" d="M0 219.5L73.4 237.8L296.6 339.4L323.3 357.7L326.2 358.3L334.1 357.9M422.1 286.4L428.7 259L455.5 192.1L477.1 163.7L504 140.9L519.5 132.6M422 287L423.1 287.5M345.3 357.7L345.8 357.8M345.8 357.8L346.9 358.1M345.9 358.6L346.1 359.7M345.8 357.3L342.8 357.2M346.2 356.5L346.1 357.1M346.9 358.1L347.5 358.2M346.7 357.1L346.2 356.5M347.2 357.5L346.1 357.1L345.6 358.3L346.9 358.6L347.2 357.5M347.5 358.2L353.3 360.6M346.9 358.6L354.4 361.3M346.1 359.7L346.6 358.8M338.7 357.5L345.8 358.5M354.4 361.3L347 357.3M349.6 329.1L345.1 329.9M519.5 132.6L520 132.1M490.3 56.6L488.8 57M488.8 57L486.3 57.5L472.3 51.9L464 47L458.1 40.6L448.4 32.9L442 25.7M442 25.7L441.5 25.2M334.3 357.9L335.1 357.8M341.1 357.4L345.3 357.7M340.7 365.6L341.1 365.3M341.1 365.3L346.1 359.7M339.4 328.9L339.1 328.6M338.2 327.1L339.8 325L344.9 322.3L348.4 319.2L353.7 316.1L355.4 316.2M276.9 484L321.5 399L322.4 394.5M354.9 361.6L447 441.5L470.6 466.5L509 490.7M410.5 302.7L410.2 303.1M410.2 303.1L404.8 310.5L397.6 315.8L393.5 320M560.3 232L559.7 231.6M497 227.3L488.3 228.6L470 240.2L462.2 242.4L451.2 250.3L423.4 287.1M322.4 394.5L322.3 393.6M322.3 393.6L320.9 388.6M340 357.5L341.1 357.4M338.7 357.5L340 357.5M335.1 357.8L337.1 357.7M337.1 357.7L338.7 357.5M354.4 361.3L354.9 361.6M353.3 360.6L354.4 361.3M342.8 357.2L341.1 357.4M422 287L422.1 286.4M420.9 290.2L421.2 289.6M421.2 289.6L422 287M423.4 287.1L423.1 287.5M423.1 287.5L422.4 288.4M420.9 290.2L420.2 290.7M422.4 288.4L420.9 290.2M420.2 290.7L417.1 293.2L410.5 302.7M307.9 0L307.9 2.3L310.9 11.1L307.9 20.1L307.9 22.4L309.7 25.9L310.9 33.9L309 38.4L313 46.2L314.2 53.4L316.2 55.7L315 60.3L318.2 71.6L323.3 83L326.3 85.9L327.3 89.6L336.8 103.3L341.1 106.4L342.2 110.4L342 115.8L341.2 118.3L339 121.1L338.4 125.7L339 134.5L341 144.7L340.6 152.2L341.7 159.4L339.8 166.6L338.7 175.8L344.9 189.6L343.9 196.7L346.5 215.7L353.5 224.2L360.5 269.8L365.3 283.3L364.9 288L365.7 293.3L362 312.5M345.1 329.9L343.3 330.7L339.4 328.9M380 334.4L371.5 338.3L357.2 334.6L348.9 335.5M348.9 335.5L347.7 338.4M355.4 316.2L360.8 318.4M361.5 315.2L360.8 318.4M362 312.5L361.5 315.2M347.7 338.4L347.5 344.9L345.7 353.5L346.2 356.5M320.5 387.6L320.4 385.6M320.7 384L323 381L340.7 365.6M320.4 385.6L320.7 384M320.9 388.6L320.5 387.6M393.5 320L392.4 321.2M392.4 321.2L387.2 330.5L380 334.4M334.1 357.9L334.3 357.9M559.7 231.6L511.5 228.4L506 226.5L497 227.3M339.1 328.6L338.2 327.1"/><path class="termino-limite" d="M376.9 34.7L382.6 34.6L397.9 44.1L402 43.1L408.5 43.8L416.7 42.5L417.9 39.7L420.7 38.8L423.7 36.5L434.3 35.4L437.1 33.7L441 29.8L441.5 25.7L443.2 24.5L441.3 21.1L441.3 18.7L445.4 19L447.8 18L451.9 19.7L456.2 20.1L463.3 18.7L466.7 18.8L472.2 20L476.3 23.4L479.6 23.4L481.6 25.4L480.9 33.9L481.3 36.3L483.4 40.4L483 45.5L485.8 49L489.6 50.8L490.2 55.1L489.6 57.3L485.7 61.5L482.8 72.7L483.2 80L484.2 82.7L481.8 84.6L472.9 85.4L469.8 89.7L469.2 92L472.9 94.1L477.6 94.5L480.8 96.3L482 100L479.9 104.9L480.4 109.2L484.7 115.5L486.9 117.2L497.9 121.9L504.7 126.3L508.6 125.7L509.7 126.2L510.9 127.8L512.8 133.9L518.1 131.6L520.7 133L521.8 138.7L523.4 140.7L525.9 149.9L530.6 150.9L537.1 148.7L540.5 150.4L541.9 151.8L542.4 153.8L542.2 160.6L543 161.9L544.6 161.3L548.7 156.7L556.8 153.3L570.9 151L573.2 151.6L575.5 153.7L571.2 154.8L568.5 156.7L573.3 160.6L571.6 162.1L568.6 163L567.5 165L567.6 167.1L570 172L567.2 173.1L567.4 175.7L571 176.5L571.6 177.7L568.2 180.8L564.9 180.7L565.1 185.1L566.5 186.1L566.1 188.1L564.9 188.8L559.9 188.2L553.5 185.3L551.1 186.8L552 188.7L553.6 189.1L555.8 193.8L557.7 194.6L559.6 194.1L560 194.8L559.8 199L561.8 204.5L560.5 206.9L556.9 209.7L557.4 211.8L560.3 215.6L565.5 216.2L566.5 219.5L565 223.7L561.5 226L560.9 228.6L561.6 229.8L557.8 235.3L558.5 238.6L565.2 246.4L570.7 250.9L570.3 255.8L573.6 262.2L580.8 281.1L582 303.4L567.3 330.7L562.9 349.4L534.4 366.1L488.6 401L446.9 440.6L443.7 450.2L407.5 428.3L381.1 424L357.4 410.3L356.1 410.5L355.5 414.9L354.1 416.8L315.6 390.2L301 381.4L293.1 377.9L261.3 360.1L216.3 333L145.9 278.2L143.1 280.2L141.8 283.8L137.9 289.4L137.8 293.4L132.3 299.5L125.8 308.9L115 296.4L106.3 294.8L107.7 289.2L104.4 285L94.2 288.6L90.7 296.6L90.9 299.3L78.3 321.1L57.5 338.2L50.4 327.5L36.4 311.1L30.3 265.8L27.9 254.8L23.1 247L23.9 245.6L23.8 241.5L21.3 231.8L21.7 226.1L20.4 197.2L18.9 190.8L18.1 176.7L19 156.3L23 153.8L39.5 131.2L53.2 118.3L66.8 110.2L94.7 81.6L104 81L127.1 73.3L148.4 68L186.8 49.6L200 55L205.4 56.4L208.1 54.3L209.7 54.1L215.7 53.4L220.9 53.9L224 49.3L225.8 49.3L224.2 53.1L224.2 56.6L225.6 59L231.2 64.5L231 71.7L231.3 73.7L233.2 76.7L233.1 82.4L241.9 91.4L246.6 100.3L255.8 112.4L295.6 103.2L303.3 102.7L314 98.2L317 93.6L319.6 85.8L327.9 82.7L336.8 75.9L349.8 38L358.5 31.7L376.9 34.7Z"/><path class="termino-zona" d="M334.4 305.7H376.9V348.1H334.4Z"/><path class="termino-guia" d="M334.4 348.1L216 246"/><g class="termino-recuadro"><rect class="termino-fondo" x="6" y="246" width="210" height="210"/><path class="termino-area" d="M7 455L7 247L215 247L215 455L7 455Z"/><path class="termino-casco" d="M66.4 364.8L70.1 365.3L66.6 372.9L66.6 382.6L68.9 394.3L66.3 405.1L79.7 411.7L81.8 405.7L76.3 402.5L78.7 396.4L88.9 395.6L90.7 403.8L102.4 408.8L101.4 418.8L119 419.8L119.6 414.4L133 415.2L141.6 413.6L140.6 423.7L147.9 424.6L148.4 418.5L161.2 421.1L161.6 413.1L166 410.7L176.1 407.5L187.9 410.7L194.8 409L215 398.9L215 378.4L204.5 370.7L202.3 367.2L196.9 372.9L184.8 352L174.2 347.4L172.6 344.9L169.4 344.8L165.3 337.1L166.7 336.1L170.3 337.6L183.6 345.5L196.1 322.6L192 319.7L196.4 309.5L192.1 307L185.6 308.7L161.2 307.4L148.1 307.6L147.2 294.6L149 289.7L144.9 283.1L140.5 282.6L138.1 287.3L129.4 293.8L123.9 286.5L110.7 296.2L110.1 301.2L120.5 303.7L124.8 313.2L118.7 318.9L112.9 330.4L110.5 332.7L102.6 337.8L90.4 335.8L86.3 338.5L84.2 345.7L77 353.9L79.6 358.5L78.2 359.1L66.1 357.8L59.6 360.2L62.9 365.9L66.4 364.8Z"/><path class="termino-calle" d="M180.5 356.2L168.5 350.1L162.9 345.3M106.8 389.4L106.8 388.4L105.7 388L96.8 386.1L93.9 384L90.9 380L86.3 378.6L81.6 369.7M79.8 368.9L81.6 369.7L102.3 370.1L109.5 378L113.9 378.8M112.1 388.8L114.6 376.5L119.5 366.5L124.1 352.1M97.8 359.7L114.6 353.3L120.2 351.7M77.5 393.6L74.8 377.9L75.2 374.4L78.2 367.8M203.8 401.5L201.6 396.3L200.3 386.8M203 399.6L196.5 402.7L192.7 403.5L130.4 386.4M135.1 333.8L134.3 343.7L132.8 346.7L131.2 348.9L128.3 348.8L124.1 352.1M194.6 375.2L197.2 375.2L202.2 377.5L215 386.4M102.3 387.4L102 385L98.9 380.5L98.1 375.1L98.5 369.9M92.5 382.3L93 391.3M171.3 355.7L171.3 362.9L169.9 375.6M88.1 390.6L87.3 379M77.7 368.6L79.8 368.9L81.5 367.6L96.8 363.6M117.5 394.4L141.4 400.8M136.6 393.7L133.6 405.2M118.6 389L116.6 397.5L115 399.9M84.5 390.8L112.1 388M164.4 321L165.4 315.9L172.6 314.2M151.1 354.8L152 349.9L150 344.5M103.2 343.2L96.1 346.1L92.4 348.5L94.7 358.2M170.9 403.3L173.7 392M168.4 315L159.3 313.1L156.8 313.4L157.4 319.8M102.3 370.1L105.8 368L106.5 363.1L117.3 361.2M104.5 387.8L107.2 379.1L108.6 376.9M200.3 386.8L203.4 389.3L210.6 398.1M139.2 326.6L147.1 334.7L152.6 336.8L154 336.8M107.9 350.4L109.6 355.2M155.3 336.3L151.9 326.9L148.6 321.3M156.9 335.3L160.8 340.8L162.9 345.3M112.9 347.2L115.6 349.2L123.1 351.5M138.1 311.9L136.7 309.7M137.7 325.4L136.1 319.7M125.8 303L139.6 293M109.7 298.4L111.7 298.2L125.3 293.5M124.1 352.1L131.9 359.9L133.8 361L140.8 364.4L150.7 367.9L162 373.8L169.9 375.6L180.3 379L181.9 378.9L194 374M136.7 309.7L136.4 309.2M135.1 333.8L143.4 336.7L151.3 341.7M130.4 386.4L130.8 383.3L130.2 382.6L123.4 380.4L113.9 378.8M203.7 378.3L202.1 380.9L211.9 392.3L215 390.1M161.1 327.4L181.4 336.4M189.8 330.6L161.4 320.2L153.2 319.7L148.1 321.5M178.7 335.1L181.6 327.3M111.3 388.9L108.1 397.4L107.1 405.5L106 408.4L101 416.7L97.1 421.6L91.4 430.8L89.6 435.1L81.6 442.9L75.4 455M156.9 335.3L162.7 332.9L165.9 333.2L171.2 335.1M151.3 341.7L152.1 338.5L156.9 335.3M123.4 380.4L126.6 374.7M112.2 387.6L118.4 387.8L122.2 388.6L185.5 405.9L187.8 406L191.5 403.2M151.7 396.7L151.5 397.9M98.5 369.9L97.8 366.2L95.6 361.4L95.9 361M94.7 358.2L95.9 361L97.8 359.7M109.6 355.2L111 361.5L110.1 367.6L107.7 370L105.8 368M120.2 351.7L123.1 351.5L124.1 352.1M120.2 350.4L120.2 352.1L123.1 351.5L120.2 350.4M180.5 356.2L143.1 354.4L134.4 351.7L130.9 348.9M176.8 354L175.9 356M151.6 343.8L145.9 345.8L141.6 346.4L134.3 343.7M113 383.1L130.4 386.4M133.6 330.2L113.2 347L96.3 357.6M148.1 321.5L146.5 318.8L142.8 315.3M156.9 335.3L157.2 332.6L165 321.2M148.1 321.5L139.2 326.6M193.3 311.5L197.4 312L201.2 311.6L210 313.4L215 312.1M142.8 315.3L151.4 310.7L156.9 309.7L168.7 311.5L172.6 314.2L182.4 313.6L188.5 311.3L193.3 311.5M136.1 319.7L142.8 315.3M138.1 311.9L139.6 314.4L137.3 318.5M139.6 314.4L140.3 314.5M127.3 317.4L133.5 313L134.3 311.7L134.2 309.8M194 374L189.3 366L180.5 356.2M200.3 386.8L194.6 375.2M113.2 347L110.7 344.8L105.2 346.1L104.7 346.5L106.3 351.4M103.2 343.2L104.7 346.5M106 408.4L115 399.9M80.7 362.1L94.7 358.2M94.7 358.2L95.9 361L97.8 359.7L96.3 357.6L94.7 358.2M138.7 312.6L142.9 315.2L137.3 318.5L139.6 314.4L138.7 312.6M103.8 344.1L105.5 343.3L106.2 345.5L104.8 346.4L103.8 344.1M152.9 343.7L153.4 341.8L154.7 341.7L153.9 338.8L157.7 337.2L159.4 339.7L156.8 334.8L155 335.5L155.3 336.3L152.6 336.8L150.4 340.8L150.4 342.6L151.2 343.9L152.9 343.7M215 332.9L199.3 332.5L191.8 331.5L189.8 330.6M76.7 390.3L75.8 395.8M76.4 392.3L77.5 393.6M79.7 392.8L77.2 391.9L76.7 390.3M125.3 293.5L131 299.2M138.5 283.3L125.3 293.5M78.2 367.8L80.7 362.1M97.8 359.7L96.3 357.6M96.3 357.6L94.7 358.2M151.6 343.8L151.3 341.7M162.9 345.3L155.9 343.6L151.6 343.8M194.6 375.2L194 374M151.1 354.8L150.9 357.4M133.6 330.2L135.1 333.8M138.2 325.5L136.9 325.9L137.2 327.1L138.5 326.8L138.2 325.5M138.6 326.6L139.2 326.6M142.2 280.8L138.5 283.3M136.4 284.8L141.8 283.2M138.8 283.8L140.1 284L141.2 285.4M141.8 283.2L138.5 283.3M137.2 327.1L133.6 330.2"/><path class="termino-carretera" d="M80.7 362.1L75.6 362.5L72.5 362L65.8 362.8L59 366.1M30.6 361.1L28.9 359.3M24.8 352.2L29.9 344.6L32.7 341.6L47.8 332.6L57.8 328.1L71 315.9L75 312.9L101.4 297.6L109.7 298.4M148.6 247L146.6 252.9L143.1 268.6L142.3 280M59 366.1L52.8 369.2L49.8 369.8L39.2 366.9L36.2 365.4L30.6 361.1M215 396.1L192.7 406.6L186.7 407.3L118.6 389L112.1 388.8L79.7 392.8L77.5 393.6M77.5 393.6L74.7 398.2L71.7 408.1M109.7 298.4L124.2 301.8L125.8 303L129 308.3L134.2 309.8L136.4 309.2M139.6 293L139.4 302.3L136.4 309.2M142.3 280L139.6 293M71.7 408.1L71.2 412.2L71 435.1L67.3 455M28.9 359.3L25.2 354.1L24.8 352.2"/><path class="termino-guia" d="M156.3 339.2L178.3 318.8"/><path class="termino-sitio" d="M153.7 339.2a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z"/><path class="termino-guia" d="M174.9 354.7L185.6 382.7"/><path class="termino-sitio" d="M172.3 354.7a2.6 2.6 0 1 0 5.2 0a2.6 2.6 0 1 0 -5.2 0Z"/><path class="termino-escala" d="M14 444h62.5M14 440v8M76.5 440v8"/><text class="termino-escala-texto" x="82.5" y="444" dy=".35em">500 m</text><rect class="termino-marco" x="6" y="246" width="210" height="210"/></g><g class="termino-ref"><rect x="316.9" y="145.2" width="47.6" height="15" rx="3"/><text x="340.7" y="152.7" text-anchor="middle" dy=".35em">BA-141</text></g><g class="termino-ref"><rect x="429.6" y="190" width="47.6" height="15" rx="3"/><text x="453.4" y="197.5" text-anchor="middle" dy=".35em">BA-082</text></g><g class="termino-ref"><rect x="276.5" y="432" width="47.6" height="15" rx="3"/><text x="300.3" y="439.5" text-anchor="middle" dy=".35em">EX-202</text></g><path class="termino-escala" d="M18 482h126.4M18 478v8M144.4 478v8"/><text class="termino-escala-texto" x="150.4" y="482" dy=".35em">5 km</text><a class="termino-punto" href="#lugar-nuestra-senora-de-gracia" tabindex="-1"><circle cx="178.3" cy="318.8" r="15"/><text x="178.3" y="319.3" text-anchor="middle" dy=".35em" font-size="15">1</text></a><a class="termino-punto" href="#lugar-ermita-del-cristo-de-la-piedad" tabindex="-1"><circle cx="96.9" cy="355.8" r="15"/><text x="96.9" y="356.3" text-anchor="middle" dy=".35em" font-size="15">2</text></a><a class="termino-punto" href="#lugar-presa-honda" tabindex="-1"><circle cx="47.1" cy="362.8" r="15"/><text x="47.1" y="363.3" text-anchor="middle" dy=".35em" font-size="15">3</text></a><a class="termino-punto" href="#lugar-ermita-de-la-virgen-de-la-cruz" tabindex="-1"><circle cx="185.6" cy="382.7" r="15"/><text x="185.6" y="383.2" text-anchor="middle" dy=".35em" font-size="15">4</text></a></svg>
+      <figcaption class="termino__pie">Map of the municipality of Usagre, drawn from OpenStreetMap data as of October 5, 2026. <a href="https://www.openstreetmap.org/copyright">© colaboradores de OpenStreetMap<span class="sr">, opens another website</span></a>.</figcaption>
+    </figure>
+    <div class="termino__leyenda">
+      <h3 class="termino__titulo">Places on the map</h3>
+      <ol class="termino__lugares">
+        <li><a href="#lugar-nuestra-senora-de-gracia"><span class="termino__num" aria-hidden="true">1</span>Our Lady of Grace (Nuestra Señora de Gracia)</a></li>
+        <li><a href="#lugar-ermita-del-cristo-de-la-piedad"><span class="termino__num" aria-hidden="true">2</span>Chapel of the Cristo de la Piedad</a></li>
+        <li><a href="#lugar-presa-honda"><span class="termino__num" aria-hidden="true">3</span>Presa Honda</a></li>
+        <li><a href="#lugar-ermita-de-la-virgen-de-la-cruz"><span class="termino__num" aria-hidden="true">4</span>Chapel of the Virgen de la Cruz</a></li>
+        
+      </ol>
+      <h3 class="termino__titulo">How to read it</h3>
+      <ul class="termino__claves">
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-limite" d="M2 8h28"/></svg>Municipal boundary (dashed line)</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-casco" d="M6 3h20v10H6z"/></svg>The town (shaded area)</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-carretera" d="M2 8h28"/></svg>Roads (thick line): BA-082, BA-131, BA-141, EX-202 y N-432</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-ruta" d="M2 8h28"/></svg>Routes (dotted line): Camino de la Frontera</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><circle class="termino-punto-clave" cx="16" cy="8" r="6"/></svg>Numbered circle: a place in the list</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-escala" d="M3 10h26M3 6v8M29 6v8"/></svg>Scale: the bar at the bottom is 5 km</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><rect class="termino-marco" x="5" y="1.5" width="22" height="13"/></svg>Inset: the town enlarged; its bar is 500 m</li>
+        <li><svg class="termino__clave" viewBox="0 0 32 16" aria-hidden="true" focusable="false"><path class="termino-guia" d="M6 11L26 5"/><circle class="termino-sitio" cx="6" cy="11" r="2.6"/></svg>Thin line with a dot: the exact spot, when the number has been moved aside to keep it readable</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="seccion seccion--placa" aria-labelledby="t-placa">
+  <div class="contenedor placa-rejilla">
+    <h2 class="seccion__titulo" id="t-placa">Urbs Sacra</h2>
+    <figure class="placa">
+      <blockquote class="placa__texto"><p><span>VRBS</span> <span>SACRA</span> </p></blockquote>
+      <figcaption class="placa__pie">Legend on the border of the town&#39;s coat of arms</figcaption>
+    </figure>
+    <p class="placa__nota">Tradition gives Roman Usagre the name Urbs Sacra, «sacred city»: the Diputación (provincial council) calls it «the never-confirmed name». The legend surrounds the coat of arms, with the cross of Santiago over the two-arched bridge and the waves of the rivera.</p>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-historia">
+  <div class="contenedor texto-largo">
+    <h2 class="seccion__titulo" id="t-historia">History</h2>
+    <p>According to the old chroniclers, there was a Turdulian settlement here in the 6th century BC called Ursaria, «because of the many bears there were». Tradition gives the Roman town the name Urbs Sacra, the one on its coat of arms today, although it has never been confirmed. Prehistoric, Roman, Visigothic and Arab remains have been found in the municipality, such as the Visigothic necropolis of El Carballar (6th and 7th centuries).</p>
+    <p>In 1241 the Santiago master Rodrigo Íñiguez won it for the Christians. His successor, Pelay Pérez Correa, granted it in the mid-13th century the Fuero de Usagre (charter of rights), which is kept in the Archivo Histórico Nacional (National Historical Archive). The town was a commandery of the Order of Santiago, and in 1434 a ruling by Álvaro de Luna set its municipal boundaries.</p>
+    <p>At the end of the 16th century it lived its best period: it had 625 taxpaying households (vecinos pecheros), about 2,600 inhabitants, three chapels and a convent of Conceptionist nuns that moved to Bienvenida in the 18th century. More than fifty people from Usagre went to America during the conquest.</p>
+    <p>On 25 May 1811, next to the bridge, the Allied cavalry of Spanish, British and Portuguese troops defeated the French dragoons in the Combat of Usagre. In the 18th and 19th centuries the town was a centre for washing fine wool and for quicksilver mines, and in 1880 the railway arrived, with the Usagre-Bienvenida station.</p>
+    
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-patrimonio">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-patrimonio">Heritage</h2>
+    <div class="patrimonio-grupos">
+      <div class="patrimonio-grupo">
+        
+        <ul class="patrimonio">
+          <li class="patrimonio__fila" id="lugar-puente-romano"><b class="patrimonio__nombre">Roman bridge</b><span class="patrimonio__detalle">Roman, rebuilt in the Middle Ages; its parapets reuse ribs from the parish church&#39;s vaults</span></li>
+          <li class="patrimonio__fila" id="lugar-pilar-del-carmen"><b class="patrimonio__nombre">Pilar del Carmen</b><span class="patrimonio__detalle">1823, with a drinking trough, next to the bridge</span></li>
+          <li class="patrimonio__fila" id="lugar-iglesia-parroquial-de-nuestra-senora-de-gracia"><b class="patrimonio__nombre">Parish church of Our Lady of Grace</b><span class="patrimonio__detalle">Gothic-Mudéjar, 15th century, rebuilt in 1819. In the niche on the façade, a stone Virgin and Child, probably Visigothic or Mozarabic</span></li>
+          <li class="patrimonio__fila" id="lugar-ermita-del-santisimo-cristo-de-la-piedad"><b class="patrimonio__nombre">Chapel of the Santísimo Cristo de la Piedad</b><span class="patrimonio__detalle">In the former Conceptionist convent, founded in the 16th century</span></li>
+          <li class="patrimonio__fila" id="lugar-ermita-de-la-virgen-de-la-cruz"><b class="patrimonio__nombre">Chapel of the Virgen de la Cruz</b><span class="patrimonio__detalle">On the outskirts, where the old cemetery was; it used to be called the chapel of the Madre de Dios</span></li>
+          <li class="patrimonio__fila" id="lugar-fuente-de-la-plaza"><b class="patrimonio__nombre">Fountain in the square</b><span class="patrimonio__detalle">1575, rebuilt in 1798</span></li>
+          <li class="patrimonio__fila" id="lugar-casa-de-la-encomienda-de-santiago"><b class="patrimonio__nombre">House of the Commandery of Santiago (Casa de la Encomienda de Santiago)</b><span class="patrimonio__detalle">Documented in the 14th century; part of its arches remain, in the square</span></li>
+          <li class="patrimonio__fila" id="lugar-casa-de-la-inquisicion"><b class="patrimonio__nombre">House of the Inquisition (Casa de la Inquisición)</b><span class="patrimonio__detalle">Calle Convento</span></li>
+          <li class="patrimonio__fila" id="lugar-ventana-mudejar"><b class="patrimonio__nombre">Mudéjar window</b><span class="patrimonio__detalle">Calle Mesones, 10</span></li>
+          <li class="patrimonio__fila" id="lugar-estacion-de-usagre-bienvenida"><b class="patrimonio__nombre">Usagre-Bienvenida railway station</b><span class="patrimonio__detalle">Mérida-Los Rosales line; the train arrived in 1880</span></li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-anio">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-anio">Festivals</h2>
+    <ol class="anio"><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">January</span><span class="mes__corto" aria-hidden="true">Jan</span></p><ul class="mes__fiestas"><li><b>Three Kings Parade (Cabalgata de Reyes)</b><span>5 January</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">February</span><span class="mes__corto" aria-hidden="true">Feb</span></p><ul class="mes__fiestas"><li><b>San Blas (Saint Blaise), the «day of the stone»</b><span>3 February</span></li><li><b>Carnival and Domingo de Piñata (Piñata Sunday)</b><span>Date varies</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">March</span><span class="mes__corto" aria-hidden="true">Mar</span></p><ul class="mes__fiestas"><li><b>Holy Week</b><span>Date varies; the main brotherhood is that of the Cristo de la Piedad</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">April</span><span class="mes__corto" aria-hidden="true">Apr</span></p><ul class="mes__fiestas"><li><b>Circus Festival</b><span>In spring</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">May</span><span class="mes__corto" aria-hidden="true">May</span></p><ul class="mes__fiestas"><li><b>Cruces de Mayo (May Crosses)</b><span>In May</span></li><li><b>San Isidro pilgrimage (romería)</b><span>15 May</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">June</span><span class="mes__corto" aria-hidden="true">Jun</span></p><ul class="mes__fiestas"><li><b>San Pedro, with the sopará cooking contest</b><span>End of June</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">July</span><span class="mes__corto" aria-hidden="true">Jul</span></p><ul class="mes__fiestas"><li><b>Cultural Summer: popular theatre, Día del Moral (Mulberry Day), Medieval Festival</b><span>July and August</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">August</span><span class="mes__corto" aria-hidden="true">Aug</span></p><ul class="mes__fiestas"><li><b>International Folklore Festival</b><span>August, in the Plaza de España</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">September</span><span class="mes__corto" aria-hidden="true">Sep</span></p><ul class="mes__fiestas"><li><b>Festivals of the Santísimo Cristo de la Piedad</b> <span class="chip chip--mayor">Main festival</span><span>13 to 16 September; the procession is on the 14th</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">October</span><span class="mes__corto" aria-hidden="true">Oct</span></p><ul class="mes__fiestas"><li><b>San Lucas (Saint Luke), patron saint</b><span>18 October</span></li><li><b>Fiesta del Mayor (Senior Citizens Festival)</b><span>In October</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">November</span><span class="mes__corto" aria-hidden="true">Nov</span></p><ul class="mes__fiestas"><li><b>Chaquetía</b><span>All Saints' Day</span></li></ul></li><li class="mes con-fiesta"><p class="mes__nombre"><span class="mes__largo">December</span><span class="mes__corto" aria-hidden="true">Dec</span></p><ul class="mes__fiestas"><li><b>Usagreño del año (Usagreño of the Year) and presentation of the town's Escudo (coat of arms)</b><span>6 December</span></li><li><b>Las Candelillas</b><span>Night of 7 December</span></li></ul></li></ol>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-gastronomia">
+  <div class="contenedor gastronomia">
+    <div>
+      <h2 class="seccion__titulo" id="t-gastronomia">Food and drink</h2>
+      <div class="gastronomia__listas">
+        <div><h3 class="gastronomia__titulo">Dishes</h3><ul class="lista-coma"><li>Sopará (similar to a gazpacho, crushed)</li><li>Gazpacho pastoril (shepherd&#39;s gazpacho)</li><li>Setas en caldereta (mushrooms in a stew)</li><li>Caldereta (stew)</li><li>Migas (fried breadcrumbs)</li><li>Chacina y embutidos (cured and cold meats)</li></ul></div>
+        <div><h3 class="gastronomia__titulo">Sweets</h3><ul class="lista-coma"><li>Repostería casera (home-made pastries)</li></ul></div>
+        
+      </div>
+    </div>
+    
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-personajes">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-personajes">Notable people</h2>
+    <ul class="fichas">
+      <li class="ficha"><h3 class="ficha__titulo">Bartolomé de Usagre</h3><p class="ficha__fechas">16th century</p><p>Hernán Cortés&#39;s artilleryman in the conquest of Mexico.</p></li>
+      <li class="ficha"><h3 class="ficha__titulo">Diego de Usagre</h3><p class="ficha__fechas">16th century</p><p>Brother of Bartolomé; one of the 73 founders of San Salvador, in El Salvador.</p></li>
+      
+    </ul>
+  </div>
+</section>
+
+<section class="seccion" aria-labelledby="t-rutas">
+  <div class="contenedor">
+    <h2 class="seccion__titulo" id="t-rutas">Walking routes</h2>
+    <ul class="rutas">
+      <li class="ruta"><h3 class="ruta__nombre">Mills Route</h3><p>Circular route from the Plaza del Puente, along the rivera: Molino El Pintado (km 4.6), Moralejo (km 5.2) and Portales (km 5.5).</p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Market Gardeners&#39; Route</h3><p>Circular route from the Plaza de España, of 14 or 22 km, through vegetable gardens and waterwheels (norias) along the rivera; it drops from 550 to 447 m. It is organised between March and April.</p></li>
+      <li class="ruta"><h3 class="ruta__nombre">Camino de Santiago de la Frontera</h3><p>It crosses the town from south to north, signposted by the Diputación, with panels in easy-read format.</p></li>
+      
+    </ul>
+  </div>
+</section>
+
+
+
+<section class="seccion" id="creditos" aria-labelledby="t-creditos">
+  <div class="contenedor texto-largo">
+    <h2 class="seccion__titulo" id="t-creditos">Photo credits</h2>
+    <ul class="creditos">
+      <li><b>Chapel of the Cristo de la Piedad</b>: Town Council tourism website (2025). Only for this proposal: the Town Council&#39;s permission is needed to publish it</li>
+      <li><b>The Roman bridge</b>: Gonzalo 11789, CC BY 4.0 (<a href="https://commons.wikimedia.org/wiki/File:Puente_antiguo_de_Usagre_01.jpg">photo page</a>)</li>
+      <li><b>The Roman bridge (cover photo)</b>: Gonzalo 11789, CC BY 4.0 (<a href="https://commons.wikimedia.org/wiki/File:Puente_antiguo_de_Usagre_02.jpg">photo page</a>)</li>
+      <li><b>The fountain in the square</b>: Town Council tourism website (2025). Only for this proposal: the Town Council&#39;s permission is needed to publish it</li>
+      <li><b>The Pilar del Carmen</b>: Town Council tourism website (2025). Only for this proposal: the Town Council&#39;s permission is needed to publish it</li>
+      <li><b>Mudéjar doorway of Nuestra Señora de Gracia</b>: Town Council tourism website (2025). Only for this proposal: the Town Council&#39;s permission is needed to publish it</li>
+      <li><b>Presa Honda</b>: Town Council tourism website (2025). Only for this proposal: the Town Council&#39;s permission is needed to publish it</li>
+      <li><b>La Luná</b>: Town Council tourism website (2025). Only for this proposal: the Town Council&#39;s permission is needed to publish it</li>
+      
+    </ul>
+  </div>
+</section>
+  </div>
+</div>
+</main>
+<footer class="pie" lang="es">
+  <div class="pie__perfil" data-perfil="generico"><svg class="pie__perfil-dibujo" viewBox="0 0 1600 180" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false"><path pathLength="1" class="lejos" d="M-4 116L120 110L260 101L380 106L520 96L640 90L722.2 92.7"/><path pathLength="1" class="lejos" d="M766 93.7L900 88L1040 96L1180 92L1320 102L1460 108L1604 114"/><path pathLength="1" d="M-4 146L-4 130L23 117L50 130L50 125L79 112L108 125L108 130L126.5 120.4L145 130L145 125L145 125L197 125L197 125L197 113.3L248 122L248 127.5"/><path pathLength="1" d="M253 132L285.5 132L288 137L288 133L313 120L338 133L338 129L357.5 118.9L377 129L377 116.3L428 125L428 134L460.5 121L487.5 131.8"/><path pathLength="1" d="M493 132.5L493 131.5L522.8 136.6"/><path pathLength="1" d="M539.3 130.4L539.5 130L541 130"/><path pathLength="1" d="M545 130L583 130L583 123L581.5 123L581.5 120.5L590.5 120.5L590.5 123L589 123L589 130L607.5 130L610 135L610 128L650 115L690 128L690 136"/><path pathLength="1" d="M50 140L50 130"/><path pathLength="1" d="M108 143L108 130"/><path pathLength="1" d="M145 143L145 130"/><path pathLength="1" d="M197 146L197 125"/><path pathLength="1" d="M288 140.5L288 137"/><path pathLength="1" d="M338 143L338 133"/><path pathLength="1" d="M377 150L377 129"/><path pathLength="1" d="M428 141.5L428 134"/><path pathLength="1" d="M610 143L610 135"/><path pathLength="1" d="M145 128L197 128"/><path pathLength="1" d="M253 137L288 137"/><path pathLength="1" d="M558.5 135L610 135"/><path pathLength="1" d="M930.4 138.8L953 127L976 139L976 131L978.5 125L1045.5 125L1048 131L1048 122L1079 109L1110 122L1110 134"/><path pathLength="1" d="M1126 134L1126 132L1124.5 132L1124.5 129.5L1133.5 129.5L1133.5 132L1132 132L1132 134"/><path pathLength="1" d="M1173 133L1173 123L1182.3 124.6"/><path pathLength="1" d="M1191.6 126.2L1220 131L1220 114L1280 124L1280 136L1282.5 130L1303 130L1303 123L1301.5 123L1301.5 120.5L1310.5 120.5L1310.5 123L1309 123L1309 130L1351.5 130L1352.5 132.3"/><path pathLength="1" d="M1354 132L1354 127L1356.5 122L1421.5 122L1424 127L1424 138L1426.5 131L1437 131"/><path pathLength="1" d="M1447 131L1464.5 131L1467 138L1467 129L1469.5 123L1500.5 123L1503 129L1503 135"/><path pathLength="1" d="M1508.3 134.2L1526.5 124.8L1536.7 130.1"/><path pathLength="1" d="M1551.8 128.1L1577 116L1604 129L1604 151"/><path pathLength="1" d="M976 146L976 139"/><path pathLength="1" d="M1048 134.5L1048 131"/><path pathLength="1" d="M1220 134.5L1220 131"/><path pathLength="1" d="M1280 138L1280 136"/><path pathLength="1" d="M976 131L1048 131"/><path pathLength="1" d="M1280 136L1318 136"/><path pathLength="1" d="M1354 127L1424 127"/><path pathLength="1" d="M1424 138L1437 138"/><path pathLength="1" d="M1447 138L1467 138"/><path pathLength="1" d="M1467 129L1503 129"/><path pathLength="1" d="M782 180L782 126L801.2 114L910.8 114L930 126L930 156"/><path pathLength="1" d="M782 126L930 126"/><path pathLength="1" d="M706 180L706 106L782 106L782 180"/><path pathLength="1" d="M706 110L782 110"/><path pathLength="1" d="M750 130A6 6 0 0 1 738 130A6 6 0 0 1 750 130"/><path pathLength="1" d="M736.5 180L736.5 157.5A7.5 7.5 0 0 1 751.5 157.5L751.5 180L736.5 180"/><path pathLength="1" d="M724 106L724 68L722.5 68L744 50L765.5 68L764 68L764 106"/><path pathLength="1" d="M737.5 94L737.5 80.5A6.5 6.5 0 0 1 750.5 80.5L750.5 94L737.5 94"/><path pathLength="1" d="M740.6 92.5L741.6 83.7A2.4 2.4 0 0 1 746.4 83.7L747.4 92.5L740.6 92.5"/><path pathLength="1" d="M744 50L744 39"/><path pathLength="1" d="M741.4 42.5L746.6 42.5"/><path pathLength="1" d="M-4 180L-4 146L-1.5 140L44.5 140L47 146L47 140L47 140L96 140L96 140L96 148L98.5 143L162.5 143L165 148L165 152L167.5 146L227.5 146L230 152L230 143L232.5 137L245 137L245 130L243.5 130L243.5 127.5L252.5 127.5L252.5 130L251 130L251 137L286.5 137L289 143L289 151L324.5 138L360 151L360 155L362.5 150L382 150L382 143L380.5 143L380.5 140.5L389.5 140.5L389.5 143L388 143L388 150L424.5 150L427 155L427 144L429.5 138L467.5 138L470 144L470 128.5L508 135L508 142L543 129L578 142L578 149L580.5 143L616.5 143L619 149L619 142L621.5 135L662.5 135L665 142L665 136L677.5 129.5L690 136L690 180"/><path pathLength="1" d="M47 180L47 146"/><path pathLength="1" d="M96 180L96 148"/><path pathLength="1" d="M165 180L165 152"/><path pathLength="1" d="M230 180L230 152"/><path pathLength="1" d="M289 180L289 151"/><path pathLength="1" d="M360 180L360 155"/><path pathLength="1" d="M427 180L427 155"/><path pathLength="1" d="M470 180L470 144"/><path pathLength="1" d="M508 180L508 142"/><path pathLength="1" d="M578 180L578 149"/><path pathLength="1" d="M619 180L619 149"/><path pathLength="1" d="M665 180L665 142"/><path pathLength="1" d="M-4 146L47 146"/><path pathLength="1" d="M47 143L96 143"/><path pathLength="1" d="M96 148L165 148"/><path pathLength="1" d="M113.3 180L113.3 167L120.3 167L120.3 180"/><path pathLength="1" d="M145.3 163L145.3 154L150.3 154L150.3 163L145.3 163"/><path pathLength="1" d="M165 152L230 152"/><path pathLength="1" d="M178.8 167L178.8 158L183.8 158L183.8 167L178.8 167"/><path pathLength="1" d="M230 143L289 143"/><path pathLength="1" d="M242.3 158L242.3 149L247.3 149L247.3 158L242.3 158"/><path pathLength="1" d="M271.8 158L271.8 149L276.8 149L276.8 158L271.8 158"/><path pathLength="1" d="M360 155L427 155"/><path pathLength="1" d="M374.3 170L374.3 161L379.3 161L379.3 170L374.3 170"/><path pathLength="1" d="M407.8 170L407.8 161L412.8 161L412.8 170L407.8 170"/><path pathLength="1" d="M427 144L470 144"/><path pathLength="1" d="M451.2 180L451.2 167L458.2 167L458.2 180"/><path pathLength="1" d="M486.5 150L486.5 141L491.5 141L491.5 150L486.5 150"/><path pathLength="1" d="M578 149L619 149"/><path pathLength="1" d="M588.8 180L588.8 167L595.8 167L595.8 180"/><path pathLength="1" d="M619 142L665 142"/><path pathLength="1" d="M675 151L675 142L680 142L680 151L675 151"/><path pathLength="1" d="M800 180L800 161L802.5 156L815 156L815 149L813.5 149L813.5 146.5L822.5 146.5L822.5 149L821 149L821 156L856.5 156L859 161L859 153L859 153L901 153L901 153L901 161L960 151L960 180"/><path pathLength="1" d="M859 180L859 161"/><path pathLength="1" d="M901 180L901 161"/><path pathLength="1" d="M800 161L859 161"/><path pathLength="1" d="M859 156L901 156"/><path pathLength="1" d="M877.5 168L877.5 159L882.5 159L882.5 168L877.5 168"/><path pathLength="1" d="M960 180L960 154L979 144.1L998 154L998 149L1000.5 142L1041.5 142L1044 149L1044 135L1098 125.8L1098 140L1100.5 134L1129.5 134L1132 140L1132 134L1132 134L1150 134L1150 127L1148.5 127L1148.5 124.5L1157.5 124.5L1157.5 127L1156 127L1156 134L1169 134L1169 134L1169 140L1171.5 133L1184 133L1184 126L1182.5 126L1182.5 123.5L1191.5 123.5L1191.5 126L1190 126L1190 133L1219.5 133L1222 140L1222 136L1222 136L1237 136L1237 129L1235.5 129L1235.5 126.5L1244.5 126.5L1244.5 129L1243 129L1243 136L1274 136L1274 136L1274 143L1276.5 138L1314.5 138L1317 143L1317 139L1319.5 132L1356.5 132L1359 139L1359 148L1390.5 135L1422 148L1422 139L1422 139L1439 139L1439 132L1437.5 132L1437.5 129.5L1446.5 129.5L1446.5 132L1445 132L1445 139L1494 139L1494 139L1494 136L1565 126L1565 151L1567.5 144L1601.5 144L1604 151L1604 180"/><path pathLength="1" d="M998 180L998 154"/><path pathLength="1" d="M1044 180L1044 149"/><path pathLength="1" d="M1098 180L1098 140"/><path pathLength="1" d="M1132 180L1132 140"/><path pathLength="1" d="M1169 180L1169 140"/><path pathLength="1" d="M1222 180L1222 140"/><path pathLength="1" d="M1274 180L1274 143"/><path pathLength="1" d="M1317 180L1317 143"/><path pathLength="1" d="M1359 180L1359 148"/><path pathLength="1" d="M1422 180L1422 148"/><path pathLength="1" d="M1494 180L1494 139"/><path pathLength="1" d="M1565 180L1565 151"/><path pathLength="1" d="M998 149L1044 149"/><path pathLength="1" d="M1026.9 180L1026.9 167L1033.9 167L1033.9 180"/><path pathLength="1" d="M1018.5 164L1018.5 155L1023.5 155L1023.5 164L1018.5 164"/><path pathLength="1" d="M1055 150L1055 141L1060 141L1060 150L1055 150"/><path pathLength="1" d="M1082 150L1082 141L1087 141L1087 150L1082 150"/><path pathLength="1" d="M1055 167L1055 158L1060 158L1060 167L1055 167"/><path pathLength="1" d="M1082 167L1082 158L1087 158L1087 167L1082 167"/><path pathLength="1" d="M1098 140L1132 140"/><path pathLength="1" d="M1132 137L1169 137"/><path pathLength="1" d="M1148 149L1148 140L1153 140L1153 149L1148 149"/><path pathLength="1" d="M1148 166L1148 157L1153 157L1153 166L1148 166"/><path pathLength="1" d="M1169 140L1222 140"/><path pathLength="1" d="M1179.8 155L1179.8 146L1184.8 146L1184.8 155L1179.8 155"/><path pathLength="1" d="M1179.8 172L1179.8 163L1184.8 163L1184.8 172L1179.8 172"/><path pathLength="1" d="M1206.3 172L1206.3 163L1211.3 163L1211.3 172L1206.3 172"/><path pathLength="1" d="M1222 139L1274 139"/><path pathLength="1" d="M1232.5 151L1232.5 142L1237.5 142L1237.5 151L1232.5 151"/><path pathLength="1" d="M1258.5 151L1258.5 142L1263.5 142L1263.5 151L1258.5 151"/><path pathLength="1" d="M1232.5 168L1232.5 159L1237.5 159L1237.5 168L1232.5 168"/><path pathLength="1" d="M1258.5 168L1258.5 159L1263.5 159L1263.5 168L1258.5 168"/><path pathLength="1" d="M1274 143L1317 143"/><path pathLength="1" d="M1283.6 180L1283.6 167L1290.6 167L1290.6 180"/><path pathLength="1" d="M1317 139L1359 139"/><path pathLength="1" d="M1422 142L1494 142"/><path pathLength="1" d="M1509.3 151L1509.3 142L1514.3 142L1514.3 151L1509.3 151"/><path pathLength="1" d="M1544.8 151L1544.8 142L1549.8 142L1549.8 151L1544.8 151"/><path pathLength="1" d="M1509.3 168L1509.3 159L1514.3 159L1514.3 168L1509.3 168"/><path pathLength="1" d="M1543.8 180L1543.8 166L1550.8 166L1550.8 180"/><path pathLength="1" d="M1565 151L1604 151"/><path pathLength="1" d="M1589.3 180L1589.3 167L1596.3 167L1596.3 180"/></svg></div>
+  <section class="sede-franja" aria-labelledby="t-sede">
+    <div class="contenedor">
+      <h2 class="sede-franja__titulo" id="t-sede">Sede electrónica e información pública</h2>
+      <ul class="sede-franja__lista">
+        <li><a class="sede-franja__enlace" href="https://usagre.sedelectronica.es"><svg class="icono" aria-hidden="true"><use href="#i-sede"/></svg><span><b>Sede electrónica</b><span>Trámites con certificado o Cl@ve</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://usagre.sedelectronica.es/board"><svg class="icono" aria-hidden="true"><use href="#i-tablon"/></svg><span><b>Tablón de anuncios</b><span>Edictos y anuncios oficiales</span></span></a></li>
+        <!-- v3c · transparencia: a la página que explica cada apartado y lleva al portal (lo haya o no) -->
+        <li><a class="sede-franja__enlace" href="transparencia.html"><svg class="icono" aria-hidden="true"><use href="#i-ojo"/></svg><span><b>Transparencia</b><span>Cuentas, contratos y acuerdos</span></span></a></li>
+        <li><a class="sede-franja__enlace" href="https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&amp;idBp=v65tnBBVzteiEJrVRqloyA%3D%3D"><svg class="icono" aria-hidden="true"><use href="#i-contrato"/></svg><span><b>Perfil del contratante</b><span>Licitaciones del Ayuntamiento</span></span></a></li>
+      </ul>
+      <p class="sede-franja__nota">«Transparencia» le explica en esta web qué se publica y dónde; los demás enlaces le llevan a la sede electrónica o a la Plataforma de Contratación del Sector Público.</p>
+    </div>
+  </section>
+  <div class="pie__cuerpo">
+    <div class="contenedor pie__rejilla pie__rejilla--plano">
+      <div class="pie__col pie__id">
+        <img class="pie__escudo" src="marca/escudo-160.png" width="92" height="160" alt="">
+        <div>
+          <h2 class="pie__nombre">Ayuntamiento de Usagre</h2>
+          <p>Plaza de España, 1<br>06290 Usagre (Badajoz)</p>
+          <p><span class="pie__etiqueta">Teléfono</span> <a href="tel:+34924585011">924 585 011</a></p>
+          <p><span class="pie__etiqueta">Correo</span> <a class="rompe" href="mailto:ayuntamiento@usagre.es">ayuntamiento@usagre.es</a></p>
+          <p data-dato-ejemplo="horario"><span class="pie__etiqueta">Horario</span> Lunes a viernes, de 8:00 a 15:00 <span class="ejemplo">Ejemplo</span></p>
+        </div>
+      </div>
+      <nav class="pie__col pie__enlaces" aria-labelledby="t-pie-enlaces">
+        <h2 class="pie__titulo" id="t-pie-enlaces">Enlaces útiles</h2>
+        <ul class="pie__lista">
+          <li><a href="https://usagre.sedelectronica.es">Sede electrónica<span class="sr">, se abre la sede electrónica</span></a></li>
+          <li><a href="https://usagre.sedelectronica.es/board">Tablón de anuncios<span class="sr">, se abre la sede electrónica</span></a></li>
+          <li><a href="transparencia.html">Transparencia</a></li>
+          <li><a href="https://contrataciondelestado.es/wps/poc?uri=deeplink:perfilContratante&amp;idBp=v65tnBBVzteiEJrVRqloyA%3D%3D">Perfil del contratante<span class="sr">, se abre otra web</span></a></li>
+          <li><a href="tramites.html">Trámites</a></li>
+          <li><a href="telefonos.html">Teléfonos</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="accesibilidad.html">Accesibilidad</a></li>
+          
+        </ul>
+        <p class="pie__subtitulo" id="t-pie-redes">En redes sociales</p>
+        <ul class="pie__redes" aria-labelledby="t-pie-redes">
+          <li><a href="https://www.facebook.com/ayuntamientousagre/">Facebook<span class="sr">, se abre otra web</span></a></li><li><a href="https://www.youtube.com/channel/UCM1tbZRbqpMb1PlPLGzNjnA">YouTube (Usagre TV)<span class="sr">, se abre otra web</span></a></li>
+        </ul>
+      </nav>
+      <div class="pie__col pie__plano">
+        <h2 class="pie__titulo" id="t-pie-plano">Cómo llegar</h2>
+        <figure class="pie__plano-figura">
+          <a class="pie__plano-enlace" href="contacto.html#t-donde"><svg class="pie__plano-dibujo" viewBox="0 0 320 240" aria-hidden="true" focusable="false"><rect class="plano-fondo" width="320" height="240"/><path class="plano-plaza" d="M80.6 232.6L79.9 239L80.9 242.9L99.5 239.4L94.8 235.8L80.6 232.6ZM199.3 -9.4L201.5 -10.6L226.1 7L217.8 11.7L202.4 22L190.2 28.3L193.6 21.1L204 4.3L204.6 2L204.3 -1.1L202.6 -4.9L199.3 -9.4ZM-24.1 192.1L-13.5 187.1L-12.4 189.5L-14.8 190.7L-9.2 201.2L-17.9 206.4L-24.1 192.1ZM290.1 189.2L293.1 177.3L298.1 178L301.2 176.8L297.1 165.9L296.4 165.6L296 163L297.2 162.1L296.2 158L298.8 157.3L299 156.3L302.2 155.1L303.3 157.5L307.4 155.4L307.5 154.4L310.6 153.1L311 153.9L315.8 152.2L315.3 149.8L320.4 147.5L322.8 152.4L325.4 153.9L326.9 157.8L329.2 157.9L331.3 163.5L330.2 158L315.5 135.6L315.1 132.5L303.4 136.8L305.3 142.3L296.7 145.1L287.9 145.3L274 170.9L273.8 182.4L279 191L281.9 189.9L290.1 189.2Z"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.000" d="M176.1 126.1L172.8 120.4L166.6 103"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.024" d="M176.1 126.1L176.7 133.3L175.8 141.2L171.6 156.7L170.7 189.7L161.1 208.7L151.3 223L139.9 220.7L132.5 222.2L122.8 228.4L106.9 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.024" d="M176.1 126.1L209 135.8L229.3 144.9L269.1 167.4L279.8 176.7"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.030" d="M166.6 103L132.2 128.6L93 164.3L68.7 182.2L50 199.5L35.7 210.4L-2 234.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.030" d="M166.6 103L189.2 83.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.188" d="M195.6 73.2L192.5 72.5L189.6 73.3L187.5 75.4L186.7 78.2L187.3 81.1L189.2 83.3L192.3 84.4L195.4 83.7L197.8 81.6L198.7 78.5L197.9 75.5L195.6 73.2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.235" d="M198.2 80L202.4 80.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.247" d="M192.5 72.5L182.3 36.2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.250" d="M202.4 80.3L230.3 110.9L244.1 124.7L252.6 131.6L287.9 145.3L296.7 145.1"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.250" d="M202.4 80.3L215.7 74L249.3 52.4L259.2 47.2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.319" d="M170.7 189.7L186.6 195.3L202.7 202.9L217.4 206.5L230.2 206.4L245.1 202.8L271.3 194.6L281.9 189.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.408" d="M182.3 36.2L190.2 28.3L202.4 22L217.8 11.7L225.2 7.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.462" d="M190.2 28.3L193.6 21.1L204 4.3L204.6 2L204 -2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.501" d="M149.3 223L162.1 234.7L175.2 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.507" d="M125.8 21.1L159 -2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.608" d="M259.2 47.2L292 35.6L322 36.7"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.608" d="M259.2 47.2L255.8 40.2L248.7 29.8L235.1 15L225.2 7.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.625" d="M262.2 46.3L274 62.4L283.6 81.9L296.4 110.9L305.3 142.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.626" d="M204.6 2L209.4 2.4"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.645" d="M225.2 7.9L229.8 3.1L235 0.4L246.6 -2"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.645" d="M279.8 176.7L281.7 165.8L284.6 156.2L296.7 145.1L305.3 142.3L315.5 135.6"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.661" d="M279.8 176.7L281.9 189.9"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.663" d="M99.5 239.4L94.8 235.8L82.4 231.5L51.1 224.6L37.1 215.5L33.7 211.7"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.668" d="M103.9 242L99.5 239.4L80.7 240.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.669" d="M271.3 194.6L283.7 225.4L284.3 228.9L281.7 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.705" d="M281.9 189.9L309.1 188.6L322 191.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.727" d="M80.7 240.8L76 242"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.778" d="M35.7 210.4L25 197.4L19.9 196.2L-2 199.3"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.786" d="M315.5 135.6L314.9 130.7L315.8 123.5L317.8 118.1L322 112.5"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.792" d="M315.5 135.6L322 145.6"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.792" d="M315.5 135.6L322 132.8"/><path class="plano-calle" pathLength="1" style="--plano-d: 0.919" d="M318.6 36.3L315.1 -2"/><path class="plano-calle" pathLength="1" style="--plano-d: 1.000" d="M1.9 232.4L5.3 242"/><path class="plano-hito" d="M331.3 163.5L329.2 157.9L326.9 157.8L325.4 153.9L322.8 152.4L320.4 147.5L315.3 149.8L315.8 152.2L311 153.9L310.6 153.1L307.5 154.4L307.4 155.4L303.3 157.5L302.2 155.1L299 156.3L298.8 157.3L296.2 158L297.2 162.1L296 163L296.4 165.6L297.1 165.9L301.2 176.8L313.3 173.6L313.9 172.6L316.2 171.4L317.3 171.8L322.6 169.6L322.5 168.1L331.3 163.5Z"/><path class="plano-ayto" d="M170.5 122.3L161.6 111.1L152.3 118.5L155.6 123.2L156.3 123.3L160 120.8L162.4 124.2Z"/><path class="plano-escala" d="M10 228h80M10 225v6M90 225v6"/><text class="plano-rotulo plano-rotulo--escala" x="94" y="228" dy=".35em">100 m</text><text class="plano-rotulo" x="82.3" y="168.9" transform="rotate(-38 82.3 168.9)" text-anchor="middle" dy=".35em">C/ Convento</text><text class="plano-rotulo" x="228" y="151.4" transform="rotate(26 228 151.4)" text-anchor="middle" dy=".35em">C/ Olivo</text><text class="plano-rotulo" x="283.8" y="94.3" transform="rotate(65.9 283.8 94.3)" text-anchor="middle" dy=".35em">C/ Guijo</text><text class="plano-rotulo plano-rotulo--ayto" x="174.5" y="120" text-anchor="start" dy=".35em">Ayuntamiento</text></svg><span class="sr">Plano de las calles alrededor del Ayuntamiento: ver la dirección y el mapa en Contacto</span></a>
+          <figcaption class="pie__plano-pie">El Ayuntamiento, en Plaza de España, 1. En el plano: Calle Convento, Calle Olivo y Calle Guijo. Datos del plano: <a href="https://www.openstreetmap.org/copyright">© colaboradores de OpenStreetMap<span class="sr">, se abre otra web</span></a>.</figcaption>
+        </figure>
+        <a class="pie__llegar ver-todo" href="contacto.html#t-donde">Dirección, horario y mapa<svg class="icono" aria-hidden="true"><use href="#i-flecha"/></svg></a>
+      </div>
+      <div class="pie__canal">
+        <p class="pie__canal-titulo"><svg class="icono" aria-hidden="true"><use href="#i-movil"/></svg>Avisos en el móvil</p>
+        <p>Reciba los avisos del Ayuntamiento en <a href="https://www.bandomovil.com/usagre">Bandomóvil «Usagre Informa»<span class="sr">, se abre otra web</span></a> · <a href="avisos.html#t-canal">Cómo apuntarse</a></p>
+      </div>
+    </div>
+    <div class="contenedor pie__base">
+      <nav class="pie__legal" aria-label="Información legal">
+        <ul>
+          <li><a href="aviso-legal.html">Aviso legal</a></li>
+          <li><a href="privacidad.html">Privacidad</a></li>
+          <li><a href="cookies.html">Cookies</a></li>
+          <li><a href="accesibilidad.html">Declaración de accesibilidad</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- v3c · guia: la página para quien publica, fuera del menú (noindex siempre) -->
+      <p class="pie__personal"><a href="publicar.html">Personal del Ayuntamiento: publicar</a></p>
+      <p class="pie__creditos">Escudo: Erlenmeyer, CC BY-SA 4.0 (<a href="https://commons.wikimedia.org/wiki/File:Escudo_de_Usagre_(Badajoz).svg">Wikimedia Commons</a>). Las fotos llevan su autor y licencia en <a href="pueblo.html#creditos">El pueblo</a>.</p>
+      <p class="pie__actualizada">Web actualizada el <time datetime="2026-10-05T11:44+02:00">5 de octubre de 2026 a las 11:44</time>.</p>
+      <p class="pie__propuesta" data-propuesta>Propuesta de diseño para el Ayuntamiento de Usagre · no es la web oficial.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="cookies" lang="es" id="cookies" role="region" aria-label="Aviso de cookies" hidden>
+  <div class="cookies__texto">
+    <p>Esta web no usa cookies. <a href="cookies.html">Más información</a></p>
+    <!-- [MANDO DE MAQUETA] inicio -->
+    <p class="cookies__revision">Durante la revisión de la propuesta también guarda la versión y el color que se estén probando.</p>
+    <!-- [MANDO DE MAQUETA] fin -->
+  </div>
+  <button class="boton boton--marca" type="button" data-aceptar-cookies>Entendido</button>
+</div>
+
+<!-- [MANDO DE MAQUETA] inicio -->
+<!-- Mando de la reunión: solo con ?revision. NUNCA viaja al sitio del Ayuntamiento:
+     python scripts/quitar_mandos.py lo borra (README, «Antes de entregar»). -->
+<div class="mando" lang="es" id="mando" role="region" aria-label="Versiones de la propuesta" hidden>
+  <div class="mando__grupo" role="group" aria-labelledby="mando-version">
+    <p class="mando__titulo" id="mando-version">Versión</p>
+    <button type="button" class="mando__boton" data-densidad="puerta" aria-pressed="true">Puerta abierta</button>
+    <button type="button" class="mando__boton" data-densidad="sobria" aria-pressed="false">Sobria</button>
+  </div>
+  <div class="mando__grupo" role="group" aria-labelledby="mando-color">
+    <p class="mando__titulo" id="mando-color">Color</p>
+    <button type="button" class="mando__boton" data-paleta="a" aria-pressed="true"><span class="mando__muestra mando__muestra--a" aria-hidden="true"></span>Sinople</button>
+    <button type="button" class="mando__boton" data-paleta="b" aria-pressed="false"><span class="mando__muestra mando__muestra--b" aria-hidden="true"></span>Azur</button>
+    <button type="button" class="mando__boton" data-paleta="c" aria-pressed="false"><span class="mando__muestra mando__muestra--c" aria-hidden="true"></span>Almagre</button>
+    
+  </div>
+</div>
+<!-- [MANDO DE MAQUETA] fin -->
+
+<script type="application/json" id="datos-vivos">{"slug":"usagre","nombre":"Usagre","nombre_corto":"Usagre","zona":"Europe/Madrid","horario":{"texto":"Lunes a viernes, de 8:00 a 15:00","tramos":[{"dias":[1,2,3,4,5],"de":"08:00","a":"15:00"}],"ejemplo":true},"avisos":[{"id":"corte-agua-ejemplo","fecha":"2026-10-03","tema":"Agua","titulo":"Corte de agua programado en varias calles, de 9:00 a 13:00","texto":"Así se vería un aviso urgente: las calles afectadas, la hora del corte y la hora prevista de vuelta del agua. Sale en una franja roja arriba de todas las páginas y se quita sola el día que caduca.","enlace":null,"titulo_corto":null,"urgente":true,"gravedad":null,"caduca":"2026-11-30","ejemplo":true,"oculto":false,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"id":"escuelas-deportivas-2026","fecha":"2026-10-02","tema":"Deporte","titulo":"Abiertas las inscripciones de las escuelas deportivas","texto":"Psicomotricidad, multideporte y PowerKids para niños desde el 13 de octubre; gimnasia de mantenimiento, voleibol y pádel para mayores. Inscripciones en el 665 32 85 73.","enlace":"https://www.facebook.com/ayuntamientousagre/posts/pfbid0BbiY7zqueSLrnoLvLk3XpFFotKKdJFAz4U9cqpQrC6bngC9qskjiVeR6TSutKDjvl","titulo_corto":null,"urgente":false,"gravedad":null,"caduca":null,"ejemplo":false,"oculto":false,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"id":"centro-ocio-mayores-2026","fecha":"2026-09-30","tema":"Mayores","titulo":"Centro de Ocio de Mayores: inscripción hasta el 9 de octubre","texto":"Para mayores de 55 años: ejercicios de memoria, canciones y refranes, deporte y convivencia. Apúntese en el Ayuntamiento.","enlace":"https://www.facebook.com/ayuntamientousagre/posts/pfbid05Qk6H4fow8V6E1xCscT3JUsEsYm6hiNaRi4DrKpFgDB6fMhrMVFzFE8r2PfNteGal","titulo_corto":null,"urgente":false,"gravedad":null,"caduca":null,"ejemplo":false,"oculto":false,"plazo_inicio":null,"plazo_fin":"2026-10-09","plazo_ejemplo":false},{"id":"fiesta-mayor-inscripcion-2026","fecha":"2026-09-28","tema":"Mayores","titulo":"VI Fiesta del Mayor: inscripción hasta el 8 de octubre a las 14:00","texto":"La fiesta es el 16 de octubre desde las 14:45 en el Salón de la Piscina Municipal. Apúntese en el Ayuntamiento.","enlace":"https://www.facebook.com/ayuntamientousagre/posts/pfbid0mQ9YHKjLeeKxCNnVvbhpvBe5zxLRoPUNVETKC7usQNw7UmwjdFpxSg27fc5DTwuGl","titulo_corto":null,"urgente":false,"gravedad":null,"caduca":null,"ejemplo":false,"oculto":false,"plazo_inicio":null,"plazo_fin":"2026-10-08","plazo_ejemplo":false},{"id":"parque-presa-honda-obras","fecha":"2026-07-17","tema":"Parques","titulo":"El parque infantil de la Presa Honda, cerrado por obras de mejora","texto":"Permanecerá cerrado hasta que terminen los trabajos.","enlace":"https://www.facebook.com/ayuntamientousagre/posts/pfbid02tkB7hUQtwuRJFvMmx3w8zEuy6C3XvQpqJzCxYfs5a856r29PjuCAg6NvSo2sRTcHl","titulo_corto":null,"urgente":false,"gravedad":null,"caduca":null,"ejemplo":false,"oculto":false,"plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false}],"agenda":[{"id":"trofeo-cristo-2026","fecha":"2026-09-12","hora":"20:00","hora_fin":null,"titulo":"Trofeo del Cristo","lugar":"Estadio Cerro de la Pina","nota":null,"ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/trofeo-cristo-2026.ics"},{"id":"festejo-escuela-taurina-2026","fecha":"2026-09-16","hora":"19:00","hora_fin":null,"titulo":"Clase práctica de la Escuela Taurina de la Diputación","lugar":"Plaza de toros","nota":"Entrada gratuita hasta completar el aforo.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/festejo-escuela-taurina-2026.ics"},{"id":"la-copla-2026","fecha":"2026-10-10","hora":null,"hora_fin":null,"titulo":"Actuación de La Copla","lugar":null,"nota":"Agenda de Otoño 2026.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/la-copla-2026.ics"},{"id":"escuelas-deportivas-infantiles-2026","fecha":"2026-10-13","hora":"17:00","hora_fin":null,"titulo":"Empiezan las escuelas deportivas infantiles","lugar":null,"nota":"Psicomotricidad (3 a 5 años) a las 17:00 y multideporte (6 a 8 años) a las 18:00. Inscripciones: 665 32 85 73.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/escuelas-deportivas-infantiles-2026.ics"},{"id":"powerkids-2026","fecha":"2026-10-14","hora":"17:00","hora_fin":null,"titulo":"Empieza PowerKids, de 9 a 12 años","lugar":null,"nota":"Inscripciones: 665 32 85 73.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/powerkids-2026.ics"},{"id":"fiesta-del-mayor-2026","fecha":"2026-10-16","hora":"14:45","hora_fin":null,"titulo":"VI Fiesta del Mayor","lugar":"Salón de la Piscina Municipal","nota":"Inscripción en el Ayuntamiento hasta el 8 de octubre a las 14:00.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/fiesta-del-mayor-2026.ics"},{"id":"festival-folklorico-san-lucas-2026","fecha":"2026-10-17","hora":null,"hora_fin":null,"titulo":"II Festival Folklórico Infantil y Juvenil «San Lucas»","lugar":null,"nota":null,"ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/festival-folklorico-san-lucas-2026.ics"},{"id":"autobus-desarrollo-sostenible-2026","fecha":"2026-10-28","hora":null,"hora_fin":null,"titulo":"Autobús itinerante de la II Estrategia de Desarrollo Sostenible","lugar":null,"nota":null,"ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/autobus-desarrollo-sostenible-2026.ics"},{"id":"chaqueta-2026","fecha":"2026-10-30","hora":null,"hora_fin":null,"titulo":"Chaquetía","lugar":null,"nota":"También el 1 de noviembre.","ejemplo":false,"oculto":false,"tipo":null,"convocatoria":null,"convocatoria_sr":null,"grabacion":null,"grabacion_sr":null,"ics":"ics/chaqueta-2026.ics"},{"id":"fiesta-cabalgata-de-reyes-2026","fecha":"2026-01-05","titulo":"Cabalgata de Reyes","lugar":null,"origen":"fiesta","ics":"ics/fiesta-cabalgata-de-reyes-2026.ics"},{"id":"fiesta-cabalgata-de-reyes-2027","fecha":"2027-01-05","titulo":"Cabalgata de Reyes","lugar":null,"origen":"fiesta","ics":"ics/fiesta-cabalgata-de-reyes-2027.ics"},{"id":"fiesta-san-blas-el-dia-de-la-piedra-2026","fecha":"2026-02-03","titulo":"San Blas, el día de la piedra","lugar":null,"origen":"fiesta","ics":"ics/fiesta-san-blas-el-dia-de-la-piedra-2026.ics"},{"id":"fiesta-san-blas-el-dia-de-la-piedra-2027","fecha":"2027-02-03","titulo":"San Blas, el día de la piedra","lugar":null,"origen":"fiesta","ics":"ics/fiesta-san-blas-el-dia-de-la-piedra-2027.ics"},{"id":"fiesta-romeria-de-san-isidro-2026","fecha":"2026-05-15","titulo":"Romería de San Isidro","lugar":null,"origen":"fiesta","ics":"ics/fiesta-romeria-de-san-isidro-2026.ics"},{"id":"fiesta-romeria-de-san-isidro-2027","fecha":"2027-05-15","titulo":"Romería de San Isidro","lugar":null,"origen":"fiesta","ics":"ics/fiesta-romeria-de-san-isidro-2027.ics"},{"id":"fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2026","fecha":"2026-09-14","titulo":"Fiestas del Santísimo Cristo de la Piedad","lugar":"Del 13 al 16 de septiembre; la procesión, el 14","origen":"fiesta","ics":"ics/fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2026.ics"},{"id":"fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2027","fecha":"2027-09-14","titulo":"Fiestas del Santísimo Cristo de la Piedad","lugar":"Del 13 al 16 de septiembre; la procesión, el 14","origen":"fiesta","ics":"ics/fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2027.ics"},{"id":"fiesta-san-lucas-patron-2026","fecha":"2026-10-18","titulo":"San Lucas, patrón","lugar":null,"origen":"fiesta","ics":"ics/fiesta-san-lucas-patron-2026.ics"},{"id":"fiesta-san-lucas-patron-2027","fecha":"2027-10-18","titulo":"San Lucas, patrón","lugar":null,"origen":"fiesta","ics":"ics/fiesta-san-lucas-patron-2027.ics"},{"id":"fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2026","fecha":"2026-12-06","titulo":"Usagreño del año y entrega del Escudo de la Villa","lugar":null,"origen":"fiesta","ics":"ics/fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2026.ics"},{"id":"fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2027","fecha":"2027-12-06","titulo":"Usagreño del año y entrega del Escudo de la Villa","lugar":null,"origen":"fiesta","ics":"ics/fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2027.ics"},{"id":"fiesta-las-candelillas-2026","fecha":"2026-12-07","titulo":"Las Candelillas","lugar":"Noche del 7 de diciembre","origen":"fiesta","ics":"ics/fiesta-las-candelillas-2026.ics"},{"id":"fiesta-las-candelillas-2027","fecha":"2027-12-07","titulo":"Las Candelillas","lugar":"Noche del 7 de diciembre","origen":"fiesta","ics":"ics/fiesta-las-candelillas-2027.ics"}],"farmacias":{"lista":[],"cambio":"09:30","guardias":[],"rotacion":null,"oficial":{"nombre":"Colegio Oficial de Farmacéuticos de Badajoz","url":"https://cofbadajoz.com/farmacias-de-guardia/"},"ejemplo":false},"tiempo":{"url":"https://www.aemet.es/es/eltiempo/prediccion/municipios/usagre-id06136","lugar":"Usagre"},"recogida":[],"canal":{"nombre":"Bandomóvil «Usagre Informa»","url":"https://www.bandomovil.com/usagre","pasos":["Descargue la aplicación «Bandomóvil», gratuita para Android e iPhone.","Busque «Usagre Informa»: ahí salen los avisos, bandos y noticias del Ayuntamiento."]},"web":"https://alvarotaiagu.github.io/ayuntamiento-usagre-web/","noticias":[{"id":"escuelas-deportivas-2026","fecha":"2026-10-02","titulo":"Vuelven las escuelas deportivas municipales","resumen":"Desde el 13 de octubre, para niños desde los 3 años y para adultos. Inscripciones en el 665 32 85 73.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"agenda-otono-2026","fecha":"2026-10-01","titulo":"Octubre, con La Copla, la Fiesta del Mayor y el festival de San Lucas","resumen":"La Agenda de Otoño 2026, «Tradición, Cultura y Futuro», llena el mes de propuestas.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"furgoneta-movem-2026","fecha":"2026-09-30","titulo":"Una furgoneta nueva para los servicios municipales","resumen":"La Diputación la concede con el Plan MOVEM II. Está valorada en 38.800 euros.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"procesion-cristo-directo-2026","fecha":"2026-09-14","titulo":"La procesión del Cristo de la Piedad, en directo para los que están fuera","resumen":"Se pudo seguir por YouTube y Facebook. La grabación sigue en Usagre TV.","imagen":"ermita-cristo","imagen_alt":"La ermita del Cristo de la Piedad al atardecer","ejemplo":false},{"id":"gala-el-cau-2026","fecha":"2026-08-31","titulo":"La XIII Gala El Cau reúne a 1.215 personas","resumen":"La asociación juvenil volvió a llenar las pistas deportivas.","imagen":null,"imagen_alt":"","ejemplo":false},{"id":"festival-medieval-2026","fecha":"2026-07-20","titulo":"El V Festival Medieval celebra los 50 años de Acetre","resumen":"Dos noches, el 25 y el 26 de julio, con el concierto del grupo extremeño el domingo a las 22:30.","imagen":"puente","imagen_alt":"El puente romano de Usagre","ejemplo":false},{"id":"estudio-vivienda-protegida-2026","fecha":"2026-05-25","titulo":"El Ayuntamiento quiere medir la necesidad real de vivienda protegida","resumen":"Un estudio de demanda para saber cuántas familias la necesitan.","imagen":null,"imagen_alt":"","ejemplo":false}],"tablon":{"actualizado":"2026-10-03T11:22:32.493Z","entradas":[{"fecha":"2026-10-02","tema":"Empleo","titulo":"bases dinamizador sociocultural y deportivo (2)","titulo_claro":"Bases para una plaza de dinamizador sociocultural y deportivo (25 horas a la semana)","url":"https://usagre.sedelectronica.es/preview-document/9c73ab07-911f-44c9-a6db-3d50c33fa9d9","oculto":false,"expediente":"421/2026","plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2026-09-29","tema":"Empleo","titulo":"Bases PCEMO","titulo_claro":"Bases para un puesto de orientador y prospector de desarrollo local","url":"https://usagre.sedelectronica.es/preview-document/d3c73e67-b34b-42d6-adab-876cc2702f44","oculto":false,"expediente":"614/2026","plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2026-09-25","tema":"Cementerio","titulo":"B.O.P. nº.184 - viernes, 25 de septiembre de 2026","titulo_claro":"Exhumación de restos en el bloque 100 y el pabellón 1.º del cementerio: 20 días para alegar","url":"https://usagre.sedelectronica.es/preview-document/66054359-42b2-44cc-bb38-23e33a3d66a3","oculto":false,"expediente":"677/2025","plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2026-09-23","tema":"Cementerio","titulo":"com traslado restos bando","titulo_claro":"Bando sobre la exhumación de restos en el cementerio","url":"https://usagre.sedelectronica.es/preview-document/6aa44337-4f9c-4764-8c23-aa42509f40d1","oculto":false,"expediente":"677/2025","plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false},{"fecha":"2026-07-02","tema":"Impuestos","titulo":"Anuncio cobranza IAE","titulo_claro":"Periodo de pago del impuesto de actividades económicas (IAE) de 2026","url":"https://usagre.sedelectronica.es/preview-document/2acd17bb-0a3b-4ee9-9eb8-5a2dabd45a50","oculto":false,"expediente":"546/2026","plazo_inicio":null,"plazo_fin":null,"plazo_ejemplo":false}]},"fiestas":[{"mes":1,"nombre":"Cabalgata de Reyes","cuando":"5 de enero","mayor":false,"fecha_fija":"01-05"},{"mes":2,"nombre":"San Blas, el día de la piedra","cuando":"3 de febrero","mayor":false,"fecha_fija":"02-03"},{"mes":2,"nombre":"Carnaval y Domingo de Piñata","cuando":"Fecha variable","mayor":false,"fecha_fija":null},{"mes":3,"nombre":"Semana Santa","cuando":"Fecha variable; la hermandad mayor es la del Cristo de la Piedad","mayor":false,"fecha_fija":null},{"mes":4,"nombre":"Festival de Circo","cuando":"En primavera","mayor":false,"fecha_fija":null},{"mes":5,"nombre":"Cruces de Mayo","cuando":"En mayo","mayor":false,"fecha_fija":null},{"mes":5,"nombre":"Romería de San Isidro","cuando":"15 de mayo","mayor":false,"fecha_fija":"05-15"},{"mes":6,"nombre":"San Pedro, con el concurso de sopará","cuando":"Finales de junio","mayor":false,"fecha_fija":null},{"mes":7,"nombre":"Verano Cultural: teatro popular, Día del Moral, Festival Medieval","cuando":"Julio y agosto","mayor":false,"fecha_fija":null},{"mes":8,"nombre":"Festival Folklórico Internacional","cuando":"Agosto, en la Plaza de España","mayor":false,"fecha_fija":null},{"mes":9,"nombre":"Fiestas del Santísimo Cristo de la Piedad","cuando":"Del 13 al 16 de septiembre; la procesión, el 14","mayor":true,"fecha_fija":"09-14"},{"mes":10,"nombre":"San Lucas, patrón","cuando":"18 de octubre","mayor":false,"fecha_fija":"10-18"},{"mes":10,"nombre":"Fiesta del Mayor","cuando":"En octubre","mayor":false,"fecha_fija":null},{"mes":11,"nombre":"Chaquetía","cuando":"Todos los Santos","mayor":false,"fecha_fija":null},{"mes":12,"nombre":"Usagreño del año y entrega del Escudo de la Villa","cuando":"6 de diciembre","mayor":false,"fecha_fija":"12-06"},{"mes":12,"nombre":"Las Candelillas","cuando":"Noche del 7 de diciembre","mayor":false,"fecha_fija":"12-07"}],"servicios":{"ayuntamiento":[{"dias":[1,2,3,4,5],"de":"08:00","a":"15:00"}],"consultorio-medico-cita":[{"dias":[1,2,3,4,5],"de":"08:00","a":"15:00"}],"biblioteca-publica-municipal":[{"dias":[1,2,3,4,5],"de":"10:00","a":"14:00"},{"dias":[1,2,3,4,5],"de":"17:00","a":"20:00"}]},"tramites_sede":111,"rutas":{"tramites":"tramites.html","avisos":"avisos.html","agenda":"agenda.html","noticia":"noticia-{id}.html","media":"media/"},"hoja":null,"tablon_json":"contenido/tablon.json","horizonte_dias":60,"v_datos":"a3feb3b8"}</script>
+<script src="js/vivo.js?v=20917a62" defer></script>
+<script src="js/main.js?v=2504b34e" defer></script>
+<script src="js/movimiento.js?v=daa5c706" defer></script>
+<script src="js/identidad.js?v=848289b2" defer></script>
+
+
+</body>
+</html>
+

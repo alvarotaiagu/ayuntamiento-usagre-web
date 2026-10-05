@@ -1,0 +1,205 @@
+{
+ "_leeme": "Lo escribe scripts/fotos-igualar.py: lo medido y lo aplicado a cada foto (no editar).",
+ "parametros": {
+  "LADO": 1600,
+  "LADO_MOVIL": 800,
+  "FUERZA_BLANCOS": 0.6,
+  "TOPE_BLANCOS": 0.07,
+  "MIN_GRISES": 0.03,
+  "NEGRO": 0.025,
+  "BLANCO": 0.965,
+  "TOPE_NIVELES": 1.3,
+  "MEDIANA": 0.52,
+  "GAMMA_MIN": 0.8,
+  "GAMMA_MAX": 1.1,
+  "CROMA": 0.115,
+  "SAT_MIN": 0.85,
+  "SAT_MAX": 1.12,
+  "CALIDO": 0.012,
+  "NITIDEZ": {
+   "radius": 1.0,
+   "percent": 35,
+   "threshold": 3
+  },
+  "CALIDAD": 84,
+  "CALIDAD_MOVIL": 82
+ },
+ "fotos": {
+  "ermita-cristo": {
+   "grises": 0.073,
+   "ganancia_rgb": [
+    1.018,
+    0.996,
+    0.983
+   ],
+   "niveles": [
+    0.016,
+    0.797
+   ],
+   "estira": 1.204,
+   "gamma": 0.806,
+   "croma_antes": 0.114,
+   "saturacion": 1.006,
+   "croma_despues": 0.112,
+   "mediana_despues": 0.521,
+   "tamano": [
+    1600,
+    1071
+   ]
+  },
+  "fuente-plaza": {
+   "grises": 0.576,
+   "ganancia_rgb": [
+    1.006,
+    0.998,
+    0.999
+   ],
+   "niveles": [
+    0.005,
+    0.998
+   ],
+   "estira": 0.947,
+   "gamma": 0.897,
+   "croma_antes": 0.066,
+   "saturacion": 1.12,
+   "croma_despues": 0.078,
+   "mediana_despues": 0.522,
+   "tamano": [
+    1600,
+    1071
+   ]
+  },
+  "iglesia": {
+   "grises": 0.399,
+   "ganancia_rgb": [
+    0.997,
+    1.002,
+    0.993
+   ],
+   "niveles": [
+    0.016,
+    0.965
+   ],
+   "estira": 0.99,
+   "gamma": 0.8,
+   "croma_antes": 0.077,
+   "saturacion": 1.12,
+   "croma_despues": 0.09,
+   "mediana_despues": 0.455,
+   "tamano": [
+    1600,
+    1071
+   ]
+  },
+  "la-luna": {
+   "grises": 0.17,
+   "ganancia_rgb": [
+    1.005,
+    0.998,
+    1.007
+   ],
+   "niveles": [
+    0.057,
+    0.957
+   ],
+   "estira": 1.044,
+   "gamma": 1.048,
+   "croma_antes": 0.154,
+   "saturacion": 0.864,
+   "croma_despues": 0.139,
+   "mediana_despues": 0.521,
+   "tamano": [
+    1600,
+    1071
+   ]
+  },
+  "pilar": {
+   "grises": 0.776,
+   "ganancia_rgb": [
+    1.007,
+    0.999,
+    0.99
+   ],
+   "niveles": [
+    0.038,
+    0.998
+   ],
+   "estira": 0.98,
+   "gamma": 1.1,
+   "croma_antes": 0.054,
+   "saturacion": 1.12,
+   "croma_despues": 0.061,
+   "mediana_despues": 0.574,
+   "tamano": [
+    1600,
+    1071
+   ]
+  },
+  "presa-honda": {
+   "grises": 0.077,
+   "ganancia_rgb": [
+    1.013,
+    0.996,
+    1.003
+   ],
+   "niveles": [
+    0.016,
+    0.94
+   ],
+   "estira": 1.018,
+   "gamma": 1.1,
+   "croma_antes": 0.195,
+   "saturacion": 0.85,
+   "croma_despues": 0.17,
+   "mediana_despues": 0.593,
+   "tamano": [
+    1600,
+    1071
+   ]
+  },
+  "puente": {
+   "grises": 0.282,
+   "ganancia_rgb": [
+    0.98,
+    1.004,
+    1.016
+   ],
+   "niveles": [
+    0.026,
+    0.964
+   ],
+   "estira": 1.001,
+   "gamma": 0.8,
+   "croma_antes": 0.106,
+   "saturacion": 1.043,
+   "croma_despues": 0.112,
+   "mediana_despues": 0.456,
+   "tamano": [
+    1600,
+    1200
+   ]
+  },
+  "puente-portada": {
+   "grises": 0.156,
+   "ganancia_rgb": [
+    0.982,
+    1.004,
+    1.017
+   ],
+   "niveles": [
+    0.028,
+    0.961
+   ],
+   "estira": 1.007,
+   "gamma": 0.825,
+   "croma_antes": 0.12,
+   "saturacion": 0.979,
+   "croma_despues": 0.12,
+   "mediana_despues": 0.523,
+   "tamano": [
+    1600,
+    1200
+   ]
+  }
+ }
+}

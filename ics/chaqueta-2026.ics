@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Usagre//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:chaqueta-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Chaquetía
+DESCRIPTION:También el 1 de noviembre.
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-chaqueta-2026
+END:VEVENT
+END:VCALENDAR

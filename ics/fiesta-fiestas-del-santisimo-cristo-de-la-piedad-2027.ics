@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Usagre//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2027@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:Fiestas del Santísimo Cristo de la Piedad
+LOCATION:Del 13 al 16 de septiembre\; la procesión\, el 14\, Usagre
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2027
+END:VEVENT
+END:VCALENDAR

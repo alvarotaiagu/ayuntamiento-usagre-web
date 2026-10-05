@@ -55,7 +55,11 @@
   "canal_avisos": {
     "nombre": "Bandomóvil «Usagre Informa»",
     "url": "https://www.bandomovil.com/usagre",
-    "texto": "El Ayuntamiento publica allí bandos y avisos: cortes de calles y de agua, empleo y recogida de enseres."
+    "texto": "El Ayuntamiento publica allí bandos y avisos: cortes de calles y de agua, empleo y recogida de enseres.",
+    "pasos": [
+      "Descargue la aplicación «Bandomóvil», gratuita para Android e iPhone.",
+      "Busque «Usagre Informa»: ahí salen los avisos, bandos y noticias del Ayuntamiento."
+    ]
   },
   "plenos_video": null,
   "sede": {
@@ -693,7 +697,8 @@
             "texto": "Dejar una queja o sugerencia",
             "id": "ae05799c-df61-43d1-be43-31943561cea9"
           }
-        ]
+        ],
+        "incidencia": true
       }
     ],
     "sinonimos": {
@@ -1617,10 +1622,164 @@
     ]
   },
   "fotos": {
-    "hero": {
-      "archivo": "puente-portada",
-      "alt": "El puente romano de dos arcos sobre la rivera, con las casas encaladas detrás",
-      "posicion": "55% 60%"
+    "hero_fotos": [
+      {
+        "archivo": "puente-portada",
+        "alt": "El puente romano de dos arcos sobre la rivera, con las casas encaladas detrás",
+        "posicion": "50% 60%"
+      },
+      {
+        "archivo": "ermita-cristo",
+        "alt": "Fachada encalada de la ermita del Cristo de la Piedad, con su espadaña y arcos apuntados, al atardecer",
+        "posicion": "35% 50%"
+      },
+      {
+        "archivo": "fuente-plaza",
+        "alt": "Pileta circular de piedra con el pilar central, los caños y la reja de hierro",
+        "posicion": "50% 50%"
+      }
+    ]
+  },
+  "ine": "06136",
+  "horizonte_agenda_dias": 60,
+  "cifras": [
+    {
+      "valor": 1698,
+      "unidad": "habitantes",
+      "etiqueta": "en el padrón municipal",
+      "fuente": "INE, padrón a 1 de enero de 2025",
+      "fuente_url": "https://www.ine.es/jaxiT3/Tabla.htm?t=2881&L=0",
+      "anio": 2025
+    },
+    {
+      "valor": 566,
+      "unidad": "m",
+      "etiqueta": "de altitud sobre el nivel del mar",
+      "fuente": "Diputación de Badajoz, ficha del municipio",
+      "fuente_url": "https://www.dip-badajoz.es/municipios/municipio_dinamico/inicio/index_inicio.php?codigo=150",
+      "anio": null
+    },
+    {
+      "valor": 2,
+      "unidad": null,
+      "etiqueta": "entidades de población: Usagre y El Raposo",
+      "fuente": "INE, Nomenclátor 2025",
+      "fuente_url": "https://www.ine.es/nomen2/index.do",
+      "anio": 2025
+    },
+    {
+      "valor": "1241",
+      "unidad": null,
+      "etiqueta": "año de la conquista por la Orden de Santiago",
+      "fuente": "Ayuntamiento de Usagre, «Historia y Patrimonio»",
+      "fuente_url": "https://ayuntamientodeusagre.com/localidad/historia/",
+      "anio": null
+    }
+  ],
+  "incidencias": {
+    "correo": "ayuntamiento@usagre.es",
+    "categorias": [
+      {
+        "nombre": "Alumbrado",
+        "ayuda": "Una farola apagada, rota o que se queda encendida de día"
+      },
+      {
+        "nombre": "Agua",
+        "ayuda": "Una fuga, una tapa de alcantarilla movida o falta de agua"
+      },
+      {
+        "nombre": "Limpieza",
+        "ayuda": "Basura en la calle, un contenedor lleno o roto"
+      },
+      {
+        "nombre": "Vía pública",
+        "ayuda": "Un bache, una acera rota, una señal caída"
+      },
+      {
+        "nombre": "Ruidos",
+        "ayuda": "Ruidos que molestan de forma repetida"
+      },
+      {
+        "nombre": "Otro",
+        "ayuda": "Cualquier otra cosa de la calle"
+      }
+    ]
+  },
+  "farmacias": {
+    "oficial": {
+      "nombre": "Colegio Oficial de Farmacéuticos de Badajoz",
+      "url": "https://cofbadajoz.com/farmacias-de-guardia/"
+    }
+  },
+  "transparencia": {
+    "revisada": "2026-10-03",
+    "apartados": {
+      "organizacion": {
+        "pendiente": "un organigrama con el perfil y la trayectoria de cada responsable. La sede tiene un bloque «Institucional» con 11 documentos, pero no se ha comprobado qué incluye."
+      },
+      "normativa": {
+        "pendiente": "dónde se publican las ordenanzas y reglamentos vigentes. La sede tiene un bloque «Normativa» con 4 documentos y la página de ordenanzas de su web actual solo tiene marcadores («Ordenanza 1», «Ordenanza 2»…) sin enlace."
+      },
+      "presupuestos": {
+        "pendiente": "dónde se publican el presupuesto y cómo va su ejecución. El bloque «Económica» de la sede está vacío."
+      },
+      "cuentas": {
+        "pendiente": "dónde se publican las cuentas anuales y los informes de control."
+      },
+      "contratos": {
+        "pendiente": "dónde se publican los contratos menores. El perfil del contratante de la sede está habilitado pero sin expedientes; el que funciona está en la Plataforma de Contratación."
+      },
+      "convenios": {
+        "pendiente": "dónde se publican los convenios que firma el Ayuntamiento."
+      },
+      "subvenciones": {
+        "pendiente": "dónde se publican las subvenciones concedidas, con su importe y quién las recibe. El bloque «Ayudas y subvenciones» de la sede está vacío."
+      },
+      "retribuciones": {
+        "pendiente": "lo que cobra al año cada cargo y las declaraciones de bienes y actividades de los concejales."
+      }
+    }
+  },
+  "propuesta_web": {
+    "problemas": [
+      {
+        "texto": "La corporación que publica es la de 2019 (5 concejales del PSOE y 4 del PP): sigue un concejal fallecido en 2025 y una concejala que renunció, y faltan tres de los concejales actuales. Hoy son 6 y 3.",
+        "fuente": "ayuntamientodeusagre.com, página «Corporación municipal», y BOP de Badajoz del 16/12/2025 (anuncio 5388/2025)"
+      },
+      {
+        "texto": "La última noticia es del 25 de febrero de 2022 y la portada sigue anunciando como «Últimas noticias» un concierto del «sábado, 4 de junio» de ese año. Los dos calendarios de eventos dicen «No hay eventos programados».",
+        "fuente": "ayuntamientodeusagre.com, páginas «Actualidad» y «Eventos»; web de turismo, página «Eventos»"
+      },
+      {
+        "texto": "Plenos, ordenanzas y documentos son plantillas sin rellenar: las ordenanzas son «Ordenanza 1 (pdf 123 Kb)» a «Ordenanza 5» sin enlace, y los plenos, dos anuncios de ejemplo de 2018.",
+        "fuente": "ayuntamientodeusagre.com, páginas «Ordenanzas municipales» y «Plenos municipales»"
+      },
+      {
+        "texto": "El portal de transparencia del menú enseña código del maquetador sin procesar en vez del contenido, está parado desde 2018 y su «Bando de prueba» enlaza un acta del pleno de Llerena.",
+        "fuente": "Portal de transparencia del Ayuntamiento, portada y página «Bandos»"
+      },
+      {
+        "texto": "La página «Contacto» da error 404, y el correo del pie está mal enlazado: a la dirección le falta el usuario. Tampoco hay aviso legal ni declaración de accesibilidad: las dos direcciones dan 404.",
+        "fuente": "ayuntamientodeusagre.com, páginas «Contacto», «Aviso legal» y «Declaración de accesibilidad»; código fuente del pie"
+      }
+    ],
+    "revisada": "2026-10-03",
+    "captura_antes": {
+      "archivo": "assets/web-actual.jpg",
+      "alt": "Portada actual de ayuntamientodeusagre.com: franja gris con teléfono y correo, el logotipo «Usagre, suena bien» con el escudo, un menú azul y verde de una línea y una foto grande de un prado con el pueblo al fondo y el rótulo «Usagre»"
+    },
+    "contacto": {
+      "nombre": "Álvaro",
+      "correo": "alvarot2601@gmail.com",
+      "telefono": "684 025 751"
+    }
+  },
+  "cabeceras": {
+    "_leeme": "Foto opcional en la cabecera de cada página interior (por id de página), recortada en arco. Sin foto, el arco de línea. «El pueblo» la pinta grande.",
+    "pueblo": {
+      "archivo": "puente",
+      "alt": "El puente de dos arcos sobre el cauce de la rivera, con casas encaladas detrás",
+      "posicion": "60% 55%"
     }
   }
 }

@@ -105,3 +105,19 @@ Además usa dos secciones opcionales que la plantilla ganó el mismo día para S
 - [ ] Confirmar la lista de **bares y alojamientos** (es de 2022) y el **horario de autobuses** (el de su web es de 2018).
 - [ ] **Autorización para leer su tablón** de la sede de forma automática.
 - [ ] Los **plenos**: no se graban ni se publican las actas en la web. Si lo hacen, hay sitio para enlazarlos.
+
+---
+
+## v3 (2026-10-05)
+
+La web pasó a la v3 de la plantilla (v3 + v3b + v3c). Método: se superpuso el código de la plantilla (`scripts/`, `js/`, `css/`, `fuente/`, `.github/`, `plantillas-hoja/`, `pruebas/`…) y se conservaron `municipio.json`, `marca/`, `media/` y `contenido/`.
+- Los campos nuevos de `municipio.json` los añadió `../ayuntamiento-usagre-bocetos/_scripts/v3-datos.py` y las traducciones, `v3-idiomas.py`.
+- Datos añadidos: `ine` (**06136**), `cifras` (padrón de 2025, altitud, las dos entidades de población del INE y 1241; **sin superficie**: la ficha de la Diputación da 240 y 291,20 km²), `incidencias` (al correo del Ayuntamiento, por confirmar), `canal_avisos.pasos` (Bandomóvil «Usagre Informa»), `farmacias` (solo el buscador del Colegio: la farmacia del pueblo solo consta en una guía de 2005-2006), `transparencia` (con los huecos «Pendiente»; el portal propio de su web está roto y no se enlaza), `propuesta_web` (cinco problemas de ERRORES.md y captura real de ayuntamientodeusagre.com del 5/10/2026), tres fotos para el arco de la portada y la cabecera de «El pueblo».
+- Plazos: la inscripción del Centro de Ocio de Mayores (9 de octubre) y la de la Fiesta del Mayor (8 de octubre), que son las fechas que dicen los propios avisos.
+- Nuevos: `contenido/facil.json` (lectura fácil), `contenido/pueblo.en.json` y `pueblo.pt.json`, plano del pie (elemento `way/638296266` de OSM, uno de los dos contornos de la relación `relation/21200545` del Ayuntamiento; la relación no la admite `plano.mjs`) y mapa del término desde OpenStreetMap (4 de 17 lugares) y fotos igualadas (originales en `media/originales/`).
+- Cambios en `scripts/verificar.mjs` por los datos del pueblo: la prueba de precio ignora los `<script>`, V16 renombra la muestra a lugares de Usagre y F25 comprueba los ids de OSM de Usagre.
+- **Pendiente**: perfil del pie real (ahora genérico), correo de incidencias y «Escríbanos» por confirmar, horario real de atención, `hoja.id` vacío, tablón sin autorización, y revisar con una persona de habla inglesa y portuguesa las glosas de `pueblo.en/pt.json` y con personas usuarias el texto de lectura fácil.
+
+## Verificación (v3)
+
+`node scripts/verificar.mjs --capturas` el 5 de octubre de 2026: **173 de 173 comprobaciones** (`_verificar-v3.log`).

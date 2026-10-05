@@ -1,0 +1,279 @@
+{
+ "_leeme": "«El pueblo» en inglés (pueblo-en.html). Lo lee scripts/aplicar.mjs: cada texto va emparejado por el nombre en castellano de municipio.json → pueblo. Si falta alguno, la página no se genera. Los nombres propios y los topónimos no se traducen.",
+ "nombre_idioma": "English",
+ "og_locale": "en_GB",
+ "pagina": {
+  "titulo": "The town",
+  "titulo_doc": "The town · Usagre",
+  "entradilla": "A town in the Campiña Sur, between Zafra and Llerena, split by its rivera (seasonal stream) and joined by a bridge of two arches. It was a commandery of the Order of Santiago and has had its own charter (fuero) since the 13th century.",
+  "descripcion": "History, heritage, festivals and food of Usagre (Badajoz, Spain)."
+ },
+ "cabecera_alt": "The bridge of two arches over the bed of the rivera, with whitewashed houses behind",
+ "ui": {
+  "idiomas": "Languages of this page",
+  "aviso_idioma": "The rest of the site is in Spanish.",
+  "que_ver": "What to see",
+  "para_visitar": "Places to visit",
+  "historia": "History",
+  "patrimonio": "Heritage",
+  "fiestas": "Festivals",
+  "gastronomia": "Food and drink",
+  "platos": "Dishes",
+  "dulces": "Sweets",
+  "para_beber": "To drink",
+  "personajes": "Notable people",
+  "rutas": "Walking routes",
+  "ver_la_ruta": "See the route (in Spanish)",
+  "comer_dormir": "Where to eat and stay",
+  "llamar_a": "Call",
+  "otra_web": ", opens another website",
+  "negocios_privados": "These are private businesses: the Town Council is not responsible for their details.",
+  "creditos": "Photo credits",
+  "ficha_foto": "photo page",
+  "foto": "Photo:",
+  "termino_titulo": "The municipality on a map",
+  "termino_pie": "Map of the municipality of {nombre}, drawn from OpenStreetMap data{fecha}.",
+  "termino_fecha": " as of {fecha}",
+  "termino_lugares": "Places on the map",
+  "termino_leer": "How to read it",
+  "clave_limite": "Municipal boundary (dashed line)",
+  "clave_casco": "The town (shaded area)",
+  "clave_carreteras": "Roads (thick line)",
+  "clave_rutas": "Routes (dotted line)",
+  "clave_puntos": "Numbered circle: a place in the list",
+  "clave_escala": "Scale: the bar at the bottom is",
+  "clave_recuadro": "Inset: the town enlarged; its bar is",
+  "clave_guia": "Thin line with a dot: the exact spot, when the number has been moved aside to keep it readable",
+  "fiesta_mayor": "Main festival",
+  "sin_fiestas": "No festivals this month",
+  "migas": "You are here",
+  "inicio": "Home (in Spanish)",
+  "en_esta_pagina": "On this page"
+ },
+ "pueblo": {
+  "historia": [
+   "According to the old chroniclers, there was a Turdulian settlement here in the 6th century BC called Ursaria, «because of the many bears there were». Tradition gives the Roman town the name Urbs Sacra, the one on its coat of arms today, although it has never been confirmed. Prehistoric, Roman, Visigothic and Arab remains have been found in the municipality, such as the Visigothic necropolis of El Carballar (6th and 7th centuries).",
+   "In 1241 the Santiago master Rodrigo Íñiguez won it for the Christians. His successor, Pelay Pérez Correa, granted it in the mid-13th century the Fuero de Usagre (charter of rights), which is kept in the Archivo Histórico Nacional (National Historical Archive). The town was a commandery of the Order of Santiago, and in 1434 a ruling by Álvaro de Luna set its municipal boundaries.",
+   "At the end of the 16th century it lived its best period: it had 625 taxpaying households (vecinos pecheros), about 2,600 inhabitants, three chapels and a convent of Conceptionist nuns that moved to Bienvenida in the 18th century. More than fifty people from Usagre went to America during the conquest.",
+   "On 25 May 1811, next to the bridge, the Allied cavalry of Spanish, British and Portuguese troops defeated the French dragoons in the Combat of Usagre. In the 18th and 19th centuries the town was a centre for washing fine wool and for quicksilver mines, and in 1880 the railway arrived, with the Usagre-Bienvenida station."
+  ],
+  "lugares": {
+   "El puente romano": {
+    "nombre": "The Roman bridge",
+    "texto": "Two semicircular arches of granite ashlar, with a central cutwater, rebuilt in the Middle Ages. «Whoever has not seen the bridge has not visited Usagre».",
+    "alt": "The bridge of two arches over the bed of the rivera, with whitewashed houses behind"
+   },
+   "El Pilar del Carmen": {
+    "nombre": "The Pilar del Carmen (drinking trough)",
+    "texto": "Next to the bridge, from 1823. Clothes were washed here in the batijeros (washing places) and donkeys drank.",
+    "alt": "A long stone trough with water, a bench and white houses"
+   },
+   "La fuente de la plaza": {
+    "nombre": "The fountain in the square",
+    "texto": "From 1575, rebuilt in 1798: a circular basin sunk below ground level, with its bulb-shaped pillar and its iron railing.",
+    "alt": "A circular stone basin with the central pillar and the iron railing"
+   },
+   "Nuestra Señora de Gracia": {
+    "nombre": "Our Lady of Grace (Nuestra Señora de Gracia)",
+    "texto": "A Gothic-Mudéjar church of the 15th century, rebuilt in 1819, with a Mudéjar brick doorway on the Gospel side.",
+    "alt": "The Mudéjar brick doorway of the church among trees, in a cobbled square"
+   },
+   "Ermita del Cristo de la Piedad": {
+    "nombre": "Chapel of the Cristo de la Piedad",
+    "texto": "In the former Conceptionist convent. Its chancel, with a star-shaped rib vault, is the oldest part. The procession of 14 September starts from here.",
+    "alt": "The whitewashed façade of the chapel with its bell gable and pointed arches, at dusk"
+   },
+   "Presa Honda": {
+    "texto": "The natural swimming pool of the rivera, with a picnic area, a tree-lined walk and a bathing area authorised by the Servicio Extremeño de Salud (Extremadura Health Service).",
+    "alt": "A sheet of water among poplars and grass, with a picnic table in the foreground"
+   },
+   "La Luná": {
+    "texto": "The spot that supplied the town with water, next to the rivera. The legend of the Cantamora, the siren of the stone, lives here.",
+    "alt": "A stream among rocks and a small bridge, with green fields and yellow flowers"
+   }
+  },
+  "placa": {
+   "titulo": "Urbs Sacra",
+   "pie": "Legend on the border of the town's coat of arms",
+   "texto": "Tradition gives Roman Usagre the name Urbs Sacra, «sacred city»: the Diputación (provincial council) calls it «the never-confirmed name». The legend surrounds the coat of arms, with the cross of Santiago over the two-arched bridge and the waves of the rivera."
+  },
+  "patrimonio": {
+   "Puente romano": {
+    "nombre": "Roman bridge",
+    "detalle": "Roman, rebuilt in the Middle Ages; its parapets reuse ribs from the parish church's vaults"
+   },
+   "Pilar del Carmen": {
+    "detalle": "1823, with a drinking trough, next to the bridge"
+   },
+   "Iglesia parroquial de Nuestra Señora de Gracia": {
+    "nombre": "Parish church of Our Lady of Grace",
+    "detalle": "Gothic-Mudéjar, 15th century, rebuilt in 1819. In the niche on the façade, a stone Virgin and Child, probably Visigothic or Mozarabic"
+   },
+   "Ermita del Santísimo Cristo de la Piedad": {
+    "nombre": "Chapel of the Santísimo Cristo de la Piedad",
+    "detalle": "In the former Conceptionist convent, founded in the 16th century"
+   },
+   "Ermita de la Virgen de la Cruz": {
+    "nombre": "Chapel of the Virgen de la Cruz",
+    "detalle": "On the outskirts, where the old cemetery was; it used to be called the chapel of the Madre de Dios"
+   },
+   "Fuente de la plaza": {
+    "nombre": "Fountain in the square",
+    "detalle": "1575, rebuilt in 1798"
+   },
+   "Casa de la Encomienda de Santiago": {
+    "nombre": "House of the Commandery of Santiago (Casa de la Encomienda de Santiago)",
+    "detalle": "Documented in the 14th century; part of its arches remain, in the square"
+   },
+   "Casa de la Inquisición": {
+    "nombre": "House of the Inquisition (Casa de la Inquisición)",
+    "detalle": "Calle Convento"
+   },
+   "Ventana mudéjar": {
+    "nombre": "Mudéjar window",
+    "detalle": "Calle Mesones, 10"
+   },
+   "Estación de Usagre-Bienvenida": {
+    "nombre": "Usagre-Bienvenida railway station",
+    "detalle": "Mérida-Los Rosales line; the train arrived in 1880"
+   }
+  },
+  "fiestas": {
+   "Cabalgata de Reyes": {
+    "nombre": "Three Kings Parade (Cabalgata de Reyes)",
+    "cuando": "5 January"
+   },
+   "San Blas, el día de la piedra": {
+    "nombre": "San Blas (Saint Blaise), the «day of the stone»",
+    "cuando": "3 February"
+   },
+   "Carnaval y Domingo de Piñata": {
+    "nombre": "Carnival and Domingo de Piñata (Piñata Sunday)",
+    "cuando": "Date varies"
+   },
+   "Semana Santa": {
+    "nombre": "Holy Week",
+    "cuando": "Date varies; the main brotherhood is that of the Cristo de la Piedad"
+   },
+   "Festival de Circo": {
+    "nombre": "Circus Festival",
+    "cuando": "In spring"
+   },
+   "Cruces de Mayo": {
+    "nombre": "Cruces de Mayo (May Crosses)",
+    "cuando": "In May"
+   },
+   "Romería de San Isidro": {
+    "nombre": "San Isidro pilgrimage (romería)",
+    "cuando": "15 May"
+   },
+   "San Pedro, con el concurso de sopará": {
+    "nombre": "San Pedro, with the sopará cooking contest",
+    "cuando": "End of June"
+   },
+   "Verano Cultural: teatro popular, Día del Moral, Festival Medieval": {
+    "nombre": "Cultural Summer: popular theatre, Día del Moral (Mulberry Day), Medieval Festival",
+    "cuando": "July and August"
+   },
+   "Festival Folklórico Internacional": {
+    "nombre": "International Folklore Festival",
+    "cuando": "August, in the Plaza de España"
+   },
+   "Fiestas del Santísimo Cristo de la Piedad": {
+    "nombre": "Festivals of the Santísimo Cristo de la Piedad",
+    "cuando": "13 to 16 September; the procession is on the 14th"
+   },
+   "San Lucas, patrón": {
+    "nombre": "San Lucas (Saint Luke), patron saint",
+    "cuando": "18 October"
+   },
+   "Fiesta del Mayor": {
+    "nombre": "Fiesta del Mayor (Senior Citizens Festival)",
+    "cuando": "In October"
+   },
+   "Chaquetía": {
+    "cuando": "All Saints' Day"
+   },
+   "Usagreño del año y entrega del Escudo de la Villa": {
+    "nombre": "Usagreño del año (Usagreño of the Year) and presentation of the town's Escudo (coat of arms)",
+    "cuando": "6 December"
+   },
+   "Las Candelillas": {
+    "cuando": "Night of 7 December"
+   }
+  },
+  "platos": [
+   "Sopará (similar to a gazpacho, crushed)",
+   "Gazpacho pastoril (shepherd's gazpacho)",
+   "Setas en caldereta (mushrooms in a stew)",
+   "Caldereta (stew)",
+   "Migas (fried breadcrumbs)",
+   "Chacina y embutidos (cured and cold meats)"
+  ],
+  "dulces": [
+   "Repostería casera (home-made pastries)"
+  ],
+  "bebidas": [],
+  "personajes": {
+   "Bartolomé de Usagre": {
+    "fechas": "16th century",
+    "texto": "Hernán Cortés's artilleryman in the conquest of Mexico."
+   },
+   "Diego de Usagre": {
+    "fechas": "16th century",
+    "texto": "Brother of Bartolomé; one of the 73 founders of San Salvador, in El Salvador."
+   }
+  },
+  "rutas": {
+   "Ruta de los Molinos": {
+    "nombre": "Mills Route",
+    "resumen": "Circular route from the Plaza del Puente, along the rivera: Molino El Pintado (km 4.6), Moralejo (km 5.2) and Portales (km 5.5)."
+   },
+   "Ruta de los Hortelanos": {
+    "nombre": "Market Gardeners' Route",
+    "resumen": "Circular route from the Plaza de España, of 14 or 22 km, through vegetable gardens and waterwheels (norias) along the rivera; it drops from 550 to 447 m. It is organised between March and April."
+   },
+   "Camino de Santiago de la Frontera": {
+    "resumen": "It crosses the town from south to north, signposted by the Diputación, with panels in easy-read format."
+   }
+  }
+ },
+ "creditos": {
+  "puente-portada": {
+   "titulo": "The Roman bridge (cover photo)"
+  },
+  "puente": {
+   "titulo": "The Roman bridge"
+  },
+  "pilar": {
+   "titulo": "The Pilar del Carmen",
+   "autor": "Town Council tourism website (2025)",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  },
+  "fuente-plaza": {
+   "titulo": "The fountain in the square",
+   "autor": "Town Council tourism website (2025)",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  },
+  "iglesia": {
+   "titulo": "Mudéjar doorway of Nuestra Señora de Gracia",
+   "autor": "Town Council tourism website (2025)",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  },
+  "ermita-cristo": {
+   "titulo": "Chapel of the Cristo de la Piedad",
+   "autor": "Town Council tourism website (2025)",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  },
+  "presa-honda": {
+   "titulo": "Presa Honda",
+   "autor": "Town Council tourism website (2025)",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  },
+  "la-luna": {
+   "titulo": "La Luná",
+   "autor": "Town Council tourism website (2025)",
+   "nota": "Only for this proposal: the Town Council's permission is needed to publish it"
+  }
+ }
+}

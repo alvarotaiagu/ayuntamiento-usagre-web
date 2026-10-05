@@ -1,0 +1,169 @@
+{
+  "_leeme": "Lo genera scripts/termino.mjs (no editar a mano salvo «fijado» en lugares, que el script respeta). aplicar.mjs pinta con esto el mapa del término en «El pueblo»: sin este archivo o sin marca/termino.svg, la sección no sale.",
+  "fuente": "OpenStreetMap, por la API de Overpass",
+  "licencia": "ODbL 1.0",
+  "atribucion": "© colaboradores de OpenStreetMap",
+  "atribucion_url": "https://www.openstreetmap.org/copyright",
+  "nombre_osm": "Usagre",
+  "relacion": "relation/344414",
+  "pueblo_osm": "node/919817326",
+  "casco_osm": [
+    "way/37910254"
+  ],
+  "carreteras": [
+    "BA-082",
+    "BA-131",
+    "BA-141",
+    "EX-202",
+    "N-432"
+  ],
+  "carreteras_osm": [
+    "way/34953407",
+    "way/42652707",
+    "way/66486471",
+    "way/76771764",
+    "way/76771770",
+    "way/97473951",
+    "way/97473952",
+    "way/97473958",
+    "way/97473960",
+    "way/97473961",
+    "way/97473975",
+    "way/97473978",
+    "way/97473980",
+    "way/97473982",
+    "way/97473986",
+    "way/97473992",
+    "way/186570687",
+    "way/214804455",
+    "way/214804459",
+    "way/214804461",
+    "way/217870870",
+    "way/218602958",
+    "way/218602961",
+    "way/218602980",
+    "way/218602981",
+    "way/218602989",
+    "way/218602996",
+    "way/316482853",
+    "way/319922856",
+    "way/327486588",
+    "way/327486589",
+    "way/367202946",
+    "way/367202947",
+    "way/367227639",
+    "way/367227640",
+    "way/393326626",
+    "way/393326629",
+    "way/393326633",
+    "way/393326637",
+    "way/393326640",
+    "way/393326643",
+    "way/393326646",
+    "way/393329347",
+    "way/393329348",
+    "way/393329349",
+    "way/393329350",
+    "way/393329351",
+    "way/393329352",
+    "way/393329353",
+    "way/393329354",
+    "way/611128366",
+    "way/637587530",
+    "way/637587532",
+    "way/637587533",
+    "way/638289724",
+    "way/638289725",
+    "way/638289726",
+    "way/638289738",
+    "way/922807074",
+    "way/922807075",
+    "way/922807076",
+    "way/922807080",
+    "way/922807772",
+    "way/922807773",
+    "way/1211897231",
+    "way/1323603565",
+    "way/1506851087"
+  ],
+  "rutas": [
+    {
+      "nombre": "Camino de la Frontera",
+      "osm": "relation/20606748"
+    }
+  ],
+  "viewBox": "0 0 600 494",
+  "metros_por_unidad": 39.567,
+  "escala_m": 5000,
+  "radio_punto": 15,
+  "recuadro": {
+    "caja": [
+      6,
+      246,
+      216,
+      456
+    ],
+    "zona": [
+      334.4,
+      305.7,
+      376.9,
+      348.1
+    ],
+    "metros_por_unidad": 7.997,
+    "escala_m": 500,
+    "tapa_termino": 0.27
+  },
+  "fecha": "2026-10-05",
+  "lugares": [
+    {
+      "nombre": "Nuestra Señora de Gracia",
+      "osm": "way/638302678",
+      "nombre_osm": "Iglesia de Nuestra Señora de Gracia",
+      "lat": 38.356919,
+      "lon": -6.16358,
+      "x": 178.3,
+      "y": 318.8,
+      "recuadro": true,
+      "sitio": [
+        156.3,
+        339.2
+      ]
+    },
+    {
+      "nombre": "Ermita del Cristo de la Piedad",
+      "osm": "way/1544664018",
+      "nombre_osm": "Ermita del Santísimo Cristo de la Piedad",
+      "lat": 38.355721,
+      "lon": -6.169031,
+      "x": 96.9,
+      "y": 355.8,
+      "fijado": true,
+      "recuadro": true
+    },
+    {
+      "nombre": "Presa Honda",
+      "osm": "way/693047751",
+      "nombre_osm": "Presa Honda",
+      "lat": 38.355214,
+      "lon": -6.173591,
+      "x": 47.1,
+      "y": 362.8,
+      "recuadro": true
+    },
+    {
+      "nombre": "Ermita de la Virgen de la Cruz",
+      "osm": "way/1547960444",
+      "nombre_osm": "Ermita de la Virgen de la Cruz",
+      "lat": 38.355799,
+      "lon": -6.161881,
+      "x": 185.6,
+      "y": 382.7,
+      "fijado": true,
+      "recuadro": true,
+      "sitio": [
+        174.9,
+        354.7
+      ]
+    }
+  ]
+}

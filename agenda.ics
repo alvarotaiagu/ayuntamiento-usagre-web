@@ -1,0 +1,251 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ayuntamiento de Usagre//Agenda//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Agenda de Usagre
+X-WR-TIMEZONE:Europe/Madrid
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fiesta-cabalgata-de-reyes-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20260105
+DTEND;VALUE=DATE:20260106
+SUMMARY:Cabalgata de Reyes
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-cabalgata-de-reyes-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-san-blas-el-dia-de-la-piedra-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20260203
+DTEND;VALUE=DATE:20260204
+SUMMARY:San Blas\, el día de la piedra
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-san-blas-el-dia-de-la-piedra-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-romeria-de-san-isidro-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:Romería de San Isidro
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-romeria-de-san-isidro-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:trofeo-cristo-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;TZID=Europe/Madrid:20260912T200000
+DTEND;TZID=Europe/Madrid:20260912T210000
+SUMMARY:Trofeo del Cristo
+LOCATION:Estadio Cerro de la Pina\, Usagre
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-trofeo-cristo-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Fiestas del Santísimo Cristo de la Piedad
+LOCATION:Del 13 al 16 de septiembre\; la procesión\, el 14\, Usagre
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:festejo-escuela-taurina-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;TZID=Europe/Madrid:20260916T190000
+DTEND;TZID=Europe/Madrid:20260916T200000
+SUMMARY:Clase práctica de la Escuela Taurina de la Diputación
+LOCATION:Plaza de toros\, Usagre
+DESCRIPTION:Entrada gratuita hasta completar el aforo.
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-festejo-escuela-taurina-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:la-copla-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:Actuación de La Copla
+DESCRIPTION:Agenda de Otoño 2026.
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-la-copla-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:escuelas-deportivas-infantiles-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;TZID=Europe/Madrid:20261013T170000
+DTEND;TZID=Europe/Madrid:20261013T180000
+SUMMARY:Empiezan las escuelas deportivas infantiles
+DESCRIPTION:Psicomotricidad (3 a 5 años) a las 17:00 y multideporte (6 a 8
+  años) a las 18:00. Inscripciones: 665 32 85 73.
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-escuelas-deportivas-infantiles-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:powerkids-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;TZID=Europe/Madrid:20261014T170000
+DTEND;TZID=Europe/Madrid:20261014T180000
+SUMMARY:Empieza PowerKids\, de 9 a 12 años
+DESCRIPTION:Inscripciones: 665 32 85 73.
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-powerkids-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-del-mayor-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;TZID=Europe/Madrid:20261016T144500
+DTEND;TZID=Europe/Madrid:20261016T154500
+SUMMARY:VI Fiesta del Mayor
+LOCATION:Salón de la Piscina Municipal\, Usagre
+DESCRIPTION:Inscripción en el Ayuntamiento hasta el 8 de octubre a las 14:
+ 00.
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-del-mayor-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:festival-folklorico-san-lucas-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:II Festival Folklórico Infantil y Juvenil «San Lucas»
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-festival-folklorico-san-lucas-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-san-lucas-patron-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:San Lucas\, patrón
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-san-lucas-patron-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:autobus-desarrollo-sostenible-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Autobús itinerante de la II Estrategia de Desarrollo Sostenible
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-autobus-desarrollo-sostenible-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:chaqueta-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Chaquetía
+DESCRIPTION:También el 1 de noviembre.
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-chaqueta-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2026@usagre.ag
+ enda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:Usagreño del año y entrega del Escudo de la Villa
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-las-candelillas-2026@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Las Candelillas
+LOCATION:Noche del 7 de diciembre\, Usagre
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-las-candelillas-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-cabalgata-de-reyes-2027@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:Cabalgata de Reyes
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-cabalgata-de-reyes-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-san-blas-el-dia-de-la-piedra-2027@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:San Blas\, el día de la piedra
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-san-blas-el-dia-de-la-piedra-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-romeria-de-san-isidro-2027@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:Romería de San Isidro
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-romeria-de-san-isidro-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2027@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:Fiestas del Santísimo Cristo de la Piedad
+LOCATION:Del 13 al 16 de septiembre\; la procesión\, el 14\, Usagre
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-san-lucas-patron-2027@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20271018
+DTEND;VALUE=DATE:20271019
+SUMMARY:San Lucas\, patrón
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-san-lucas-patron-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2027@usagre.ag
+ enda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20271206
+DTEND;VALUE=DATE:20271207
+SUMMARY:Usagreño del año y entrega del Escudo de la Villa
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2027
+END:VEVENT
+BEGIN:VEVENT
+UID:fiesta-las-candelillas-2027@usagre.agenda
+DTSTAMP:20261005T094430Z
+DTSTART;VALUE=DATE:20271207
+DTEND;VALUE=DATE:20271208
+SUMMARY:Las Candelillas
+LOCATION:Noche del 7 de diciembre\, Usagre
+URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
+ to-fiesta-las-candelillas-2027
+END:VEVENT
+END:VCALENDAR

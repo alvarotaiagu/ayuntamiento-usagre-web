@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es">
+  <title>Avisos y noticias · Ayuntamiento de Usagre</title>
+  <subtitle>Lo que publica el Ayuntamiento de Usagre: avisos (cortes, convocatorias, plazos) y noticias.</subtitle>
+  <id>urn:uuid:91aa8f23-0e2c-656a-0f6b-02119ab9b862</id>
+  <link rel="self" type="application/atom+xml" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/feed.xml"/>
+  <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/avisos.html"/>
+  <updated>2026-10-03T09:00:00+02:00</updated>
+  <author><name>Ayuntamiento de Usagre</name></author>
+  <icon>https://alvarotaiagu.github.io/ayuntamiento-usagre-web/marca/escudo-160.png</icon>
+  <entry>
+    <title>EJEMPLO: Corte de agua programado en varias calles, de 9:00 a 13:00</title>
+    <id>urn:uuid:14565f0c-e845-9024-f357-7daf941e3f11</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/avisos.html#aviso-corte-agua-ejemplo"/>
+    <published>2026-10-03T09:00:00+02:00</published>
+    <updated>2026-10-03T09:00:00+02:00</updated>
+    <category term="aviso" label="Aviso"/>
+    <summary type="text">Dato de ejemplo de la propuesta de diseño, no es un aviso real. Así se vería un aviso urgente: las calles afectadas, la hora del corte y la hora prevista de vuelta del agua. Sale en una franja roja arriba de todas las páginas y se quita sola el día que caduca.</summary>
+  </entry>
+  <entry>
+    <title>Abiertas las inscripciones de las escuelas deportivas</title>
+    <id>urn:uuid:35e51c72-9980-57ab-9fc7-382066a0b599</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/avisos.html#aviso-escuelas-deportivas-2026"/>
+    <published>2026-10-02T09:00:00+02:00</published>
+    <updated>2026-10-02T09:00:00+02:00</updated>
+    <category term="aviso" label="Aviso"/>
+    <summary type="text">Psicomotricidad, multideporte y PowerKids para niños desde el 13 de octubre; gimnasia de mantenimiento, voleibol y pádel para mayores. Inscripciones en el 665 32 85 73.</summary>
+  </entry>
+  <entry>
+    <title>Vuelven las escuelas deportivas municipales</title>
+    <id>urn:uuid:9a7ff72f-9892-c365-b50c-c187a018a0f8</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/noticia-escuelas-deportivas-2026.html"/>
+    <published>2026-10-02T09:00:00+02:00</published>
+    <updated>2026-10-02T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Desde el 13 de octubre, para niños desde los 3 años y para adultos. Inscripciones en el 665 32 85 73.</summary>
+  </entry>
+  <entry>
+    <title>Octubre, con La Copla, la Fiesta del Mayor y el festival de San Lucas</title>
+    <id>urn:uuid:7c89c37a-e42e-0b83-3a11-56f89347ada3</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/noticia-agenda-otono-2026.html"/>
+    <published>2026-10-01T09:00:00+02:00</published>
+    <updated>2026-10-01T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">La Agenda de Otoño 2026, «Tradición, Cultura y Futuro», llena el mes de propuestas.</summary>
+  </entry>
+  <entry>
+    <title>Centro de Ocio de Mayores: inscripción hasta el 9 de octubre</title>
+    <id>urn:uuid:ec00804f-f8e4-1fd4-a231-0b56dd022939</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/avisos.html#aviso-centro-ocio-mayores-2026"/>
+    <published>2026-09-30T09:00:00+02:00</published>
+    <updated>2026-09-30T09:00:00+02:00</updated>
+    <category term="aviso" label="Aviso"/>
+    <summary type="text">Para mayores de 55 años: ejercicios de memoria, canciones y refranes, deporte y convivencia. Apúntese en el Ayuntamiento.</summary>
+  </entry>
+  <entry>
+    <title>Una furgoneta nueva para los servicios municipales</title>
+    <id>urn:uuid:2325e749-a165-8867-7746-ef8e6da0a773</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/noticia-furgoneta-movem-2026.html"/>
+    <published>2026-09-30T09:00:00+02:00</published>
+    <updated>2026-09-30T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">La Diputación la concede con el Plan MOVEM II. Está valorada en 38.800 euros.</summary>
+  </entry>
+  <entry>
+    <title>VI Fiesta del Mayor: inscripción hasta el 8 de octubre a las 14:00</title>
+    <id>urn:uuid:e9cbbb11-6aeb-5b07-a293-cc74a72c52c9</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/avisos.html#aviso-fiesta-mayor-inscripcion-2026"/>
+    <published>2026-09-28T09:00:00+02:00</published>
+    <updated>2026-09-28T09:00:00+02:00</updated>
+    <category term="aviso" label="Aviso"/>
+    <summary type="text">La fiesta es el 16 de octubre desde las 14:45 en el Salón de la Piscina Municipal. Apúntese en el Ayuntamiento.</summary>
+  </entry>
+  <entry>
+    <title>La procesión del Cristo de la Piedad, en directo para los que están fuera</title>
+    <id>urn:uuid:7c38452c-d62e-cf20-231a-2184458e9531</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/noticia-procesion-cristo-directo-2026.html"/>
+    <published>2026-09-14T09:00:00+02:00</published>
+    <updated>2026-09-14T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Se pudo seguir por YouTube y Facebook. La grabación sigue en Usagre TV.</summary>
+  </entry>
+  <entry>
+    <title>La XIII Gala El Cau reúne a 1.215 personas</title>
+    <id>urn:uuid:8b898114-7642-b034-9713-b7c5223c7e2b</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/noticia-gala-el-cau-2026.html"/>
+    <published>2026-08-31T09:00:00+02:00</published>
+    <updated>2026-08-31T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">La asociación juvenil volvió a llenar las pistas deportivas.</summary>
+  </entry>
+  <entry>
+    <title>El V Festival Medieval celebra los 50 años de Acetre</title>
+    <id>urn:uuid:bca7633f-c179-f32d-aa56-1296f7fcb79d</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/noticia-festival-medieval-2026.html"/>
+    <published>2026-07-20T09:00:00+02:00</published>
+    <updated>2026-07-20T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Dos noches, el 25 y el 26 de julio, con el concierto del grupo extremeño el domingo a las 22:30.</summary>
+  </entry>
+  <entry>
+    <title>El parque infantil de la Presa Honda, cerrado por obras de mejora</title>
+    <id>urn:uuid:4146d409-e7fe-8ae1-3f95-7499b4d3998a</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/avisos.html#aviso-parque-presa-honda-obras"/>
+    <published>2026-07-17T09:00:00+02:00</published>
+    <updated>2026-07-17T09:00:00+02:00</updated>
+    <category term="aviso" label="Aviso"/>
+    <summary type="text">Permanecerá cerrado hasta que terminen los trabajos.</summary>
+  </entry>
+  <entry>
+    <title>El Ayuntamiento quiere medir la necesidad real de vivienda protegida</title>
+    <id>urn:uuid:d43ed19a-ebfd-c5ee-13ce-027a8d98d63c</id>
+    <link rel="alternate" type="text/html" href="https://alvarotaiagu.github.io/ayuntamiento-usagre-web/noticia-estudio-vivienda-protegida-2026.html"/>
+    <published>2026-05-25T09:00:00+02:00</published>
+    <updated>2026-05-25T09:00:00+02:00</updated>
+    <category term="noticia" label="Noticia"/>
+    <summary type="text">Un estudio de demanda para saber cuántas familias la necesitan.</summary>
+  </entry>
+</feed>

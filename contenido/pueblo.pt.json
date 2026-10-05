@@ -1,0 +1,277 @@
+{
+ "_leeme": "«El pueblo» en portugués de Portugal (pueblo-pt.html). Lo lee scripts/aplicar.mjs: cada texto va emparejado por el nombre en castellano de municipio.json → pueblo. Si falta alguno, la página no se genera. Los nombres propios y los topónimos no se traducen.",
+ "nombre_idioma": "Português",
+ "og_locale": "pt_PT",
+ "pagina": {
+  "titulo": "A vila",
+  "titulo_doc": "A vila · Usagre",
+  "entradilla": "Uma vila da Campiña Sur, entre Zafra e Llerena, dividida pela sua ribeira e unida por uma ponte de dois arcos. Foi comenda da Ordem de Santiago e tem foral próprio desde o século XIII.",
+  "descripcion": "História, património, festas e gastronomia de Usagre (Badajoz, Espanha)."
+ },
+ "cabecera_alt": "A ponte de dois arcos sobre o leito da ribeira, com casas caiadas atrás",
+ "ui": {
+  "idiomas": "Idiomas desta página",
+  "aviso_idioma": "O resto do sítio está em espanhol.",
+  "que_ver": "O que ver",
+  "para_visitar": "Para visitar",
+  "historia": "História",
+  "patrimonio": "Património",
+  "fiestas": "Festas",
+  "gastronomia": "Gastronomia",
+  "platos": "Pratos",
+  "dulces": "Doces",
+  "para_beber": "Para beber",
+  "personajes": "Personalidades",
+  "rutas": "Percursos pedestres",
+  "ver_la_ruta": "Ver o percurso (em espanhol)",
+  "comer_dormir": "Onde comer e dormir",
+  "llamar_a": "Ligar para",
+  "otra_web": ", abre outro sítio",
+  "negocios_privados": "São negócios privados: a Câmara Municipal não se responsabiliza pelos seus dados.",
+  "creditos": "Créditos das fotografias",
+  "ficha_foto": "ficha da fotografia",
+  "foto": "Foto:",
+  "termino_titulo": "O concelho num mapa",
+  "termino_pie": "Mapa do território municipal de {nombre}, desenhado com dados do OpenStreetMap{fecha}.",
+  "termino_fecha": " a {fecha}",
+  "termino_lugares": "Lugares do mapa",
+  "termino_leer": "Como ler o mapa",
+  "clave_limite": "Limite do território municipal (linha tracejada)",
+  "clave_casco": "A vila (área sombreada)",
+  "clave_carreteras": "Estradas (linha grossa)",
+  "clave_rutas": "Percursos (linha de pontos)",
+  "clave_puntos": "Círculo com número: um lugar da lista",
+  "clave_escala": "Escala: a barra de baixo mede",
+  "clave_recuadro": "Detalhe: a vila ampliada; a sua barra mede",
+  "clave_guia": "Linha fina com um ponto: o sítio exato, quando o número foi afastado para se poder ler",
+  "fiesta_mayor": "Festa principal",
+  "sin_fiestas": "Sem festas neste mês",
+  "migas": "Está aqui",
+  "inicio": "Início (em espanhol)",
+  "en_esta_pagina": "Nesta página"
+ },
+ "pueblo": {
+  "historia": [
+   "Segundo os cronistas antigos, aqui houve um povoado túrdulo do século VI a. C. chamado Ursaria, «pelos muitos ursos que havia». A tradição atribui à vila romana o nome de Urbs Sacra, o que hoje leva o seu brasão, embora nunca tenha sido confirmado. No concelho encontraram-se vestígios pré-históricos, romanos, visigodos e árabes, como a necrópole visigoda de El Carballar (séculos VI e VII).",
+   "Em 1241 ganhou-a para os cristãos o mestre santiaguista Rodrigo Íñiguez. O seu sucessor, Pelay Pérez Correa, concedeu-lhe em meados do século XIII o Fuero de Usagre (foral), que se conserva no Archivo Histórico Nacional (Arquivo Histórico Nacional). A vila foi comenda da Ordem de Santiago e, em 1434, uma sentença de Álvaro de Luna fixou o seu termo (os limites do concelho).",
+   "No final do século XVI viveu a sua melhor época: tinha 625 vizinhos pecheiros (vecinos pecheros), cerca de 2600 habitantes, três ermidas e um convento de concepcionistas que no século XVIII se mudou para Bienvenida. Mais de cinquenta pessoas de Usagre passaram à América durante a conquista.",
+   "A 25 de maio de 1811, junto à ponte, a cavalaria aliada de espanhóis, britânicos e portugueses derrotou os dragões franceses no combate de Usagre. Nos séculos XVIII e XIX a vila foi centro de lavagem de lãs finas e de minas de azougue, e em 1880 chegou o caminho de ferro, com a estação de Usagre-Bienvenida."
+  ],
+  "lugares": {
+   "El puente romano": {
+    "nombre": "A ponte romana",
+    "texto": "Dois arcos de volta perfeita de silhares de granito, com talha-mar central, refeita na Idade Média. «Quem não viu a ponte não visitou Usagre».",
+    "alt": "A ponte de dois arcos sobre o leito da ribeira, com casas caiadas atrás"
+   },
+   "El Pilar del Carmen": {
+    "nombre": "O Pilar del Carmen (bebedouro)",
+    "texto": "Junto à ponte, de 1823. Aqui lavava-se a roupa nos batijeros (lavadouros) e bebiam os burros.",
+    "alt": "Um bebedouro comprido de pedra com água, um banco e casas brancas"
+   },
+   "La fuente de la plaza": {
+    "nombre": "A fonte da praça",
+    "texto": "De 1575, refeita em 1798: tanque circular rebaixado abaixo do chão, com o seu pilar bulboso e a sua grade.",
+    "alt": "Um tanque circular de pedra com o pilar central e a grade de ferro"
+   },
+   "Nuestra Señora de Gracia": {
+    "nombre": "Nossa Senhora da Graça (Nuestra Señora de Gracia)",
+    "texto": "Igreja gótico-mudéjar do século XV, refeita em 1819, com um portal de tijolo mudéjar no lado do Evangelho.",
+    "alt": "O portal mudéjar de tijolo da igreja entre árvores, numa praça empedrada"
+   },
+   "Ermita del Cristo de la Piedad": {
+    "nombre": "Ermida do Cristo de la Piedad",
+    "texto": "No antigo convento das concepcionistas. A sua cabeceira, com abóbada de nervuras estrelada, é o mais antigo. Daqui sai a procissão de 14 de setembro.",
+    "alt": "A fachada caiada da ermida com a sua empena sineira e arcos ogivais, ao entardecer"
+   },
+   "Presa Honda": {
+    "texto": "A piscina natural da ribeira, com merendeiro, alameda e zona balnear autorizada pelo Servicio Extremeño de Salud (Serviço Extremenho de Saúde).",
+    "alt": "Um espelho de água entre choupos e relvado, com uma mesa de merendeiro em primeiro plano"
+   },
+   "La Luná": {
+    "texto": "O local que abasteceu de água a vila, junto à ribeira. Aqui vive a lenda da Cantamora, a sereia da pedra.",
+    "alt": "Um riacho entre pedras e uma pequena ponte, com campo verde e flores amarelas"
+   }
+  },
+  "placa": {
+   "titulo": "Urbs Sacra",
+   "pie": "Legenda da bordadura do brasão da vila",
+   "texto": "A tradição dá à Usagre romana o nome de Urbs Sacra, «cidade sagrada»: a Diputación (conselho provincial) chama-lhe «a nunca confirmada denominação». A legenda rodeia o brasão, com a cruz de Santiago sobre a ponte de dois arcos e as ondas da ribeira."
+  },
+  "patrimonio": {
+   "Puente romano": {
+    "nombre": "Ponte romana",
+    "detalle": "Romana, refeita na Idade Média; os seus parapeitos reutilizam nervuras de abóbadas da igreja paroquial"
+   },
+   "Pilar del Carmen": {
+    "detalle": "1823, com bebedouro, junto à ponte"
+   },
+   "Iglesia parroquial de Nuestra Señora de Gracia": {
+    "nombre": "Igreja paroquial de Nossa Senhora da Graça",
+    "detalle": "Gótico-mudéjar, século XV, reconstruída em 1819. No nicho da fachada, uma Virgem com o Menino em pedra, provavelmente visigoda ou moçárabe"
+   },
+   "Ermita del Santísimo Cristo de la Piedad": {
+    "nombre": "Ermida do Santíssimo Cristo de la Piedad",
+    "detalle": "No antigo convento concepcionista, fundado no século XVI"
+   },
+   "Ermita de la Virgen de la Cruz": {
+    "nombre": "Ermida da Virgem de la Cruz",
+    "detalle": "Nos arredores, onde esteve o antigo cemitério; antes chamava-se da Madre de Dios"
+   },
+   "Fuente de la plaza": {
+    "nombre": "Fonte da praça",
+    "detalle": "1575, reconstruída em 1798"
+   },
+   "Casa de la Encomienda de Santiago": {
+    "nombre": "Casa da Comenda de Santiago (Casa de la Encomienda de Santiago)",
+    "detalle": "Documentada no século XIV; restam parte dos seus arcos, na praça"
+   },
+   "Casa de la Inquisición": {
+    "nombre": "Casa da Inquisição (Casa de la Inquisición)",
+    "detalle": "Calle Convento"
+   },
+   "Ventana mudéjar": {
+    "nombre": "Janela mudéjar",
+    "detalle": "Calle Mesones, 10"
+   },
+   "Estación de Usagre-Bienvenida": {
+    "nombre": "Estação de Usagre-Bienvenida",
+    "detalle": "Linha Mérida-Los Rosales; o comboio chegou em 1880"
+   }
+  },
+  "fiestas": {
+   "Cabalgata de Reyes": {
+    "nombre": "Cavalgada dos Reis Magos (Cabalgata de Reyes)",
+    "cuando": "5 de janeiro"
+   },
+   "San Blas, el día de la piedra": {
+    "nombre": "San Blas (São Brás), o «dia da pedra»",
+    "cuando": "3 de fevereiro"
+   },
+   "Carnaval y Domingo de Piñata": {
+    "nombre": "Carnaval e Domingo de Piñata (Domingo da Piñata)",
+    "cuando": "Data variável"
+   },
+   "Semana Santa": {
+    "cuando": "Data variável; a irmandade principal é a do Cristo de la Piedad"
+   },
+   "Festival de Circo": {
+    "cuando": "Na primavera"
+   },
+   "Cruces de Mayo": {
+    "nombre": "Cruces de Mayo (Cruzes de Maio)",
+    "cuando": "Em maio"
+   },
+   "Romería de San Isidro": {
+    "nombre": "Romaria de San Isidro",
+    "cuando": "15 de maio"
+   },
+   "San Pedro, con el concurso de sopará": {
+    "nombre": "San Pedro, com o concurso de sopará",
+    "cuando": "Finais de junho"
+   },
+   "Verano Cultural: teatro popular, Día del Moral, Festival Medieval": {
+    "nombre": "Verão Cultural: teatro popular, Día del Moral (Dia da Amoreira), Festival Medieval",
+    "cuando": "Julho e agosto"
+   },
+   "Festival Folklórico Internacional": {
+    "nombre": "Festival Folclórico Internacional",
+    "cuando": "Agosto, na Plaza de España"
+   },
+   "Fiestas del Santísimo Cristo de la Piedad": {
+    "nombre": "Festas do Santísimo Cristo de la Piedad",
+    "cuando": "De 13 a 16 de setembro; a procissão é a 14"
+   },
+   "San Lucas, patrón": {
+    "nombre": "San Lucas (São Lucas), padroeiro",
+    "cuando": "18 de outubro"
+   },
+   "Fiesta del Mayor": {
+    "nombre": "Fiesta del Mayor (Festa dos Idosos)",
+    "cuando": "Em outubro"
+   },
+   "Chaquetía": {
+    "cuando": "Dia de Todos os Santos"
+   },
+   "Usagreño del año y entrega del Escudo de la Villa": {
+    "nombre": "Usagreño del año (Usagreño do Ano) e entrega do Escudo de la Villa (Brasão da Vila)",
+    "cuando": "6 de dezembro"
+   },
+   "Las Candelillas": {
+    "cuando": "Noite de 7 de dezembro"
+   }
+  },
+  "platos": [
+   "Sopará (parecida com um gazpacho, esmagada)",
+   "Gazpacho pastoril (gaspacho de pastor)",
+   "Setas en caldereta (cogumelos em caldeirada)",
+   "Caldereta (caldeirada)",
+   "Migas (pão migado frito)",
+   "Chacina y embutidos (carnes curadas e enchidos)"
+  ],
+  "dulces": [
+   "Repostería casera (doçaria caseira)"
+  ],
+  "bebidas": [],
+  "personajes": {
+   "Bartolomé de Usagre": {
+    "fechas": "Século XVI",
+    "texto": "Artilheiro de Hernán Cortés na conquista do México."
+   },
+   "Diego de Usagre": {
+    "fechas": "Século XVI",
+    "texto": "Irmão de Bartolomé; um dos 73 fundadores de San Salvador, em El Salvador."
+   }
+  },
+  "rutas": {
+   "Ruta de los Molinos": {
+    "nombre": "Percurso dos Moinhos",
+    "resumen": "Circular a partir da Plaza del Puente, ao longo da ribeira: Molino El Pintado (km 4,6), Moralejo (km 5,2) e Portales (km 5,5)."
+   },
+   "Ruta de los Hortelanos": {
+    "nombre": "Percurso dos Hortelões",
+    "resumen": "Circular a partir da Plaza de España, de 14 ou 22 km, por hortas e noras junto à ribeira; desce de 550 a 447 m. Organiza-se entre março e abril."
+   },
+   "Camino de Santiago de la Frontera": {
+    "resumen": "Atravessa a vila de sul a norte, sinalizado pela Diputación, com painéis em leitura fácil."
+   }
+  }
+ },
+ "creditos": {
+  "puente-portada": {
+   "titulo": "A ponte romana (foto de capa)"
+  },
+  "puente": {
+   "titulo": "A ponte romana"
+  },
+  "pilar": {
+   "titulo": "O Pilar del Carmen",
+   "autor": "Sítio de turismo da Câmara Municipal (2025)",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  },
+  "fuente-plaza": {
+   "titulo": "A fonte da praça",
+   "autor": "Sítio de turismo da Câmara Municipal (2025)",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  },
+  "iglesia": {
+   "titulo": "Portal mudéjar de Nuestra Señora de Gracia",
+   "autor": "Sítio de turismo da Câmara Municipal (2025)",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  },
+  "ermita-cristo": {
+   "titulo": "Ermida do Cristo de la Piedad",
+   "autor": "Sítio de turismo da Câmara Municipal (2025)",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  },
+  "presa-honda": {
+   "titulo": "Presa Honda",
+   "autor": "Sítio de turismo da Câmara Municipal (2025)",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  },
+  "la-luna": {
+   "titulo": "La Luná",
+   "autor": "Sítio de turismo da Câmara Municipal (2025)",
+   "nota": "Só para esta proposta: é preciso a autorização da Câmara Municipal para a publicar"
+  }
+ }
+}
