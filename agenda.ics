@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:fiesta-cabalgata-de-reyes-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20260105
 DTEND;VALUE=DATE:20260106
 SUMMARY:Cabalgata de Reyes
@@ -35,7 +35,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-san-blas-el-dia-de-la-piedra-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20260203
 DTEND;VALUE=DATE:20260204
 SUMMARY:San Blas\, el día de la piedra
@@ -44,7 +44,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-romeria-de-san-isidro-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20260515
 DTEND;VALUE=DATE:20260516
 SUMMARY:Romería de San Isidro
@@ -53,7 +53,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:trofeo-cristo-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;TZID=Europe/Madrid:20260912T200000
 DTEND;TZID=Europe/Madrid:20260912T210000
 SUMMARY:Trofeo del Cristo
@@ -63,7 +63,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20260914
 DTEND;VALUE=DATE:20260915
 SUMMARY:Fiestas del Santísimo Cristo de la Piedad
@@ -73,7 +73,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:festejo-escuela-taurina-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;TZID=Europe/Madrid:20260916T190000
 DTEND;TZID=Europe/Madrid:20260916T200000
 SUMMARY:Clase práctica de la Escuela Taurina de la Diputación
@@ -84,7 +84,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:la-copla-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:Actuación de La Copla
@@ -94,7 +94,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:escuelas-deportivas-infantiles-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;TZID=Europe/Madrid:20261013T170000
 DTEND;TZID=Europe/Madrid:20261013T180000
 SUMMARY:Empiezan las escuelas deportivas infantiles
@@ -105,7 +105,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:powerkids-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;TZID=Europe/Madrid:20261014T170000
 DTEND;TZID=Europe/Madrid:20261014T180000
 SUMMARY:Empieza PowerKids\, de 9 a 12 años
@@ -115,7 +115,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-del-mayor-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;TZID=Europe/Madrid:20261016T144500
 DTEND;TZID=Europe/Madrid:20261016T154500
 SUMMARY:VI Fiesta del Mayor
@@ -127,7 +127,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:festival-folklorico-san-lucas-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:II Festival Folklórico Infantil y Juvenil «San Lucas»
@@ -136,7 +136,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-san-lucas-patron-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:San Lucas\, patrón
@@ -145,7 +145,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:autobus-desarrollo-sostenible-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:Autobús itinerante de la II Estrategia de Desarrollo Sostenible
@@ -154,7 +154,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:chaqueta-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20261030
 DTEND;VALUE=DATE:20261031
 SUMMARY:Chaquetía
@@ -165,7 +165,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2026@usagre.ag
  enda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Usagreño del año y entrega del Escudo de la Villa
@@ -174,7 +174,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-las-candelillas-2026@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Las Candelillas
@@ -184,7 +184,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-cabalgata-de-reyes-2027@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:Cabalgata de Reyes
@@ -193,7 +193,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-san-blas-el-dia-de-la-piedra-2027@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:San Blas\, el día de la piedra
@@ -202,7 +202,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-romeria-de-san-isidro-2027@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20270515
 DTEND;VALUE=DATE:20270516
 SUMMARY:Romería de San Isidro
@@ -211,7 +211,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-fiestas-del-santisimo-cristo-de-la-piedad-2027@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20270914
 DTEND;VALUE=DATE:20270915
 SUMMARY:Fiestas del Santísimo Cristo de la Piedad
@@ -221,7 +221,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-san-lucas-patron-2027@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20271018
 DTEND;VALUE=DATE:20271019
 SUMMARY:San Lucas\, patrón
@@ -231,7 +231,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-usagreno-del-ano-y-entrega-del-escudo-de-la-villa-2027@usagre.ag
  enda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20271206
 DTEND;VALUE=DATE:20271207
 SUMMARY:Usagreño del año y entrega del Escudo de la Villa
@@ -240,7 +240,7 @@ URL:https://alvarotaiagu.github.io/ayuntamiento-usagre-web/agenda.html#even
 END:VEVENT
 BEGIN:VEVENT
 UID:fiesta-las-candelillas-2027@usagre.agenda
-DTSTAMP:20261006T120419Z
+DTSTAMP:20261007T115005Z
 DTSTART;VALUE=DATE:20271207
 DTEND;VALUE=DATE:20271208
 SUMMARY:Las Candelillas
